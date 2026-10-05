@@ -52,3 +52,7 @@ fallo = subprocess.run([sys.executable, 'files/bin/bricohams-render-settings.py'
                        cwd=RAIZ, env={**os.environ, 'CALLSIGN': '', 'APRS_PASSCODE': '12345',
                                       'APRS_IGATE_ENABLE': 'yes'}, capture_output=True, text=True)
 assert fallo.returncode != 0 and 'CALLSIGN propio' in fallo.stderr
+# v4.3 · si STATION_LAT/LON están puestas mandan sobre el centro del locator (son más precisas)
+precisas = render(False, {'STATION_LOCATOR': 'IM98', 'STATION_LAT': '38.0823', 'STATION_LON': '-1.2535'})
+assert precisas['receiver_gps'] == {'lat': 38.0823, 'lon': -1.2535}, precisas['receiver_gps']
+print('OK test_render_settings: locator solo si faltan las coordenadas')
