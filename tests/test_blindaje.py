@@ -38,19 +38,19 @@ def modo(raiz, ruta):
 
 # ------------------------------------------------------------------ 1. cortafuegos
 def nft(raiz, extra=''):
-    poner(raiz, '/etc/bricohams/bricohams.env', 'BLINDAJE_LAN="192.168.254.0/24"\n' + extra, 0o600)
+    poner(raiz, '/etc/bricohams/bricohams.env', 'BLINDAJE_LAN="192.168.1.0/24"\n' + extra, 0o600)
     return correr(raiz, 'genera-nft')[1]
 
 
 T = tempfile.mkdtemp()
 r = nft(T)
 assert 'policy drop' in r and 'tcp dport { 80, 443, 8073 } ct state new accept' in r, r
-assert 'ip saddr @lan4 tcp dport { 22, 4403, 8443, 8554 }' in r and 'elements = { 192.168.254.0/24 }' in r
+assert 'ip saddr @lan4 tcp dport { 22, 4403, 8443, 8554 }' in r and 'elements = { 192.168.1.0/24 }' in r
 assert 'ct state established,related accept' in r and 'iif "lo" accept' in r and 'ipv6-icmp' in r
 r2 = nft(T, 'BLINDAJE_8073="lan"\nBLINDAJE_SSH="todos"\nBLINDAJE_PUERTOS_LAN=""\n')
 assert 'tcp dport { 80, 443, 22 } ct state new accept' in r2 and 'ip saddr @lan4 tcp dport { 8073 }' in r2, r2
-r3 = nft(T, 'BLINDAJE_LAN="192.168.254.0/24, 10.8.0.0/24"\n')
-assert 'elements = { 192.168.254.0/24, 10.8.0.0/24 }' in r3
+r3 = nft(T, 'BLINDAJE_LAN="192.168.1.0/24, 10.8.0.0/24"\n')
+assert 'elements = { 192.168.1.0/24, 10.8.0.0/24 }' in r3
 if shutil.which('nft') and os.geteuid() == 0:
     for x in (r, r2, r3):
         f = os.path.join(T, 'x.nft'); open(f, 'w').write(x)
@@ -66,14 +66,14 @@ poner(A, '/etc/bricohams/bricohams.env', "CALLSIGN='EA5ZZZ'\nQRZ_PASS='%s'\nLIST
       "BLINDAJE_8073='publico'\nOWRX_DATA='/var/lib/openwebrx'\nOWRX_HTDOCS='%s'\n" % (SECRETO, ANON, HT), 0o644)
 poner(A, '/etc/bricohams/meteo.env', "AEMET_API_KEY='x'\n", 0o644)
 poner(A, HT + '/plugins/receiver/fuga/fuga.js', 'var k = "%s";' % SECRETO)                     # fuga de verdad
-poner(A, HT + '/plugins/receiver/init.js', "const LISTENERS = { key: '%s' };\nwindow.solar_config = { lat: 38.082301, lon: -1.253492 };\n" % ANON)
-poner(A, '/var/lib/openwebrx/settings.json', json.dumps({'receiver_gps': {'lat': 38.082301, 'lon': -1.253492}, 'receiver_admin': 'a@b.es'}), 0o644)
+poner(A, HT + '/plugins/receiver/init.js', "const LISTENERS = { key: '%s' };\nwindow.solar_config = { lat: 38.081234, lon: -1.251234 };\n" % ANON)
+poner(A, '/var/lib/openwebrx/settings.json', json.dumps({'receiver_gps': {'lat': 38.081234, 'lon': -1.251234}, 'receiver_admin': 'a@b.es'}), 0o644)
 poner(A, '/var/lib/openwebrx/users.json', '[]', 0o644)
-poner(A, '/etc/shadow', 'root:!:1::::::\nvacio::1::::::\naelm:$y$hash:1::::::\n', 0o640)
-poner(A, '/etc/sudoers.d/010_pi-nopasswd', 'aelm ALL=(ALL) NOPASSWD: ALL\n', 0o440)
+poner(A, '/etc/shadow', 'root:!:1::::::\nvacio::1::::::\noperador:$y$hash:1::::::\n', 0o640)
+poner(A, '/etc/sudoers.d/010_pi-nopasswd', 'pi ALL=(ALL) NOPASSWD: ALL\n', 0o440)
 poner(A, '/etc/sudoers.d/bricohams', 'bricohams ALL=(root) NOPASSWD: /usr/local/sbin/bricohams-tarea\n', 0o440)
-kit = A + '/home/aelm/bricohams-sdr'
-poner(A, '/home/aelm/bricohams-sdr/bricohams.env', "QRZ_PASS='%s'\n" % SECRETO, 0o644)
+kit = A + '/home/pi/bricohams-sdr'
+poner(A, '/home/pi/bricohams-sdr/bricohams.env', "QRZ_PASS='%s'\n" % SECRETO, 0o644)
 subprocess.run(['git', 'init', '-q', kit], check=True)
 subprocess.run(['git', '-C', kit, 'add', 'bricohams.env'], check=True)
 os.makedirs(A + '/var/backups/bricohams', mode=0o755)
@@ -85,7 +85,7 @@ assert rc != 0, 'con hallazgos altos sale con error'
 assert re.search(r'clave QRZ_PASS aparece en .*fuga\.js', out), out
 assert 'LISTENERS_SUPABASE_KEY aparece' not in out, 'la clave anon de Supabase es pública por diseño'
 assert 'cuentas SIN contraseña: vacio' in out
-assert 'sudo sin contraseña: aelm' in out and 'bricohams ALL' not in out
+assert 'sudo sin contraseña: pi' in out and 'bricohams ALL' not in out
 assert 'bricohams.env está DENTRO del git' in out
 assert re.search(r'copia de bricohams.env en /etc: /etc/bricohams/bricohams.env tiene permisos 644', out)
 assert re.search(r'bricohams.env del kit .* tiene permisos 644', out)
@@ -111,19 +111,19 @@ ssh = open(A + '/etc/ssh/sshd_config.d/90-bricohams.conf').read()
 assert 'PermitRootLogin no' in ssh and 'MaxAuthTries 3' in ssh
 assert 'PasswordAuthentication no' not in ssh, 'sin claves en authorized_keys NO se quita la contraseña (te quedarías fuera)'
 assert 'sigue aceptando contraseña porque no hay claves' in out
-assert modo(A, '/etc/bricohams/bricohams.env') == 0o600 and modo(A, '/home/aelm/bricohams-sdr/bricohams.env') == 0o600
+assert modo(A, '/etc/bricohams/bricohams.env') == 0o600 and modo(A, '/home/pi/bricohams-sdr/bricohams.env') == 0o600
 assert modo(A, '/var/lib/openwebrx/users.json') == 0o600 and modo(A, '/var/lib/openwebrx/settings.json') & 0o007 == 0
 assert modo(A, '/etc/bricohams/meteo.env') & 0o007 == 0
 assert modo(A, '/var/backups/bricohams') == 0o700 and modo(A, '/var/backups/bricohams/backup-openwebrx-2026-10-10.tar.gz') & 0o077 == 0
 assert 'NOPASSWD' in open(A + '/etc/sudoers.d/bricohams').read(), 'la cuenta de servicio sigue sin contraseña (solo bricohams-tarea)'
-assert open(A + '/etc/sudoers.d/010_pi-nopasswd').read().startswith('# bricohams-blindaje: aelm')
+assert open(A + '/etc/sudoers.d/010_pi-nopasswd').read().startswith('# bricohams-blindaje: pi')
 assert 'Unattended-Upgrade "1"' in open(A + '/etc/apt/apt.conf.d/20auto-upgrades').read()
 assert 'UMask=0027' in open(A + '/etc/systemd/system/openwebrx.service.d/bricohams-umask.conf').read()
 assert os.path.exists(A + '/var/backups/bricohams-blindaje/pendiente') and 'confirmar' in out
 rc, out = correr(A, 'confirmar')
 assert rc == 0 and not os.path.exists(A + '/var/backups/bricohams-blindaje/pendiente')
 # con claves SSH: solo clave
-poner(A, '/home/aelm/.ssh/authorized_keys', 'ssh-ed25519 AAAA… aelm@pc\n', 0o600)
+poner(A, '/home/pi/.ssh/authorized_keys', 'ssh-ed25519 AAAA… pi@pc\n', 0o600)
 time.sleep(1.1)
 rc, out = correr(A, 'aplicar', '--sin-cortafuegos')
 assert rc == 0 and 'PasswordAuthentication no' in open(A + '/etc/ssh/sshd_config.d/90-bricohams.conf').read(), out
@@ -136,7 +136,7 @@ for f in ('/etc/sysctl.d/90-bricohams.conf', '/etc/fail2ban/jail.d/bricohams.con
           '/etc/bricohams/cortafuegos.nft', '/etc/systemd/system/openwebrx.service.d/bricohams-umask.conf'):
     assert not os.path.exists(A + f), ('deshacer debe quitar lo creado', f)
 assert open(A + '/etc/apt/apt.conf.d/20auto-upgrades').read() == '// el de antes\n'
-assert open(A + '/etc/sudoers.d/010_pi-nopasswd').read() == 'aelm ALL=(ALL) NOPASSWD: ALL\n'
+assert open(A + '/etc/sudoers.d/010_pi-nopasswd').read() == 'pi ALL=(ALL) NOPASSWD: ALL\n'
 rc, out = correr(A, 'deshacer')
 assert rc != 0 and 'no hay copias' in out
 rc, out = correr(A, 'aplicar', '--opcion-rara')
