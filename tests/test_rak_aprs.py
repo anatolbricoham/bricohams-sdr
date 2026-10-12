@@ -54,8 +54,8 @@ if host:
     assert h('digi', '1', 'EA5KAO-10>APZBH1,WIDE1-1:>mío') == [''], 'lo propio no se repite'
     assert h('dup', 'EA1AAA>B,WIDE1-1:hola', 'EA1AAA>B,EA5X*:hola') == ['1', '0'], 'duplicado en 25 s, no después'
     # baliza y telemetría
-    b = h('beacon', '38.082301', '-1.253492')
-    assert b[0] == 'EA5KAO-10>APZBH1:!3804.94NL00115.21W&/A=000755 SDR BricoHams LoRa APRS Caja 23.4C', b
+    b = h('beacon', '38.08', '-1.25')
+    assert b[0] == 'EA5KAO-10>APZBH1:!3804.80NL00115.00W&/A=000755 SDR BricoHams LoRa APRS Caja 23.4C', b
     assert b[1].startswith('EA5KAO-10>APZBH1,WIDE1-1:!'), 'por RF lleva la ruta'
     t = h('telem')
     assert t[0] == 'EA5KAO-10>APZBH1:T#001,143,40,205,7,2,10000000', t      # 31,5 °C -> (31,5+40)*2 = 143
@@ -63,7 +63,7 @@ if host:
     assert t[3].endswith(':EQNS.0,0.5,-40,0,1,0,0,0.02,0,0,1,0,0,1,0')
     # la baliza por KISS se sube a APRS-IS como propia
     assert rak.para_aprsis(b[0], True, 'EA5KAO-10') == \
-        'EA5KAO-10>APZBH1,TCPIP*:!3804.94NL00115.21W&/A=000755 SDR BricoHams LoRa APRS Caja 23.4C'
+        'EA5KAO-10>APZBH1,TCPIP*:!3804.80NL00115.00W&/A=000755 SDR BricoHams LoRa APRS Caja 23.4C'
 
 # ------------------------------------------------------------------ 2. reglas de iGate
 I = 'EA5KAO-10'
@@ -76,13 +76,13 @@ assert rak.para_aprsis('EA1A>APRS:>x', True, I) is None, 'como propio solo vale 
 # ------------------------------------------------------------------ 3. configuración desde el env
 for k in [k for k in os.environ if k.startswith(('RAK_', 'IGATE_', 'STATION_'))]:
     del os.environ[k]
-os.environ.update({'IGATE_CALLSIGN': 'ea5kao-10', 'STATION_LAT': '38.082301', 'STATION_LON': '-1.253492',
+os.environ.update({'IGATE_CALLSIGN': 'ea5kao-10', 'STATION_LAT': '38.08', 'STATION_LON': '-1.25',
                    'STATION_ASL': '230', 'RAK_TX': 'no', 'RAK_DIGI': '1', 'RAK_TEMP_OFFSET': '-1.5'})
 c = rak.config_deseada()
 assert c['callsign'] == 'EA5KAO-10' and c['tx'] is False and c['digi'] == 1 and c['freq'] == 433775000
 assert c['sf'] == 12 and c['bw'] == 125000 and c['tempOffset'] == -1.5 and c['symbol'] == 'L&'
 assert 'APRS_PASSCODE' not in json.dumps(c) and not any('pass' in k.lower() for k in c), 'al RAK no van claves'
-assert rak.difiere(dict(c, lat=38.0823012), c) == [] and rak.difiere(dict(c, power=10), c) == ['power']
+assert rak.difiere(dict(c, lat=38.0800012), c) == [] and rak.difiere(dict(c, power=10), c) == ['power']
 cab = open(os.path.join(FW, 'configuration.h'), encoding='utf-8').read()
 for clave in c:                                            # mismas claves que entiende el firmware
     assert '"%s"' % clave in open(os.path.join(FW, 'configuration.cpp'), encoding='utf-8').read(), clave
@@ -139,7 +139,7 @@ def rak_falso():
                 os.write(maestro, rak.kiss_frame(6, b'BH:CFGOK 1234'))
             elif t == 'BH:GET':
                 st = {'fw': '1.0.0', 'radio': 'ok', 't': 27.3, 'sensor': 'SHTC3 (RAK1901)',
-                      'gps': {'present': True, 'fix': True, 'sats': 8, 'lat': 38.082301, 'lon': -1.253492}}
+                      'gps': {'present': True, 'fix': True, 'sats': 8, 'lat': 38.08, 'lon': -1.25}}
                 # el firmware 1.0.0 real manda «"vbat": nan» (despliegue EA5KAO): la Pi no puede perder el estado
                 os.write(maestro, rak.kiss_frame(6, ('BH:STATUS ' + json.dumps(st)[:-1] + ',"vbat": nan}').encode()))
                 if not enviado:
@@ -154,8 +154,8 @@ run = os.path.join(T, 'run')
 envf = os.path.join(T, 'bricohams.env')
 assert rak.quitar_comillas('"EA5KAO-15"      # vacío = IGATE_CALLSIGN') == 'EA5KAO-15'
 assert rak.quitar_comillas("'a # b'   # c") == 'a # b' and rak.quitar_comillas('yes  # x') == 'yes'
-open(envf, 'w').write('IGATE_CALLSIGN="EA5KAO-10"     # comentario\nAPRS_PASSCODE="12345"\nSTATION_LAT="38.082301"   # «¿y esto?»\n'
-                      'STATION_LON="-1.253492"\nOWRX_GPS_DECIMALES="2"\n')
+open(envf, 'w').write('IGATE_CALLSIGN="EA5KAO-10"     # comentario\nAPRS_PASSCODE="12345"\nSTATION_LAT="38.08"   # «¿y esto?»\n'
+                      'STATION_LON="-1.25"\nOWRX_GPS_DECIMALES="2"\n')
 p = subprocess.Popen(['python3', B, 'servicio'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
                      env=dict(os.environ, BRICOHAMS_ENV=envf, RAK_PUERTO=ruta_pty, RAK_RUN_DIR=run,
                               RAK_APRSIS_SERVER='127.0.0.1', RAK_APRSIS_PORT=str(srv.getsockname()[1])))

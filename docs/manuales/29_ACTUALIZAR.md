@@ -13,7 +13,7 @@ sudo bash install.sh --actualizar              # 2.º: actualizar
 ## 1. Qué pasa, en orden
 | # | Etapa | Detalle |
 |---|---|---|
-| 1 | **Kit** | `git pull --ff-only` en la carpeta del kit, como su dueño (p. ej. `aelm`), no como root. Enseña los commits nuevos. Si ha llegado un `install.sh` nuevo, **se vuelve a lanzar con él** y sigue (`--continuar`). |
+| 1 | **Kit** | `git pull --ff-only` en la carpeta del kit, como su dueño (p. ej. `pi`), no como root. Enseña los commits nuevos. Si ha llegado un `install.sh` nuevo, **se vuelve a lanzar con él** y sigue (`--continuar`). |
 | 2 | **`bricohams.env`** | Añade al final las **variables nuevas** del `bricohams.env.example`, con su valor por defecto y la marca `# >>> añadidas por install.sh --actualizar`. **Nunca cambia** las que ya tienes ni tus claves. |
 | 3 | **Copia** | `bricohams-backup` en `/var/backups/bricohams/` antes de tocar nada. Si falla, no sigue. |
 | 4 | **Sistema** | `apt update` (con el arreglo de IPv4 de la v3.2) y `apt upgrade`: respeta lo retenido (rtl-sdr-blog en Bookworm) y conserva tus ficheros de configuración. En Trixie mantiene coherente el rtl-sdr de Debian. Si OpenWebRX+ cambia de versión, vuelve a poner plugins y FT2. |

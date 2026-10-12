@@ -21,7 +21,7 @@ La estación está en Internet: `sdr.ea5kao.ampr.org`, con **80, 443 y 8073** ab
 | Núcleo | redirecciones ICMP, rp_filter, syncookies, kptr/dmesg, enlaces protegidos |
 | Hardware | recuerda que, sin el HAT, el Mini y el SDRplay, los errores de meshtasticd, gpsd y de los receptores SATÉLITES y RADIOAFICIONADOS **no** son de seguridad |
 
-Lo comprobado desde fuera el 11/10/2026: `https://sdr.ea5kao.ampr.org/status.json` publicaba la posición **exacta** (38.082301, -1.253492, unos 10 cm) y el correo de contacto.
+Lo comprobado desde fuera el 11/10/2026: `https://sdr.ea5kao.ampr.org/status.json` publicaba la posición **exacta** (6 decimales, unos 10 cm) y el correo de contacto.
 
 ## 2. Procedimiento: revisar y blindar (paso a paso)
 **Antes:** entra a la Pi por SSH **desde casa** y deja otra ventana de SSH abierta (por si acaso).
@@ -39,8 +39,8 @@ Lo comprobado desde fuera el 11/10/2026: `https://sdr.ea5kao.ampr.org/status.jso
 3. **Clave SSH (recomendado):** así SSH ya no acepta contraseñas. En tu PC (PowerShell o terminal):
    ```bash
    ssh-keygen -t ed25519                         # si no tienes clave
-   ssh-copy-id aelm@192.168.254.105              # en Windows: type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh aelm@192.168.254.105 "mkdir -p ~/.ssh; cat >> ~/.ssh/authorized_keys"
-   ssh aelm@192.168.254.105                      # comprueba que entra SIN pedir contraseña
+   ssh-copy-id <usuario>@192.168.1.50              # en Windows: type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh <usuario>@192.168.1.50 "mkdir -p ~/.ssh; cat >> ~/.ssh/authorized_keys"
+   ssh <usuario>@192.168.1.50                      # comprueba que entra SIN pedir contraseña
    ```
 4. **Aplica:**
    ```bash
@@ -58,7 +58,7 @@ Lo comprobado desde fuera el 11/10/2026: `https://sdr.ea5kao.ampr.org/status.jso
 ## 3. Qué hace «aplicar»
 | Medida | Detalle | Fichero |
 |---|---|---|
-| Cortafuegos del host (nftables) | Solo filtra lo que entra. **Abierto a todos:** 80, 443 y 8073 (si `BLINDAJE_8073="publico"`). **Solo desde la LAN** (`BLINDAJE_LAN`, por defecto la red de la interfaz, p. ej. 192.168.254.0/24): SSH, Meshtastic (4403, 9443) y RTSP (8554). También deja pasar ICMP, DHCP y mDNS de la LAN. Lo demás se descarta y se apunta en el registro. **No toca Docker ni lo que sale** | `/etc/bricohams/cortafuegos.nft`, `bricohams-cortafuegos.service` |
+| Cortafuegos del host (nftables) | Solo filtra lo que entra. **Abierto a todos:** 80, 443 y 8073 (si `BLINDAJE_8073="publico"`). **Solo desde la LAN** (`BLINDAJE_LAN`, por defecto la red de la interfaz, p. ej. 192.168.1.0/24): SSH, Meshtastic (4403, 9443) y RTSP (8554). También deja pasar ICMP, DHCP y mDNS de la LAN. Lo demás se descarta y se apunta en el registro. **No toca Docker ni lo que sale** | `/etc/bricohams/cortafuegos.nft`, `bricohams-cortafuegos.service` |
 | SSH | `PermitRootLogin no`, 3 intentos, 30 s para entrar, sin X11 ni agente. **Solo con clave** si hay alguna en `authorized_keys` (si no, sigue la contraseña para no dejarte fuera). Se comprueba con `sshd -t` antes de recargar | `/etc/ssh/sshd_config.d/90-bricohams.conf` |
 | fail2ban | 5 fallos en 10 min → 1 h fuera; reincidentes → 1 semana | `/etc/fail2ban/jail.d/bricohams.conf` |
 | Actualizaciones | unattended-upgrades (seguridad de Debian) | `/etc/apt/apt.conf.d/20auto-upgrades` |
@@ -96,6 +96,32 @@ Lo comprobado desde fuera el 11/10/2026: `https://sdr.ea5kao.ampr.org/status.jso
   - órdenes de ayuda.
 - Se ve con `bricohams-banner ver`. El texto de Debian se guarda en `/etc/motd.bricohams-orig` y `quitar` lo devuelve.
 
+## 4 ter. Comprobación del 12/10/2026 (v5.1)
+Hecha desde fuera (Internet) y desde la LAN con el navegador. Sin SSH: el asistente no inicia sesión con contraseñas. Lo que se vio:
+
+| Dónde | Resultado | Qué hacer |
+|---|---|---|
+| Internet · `https://<dominio>/status.json` | Publica la posición con **6 decimales** (unos 10 cm) y el correo de contacto. En la LAN, `http://<IP-de-la-Pi>:8073/status.json` da **2 decimales**. **El nombre público no está sirviendo la configuración de esta Pi** | Mira en el router a qué IP reenvía el 443/80 y en el DNS del dominio adónde apunta. Si va a otra máquina o a una instancia antigua de OpenWebRX+, apágala o pon `OWRX_GPS_DECIMALES="2"` también ahí |
+| Internet · `/.git/config`, `/bricohams.env` | No se sirven | ✔ |
+| Internet · `robots.txt` | Excluye `/login`, `/settings`, `/pwchange` | ✔ |
+| LAN · `:8073` | OpenWebRX+ contesta **directo por HTTP**, sin pasar por nginx. La contraseña de admin viaja sin cifrar dentro de casa. Si el router también reenvía el 8073, viaja sin cifrar por Internet: ya se vio un acceso externo el 11/10 | Cierra el reenvío del 8073 en el router. `BLINDAJE_8073="lan"` y `sudo bricohams-blindaje aplicar` → `confirmar`. Entra a `/settings` siempre por `https://` |
+| LAN · `:3000` (Grafana), `:9443` (meshtasticd) | No responden fuera de la Pi | ✔ (Grafana solo por `/settings/bricohams/grafana/`) |
+| Cuenta de la Pi | La contraseña del usuario salió en un chat | Cámbiala (`passwd`) y deja SSH solo con clave (apartado 2) |
+
+**Para la auditoría completa** (puertos, permisos de `bricohams.env`, sudo, SSH, fugas), en la Pi:
+
+```bash
+sudo bricohams-blindaje auditar
+```
+
+Después, si algo sale mal:
+
+```bash
+sudo bricohams-blindaje aplicar
+```
+
+Pásale el resultado al asistente para revisarlo: no lleva claves.
+
 ## 5. Contraseñas
 - Usa claves largas y distintas para la Pi, el admin de OpenWebRX+, la WiFi y las API.
 - **Si una contraseña ha salido de la Pi** (pegada en un chat, en un correo, en una captura): cámbiala.
@@ -107,7 +133,7 @@ Lo comprobado desde fuera el 11/10/2026: `https://sdr.ea5kao.ampr.org/status.jso
 | Síntoma | Qué hacer |
 |---|---|
 | No entro por SSH tras `aplicar` | Espera 3 minutos (se quita solo) o, en la Pi con teclado: `sudo bricohams-blindaje deshacer` |
-| Entro desde otra red (VPN, móvil) y SSH no responde | `BLINDAJE_LAN="192.168.254.0/24, 10.8.0.0/24"` (tus redes) y `aplicar` |
+| Entro desde otra red (VPN, móvil) y SSH no responde | `BLINDAJE_LAN="192.168.1.0/24, 10.8.0.0/24"` (tus redes) y `aplicar` |
 | La API de Meshtastic o el RTSP no responden desde otro equipo | Solo valen desde la LAN; añade puertos con `BLINDAJE_PUERTOS_LAN` |
 | `sshd no acepta la configuración` | El blindaje se retira solo; mira `sudo sshd -t` |
 | Qué ha bloqueado el cortafuegos | `sudo journalctl -k \| grep bricohams-cortafuegos` |

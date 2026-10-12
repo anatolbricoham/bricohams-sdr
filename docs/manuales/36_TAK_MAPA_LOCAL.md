@@ -2,9 +2,9 @@
 
 ## Estacion desplegada
 
-Servidor OpenWebRX+: `192.168.254.105`, Debian 13 ARM64.
+Servidor OpenWebRX+: la IP fija de la Pi en la LAN, Debian 13 ARM64.
 
-- Mapa publico Leaflet: <http://192.168.254.105/map>.
+- Mapa publico Leaflet: <http://192.168.1.50/map>.
 - ADS-B local: lectura de `/run/readsb/aircraft.json`, cada dos segundos.
 - APRS: posiciones recibidas por OpenWebRX+, RF del RAK y APRS-IS del RAK.
 - Trayectorias APRS: hasta dos horas **desde la apertura del mapa**,
@@ -101,7 +101,7 @@ a local; los servicios llevan usuario dedicado y limites de recursos.
 | 8081 loopback | Backend interno |
 | 8443 | Se conserva para Meshtastic, no se reasigna a TAK |
 
-El acceso de red TAK se limita a `192.168.254.0/24`. La CA local no es
+El acceso de red TAK se limita a `192.168.1.0/24`. La CA local no es
 confiable para un navegador nuevo hasta importarla voluntariamente:
 no se debe desactivar la verificacion TLS como solucion.
 
