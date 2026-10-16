@@ -1,0 +1,1465 @@
+Processing t-echo-plus (board: t-echo; platform: 
+platformio/nordicnrf52@10.11.0; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing https://github.com/meshtastic/esp8266-oled-ssd1306/archive/2e26010040e028baee72e2093402fa7b3c59e430.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ESP8266 and ESP32 OLED driver for SSD1306 displays@4.4.1 has been installed!
+Library Manager: Installing https://github.com/meshtastic/OneButton/archive/fa352d668c53f290cfa480a5f79ad422cd828c70.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: OneButton@2.6.1 has been installed!
+Library Manager: Installing https://github.com/meshtastic/arduino-fsm/archive/7db3702bf0cfe97b783d6c72595e3f38e0b19159.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: arduino-fsm@2.2.0 has been installed!
+Library Manager: Installing https://github.com/meshtastic/TinyGPSPlus/archive/71a82db35f3b973440044c476d4bcdc673b104f4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: TinyGPSPlus@1.0.3 has been installed!
+Library Manager: Installing https://github.com/meshtastic/ArduinoThread/archive/b841b0415721f1341ea41cccfb4adccfaf951567.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ArduinoThread@0.0.0+20261012074915 has been installed!
+Library Manager: Installing https://github.com/nanopb/nanopb/archive/refs/tags/nanopb-0.4.9.1.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Nanopb@0.4.9+1 has been installed!
+Library Manager: Installing https://github.com/Erriez/ErriezCRC32/archive/refs/tags/1.0.1.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ErriezCRC32@1.0.1 has been installed!
+Library Manager: Installing https://github.com/end2endzone/NonBlockingRTTTL/archive/refs/tags/1.4.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: NonBlockingRTTTL@1.4.0 has been installed!
+Library Manager: Installing https://github.com/jgromes/RadioLib/archive/refs/tags/7.6.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: RadioLib@7.6.0 has been installed!
+Library Manager: Installing rweather/Crypto @ 0.4.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Crypto@0.4.0 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_BusIO/archive/refs/tags/1.17.4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_Sensor/archive/refs/tags/1.1.15.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit-GFX-Library/archive/refs/tags/1.12.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_NeoPixel/archive/1.15.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit NeoPixel@1.15.5 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_SSD1306/archive/2.5.17.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_BMP280_Library/archive/refs/tags/3.0.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP280 Library@3.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit-BMP085-Library/archive/refs/tags/1.2.4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP085 Library@1.2.4 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_BME280_Library/archive/refs/tags/2.3.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME280 Library@2.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_DPS310/archive/refs/tags/1.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit DPS310@1.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_SH110x/archive/refs/tags/2.1.14.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SH110X@2.1.14 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_MCP9808_Library/archive/refs/tags/2.0.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MCP9808 Library@2.0.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_INA260/archive/refs/tags/1.5.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA260 Library@1.5.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_INA219/archive/refs/tags/1.2.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA219@1.2.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_MPU6050/archive/refs/tags/2.2.9.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MPU6050@2.2.9 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_LIS3DH/archive/refs/tags/1.3.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LIS3DH@1.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_AHTX0/archive/refs/tags/2.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit AHTX0@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_LSM6DS/archive/refs/tags/4.7.4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LSM6DS@4.7.4 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_TSL2591_Library/archive/refs/tags/1.4.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit TSL2591 Library@1.4.5 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/EmotiBit/EmotiBit_MLX90632/archive/refs/tags/v1.0.8.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: EmotiBit MLX90632@1.0.8 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit-MLX90614-Library/archive/refs/tags/2.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MLX90614 Library@2.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/sgtwilko/INA3221/archive/bb03d7e9bfcc74fc798838a54f4f99738f29fc6a.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: INA3221@1.0.1 has been installed!
+Library Manager: Installing https://github.com/mprograms/QMC5883LCompass/archive/refs/tags/v1.2.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: QMC5883LCompass@1.2.3 has been installed!
+Library Manager: Installing https://github.com/DFRobot/DFRobot_RTU/archive/refs/tags/V1.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_RTU@1.0.6 has been installed!
+Library Manager: Installing https://github.com/DFRobot/DFRobot_RainfallSensor/archive/38fea5e02b40a5430be6dab39a99a6f6347d667e.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_RainfallSensor@1.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/RobTillaart/INA226/archive/refs/tags/0.6.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: INA226@0.6.6 has been installed!
+Library Manager: Installing https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library/archive/refs/tags/v1.1.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun MAX3010x Pulse and Proximity Sensor Library@1.1.2 has been installed!
+Library Manager: Installing https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary/archive/refs/tags/v1.3.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library@1.3.2 has been installed!
+Library Manager: Installing https://github.com/tdk-invn-oss/motion.arduino.ICM42670P/archive/refs/tags/1.0.8.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ICM42670P@1.0.8 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_LTR390/archive/refs/tags/1.1.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LTR390 Library@1.1.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_PCT2075/archive/refs/tags/1.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit PCT2075@1.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/DFRobot/DFRobot_BMM150/archive/refs/tags/V1.0.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_BMM150@1.0.0 has been installed!
+Library Manager: Installing https://github.com/sparkfun/SparkFun_MMC5983MA_Magnetometer_Arduino_Library/archive/v1.1.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun MMC5983MA Magnetometer Arduino Library@1.1.5 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_TSL2561/archive/refs/tags/1.1.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit TSL2561@1.1.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/wollewald/BH1750_WE/archive/refs/tags/1.1.10.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: BH1750_WE@1.1.10 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_SHTC3/archive/refs/tags/1.0.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SHTC3 Library@1.0.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_BMP3XX/archive/refs/tags/2.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP3XX Library@2.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_MAX1704X/archive/refs/tags/1.0.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MAX1704X@1.0.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_LPS2X/archive/refs/tags/2.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LPS2X@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_SHT31/archive/refs/tags/2.2.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SHT31 Library@2.2.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_VEML7700/archive/refs/tags/2.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit VEML7700 Library@2.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_SHT4X/archive/refs/tags/1.0.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SHT4x Library@1.0.5 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/sparkfun/SparkFun_Qwiic_Scale_NAU7802_Arduino_Library/archive/refs/tags/v1.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun Qwiic Scale NAU7802 Arduino Library@1.0.6 has been installed!
+Library Manager: Installing closedcube/ClosedCube OPT3001 @ 1.1.2
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: ClosedCube OPT3001@1.1.2 has been installed!
+Library Manager: Installing https://github.com/meshtastic/DFRobot_LarkWeatherStation/archive/4de3a9cadef0f6a5220a8a906cf9775b02b0040d.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_LarkWeatherStation@1.0.0 has been installed!
+Library Manager: Installing https://github.com/Sensirion/arduino-core/archive/refs/tags/0.7.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion Core@0.7.3 has been installed!
+Library Manager: Installing https://github.com/Sensirion/arduino-i2c-scd4x/archive/refs/tags/1.1.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion I2C SCD4x@1.1.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/Sensirion/arduino-i2c-sfa3x/archive/refs/tags/1.0.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion I2C SFA3x@1.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/Sensirion/arduino-i2c-scd30/archive/1.1.1.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion I2C SCD30@1.1.1 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/boschsensortec/Bosch-BSEC2-Library/archive/refs/tags/1.10.2610.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: bsec2@1.10.2610 has been installed!
+Library Manager: Installing https://github.com/boschsensortec/Bosch-BME68x-Library/archive/refs/tags/v1.3.40408.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: BME68x Sensor library@1.3.40408 has been installed!
+Library Manager: Installing https://github.com/Kongduino/Adafruit_nRFCrypto/archive/8cde7189b5ead9dcd49f72601b43b969c0bbc06e.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit nRFCrypto@0.0.5 has been installed!
+Library Manager: Installing https://github.com/meshtastic/GxEPD2/archive/55f618961db45a23eff0233546430f1e5a80f63a.zip
+Downloading...
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: GxEPD2@1.3.4 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing lewisxhe/PCF8563_Library @ 1.0.1
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80%
+Library Manager: PCF8563_Library@1.0.1 has been installed!
+Library Manager: Installing adafruit/Adafruit DRV2605 Library @ 1.2.4
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit DRV2605 Library@1.2.4 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing throwtheswitch/Unity @ ^2.6.1
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Unity@2.6.1 has been installed!
+Verbose mode can be enabled via `-v, --verbose` option
+PROGNAME: firmware-t-echo-plus-2.7.26.54e0d8d
+CONFIGURATION: https://docs.platformio.org/page/boards/nordicnrf52/t-echo.html
+PLATFORM: Nordic nRF52 (10.11.0) > TTGO eink (Adafruit BSP)
+HARDWARE: NRF52840 64MHz, 243KB RAM, 796KB Flash
+DEBUG: Current (jlink) On-board (jlink) External (stlink)
+PACKAGES: 
+ - framework-arduinoadafruitnrf52 @ 1.10601.0+sha.9ddcbc9 
+ - framework-cmsis @ 2.50700.210515 (5.7.0) 
+ - tool-adafruit-nrfutil @ 1.503.0 (5.3) 
+ - tool-sreccat @ 1.164.0 (1.64) 
+ - toolchain-gccarmnoneeabi @ 1.90301.200702 (9.3.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+[nanopb] No generation needed.
+Found 78 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- ESP8266 and ESP32 OLED driver for SSD1306 displays @ 4.4.1
+|-- OneButton @ 2.6.1
+|-- arduino-fsm @ 2.2.0
+|-- TinyGPSPlus @ 1.0.3
+|-- ArduinoThread @ 0.0.0+20261012074915
+|-- Nanopb @ 0.4.9+1
+|-- ErriezCRC32 @ 1.0.1
+|-- NonBlockingRTTTL @ 1.4.0
+|-- RadioLib @ 7.6.0
+|-- Crypto @ 0.4.0
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- Adafruit GFX Library @ 1.12.6
+|-- Adafruit NeoPixel @ 1.15.5
+|-- Adafruit SSD1306 @ 2.5.17
+|-- Adafruit BMP280 Library @ 3.0.0
+|-- Adafruit BMP085 Library @ 1.2.4
+|-- Adafruit BME280 Library @ 2.3.0
+|-- Adafruit DPS310 @ 1.1.6
+|-- Adafruit SH110X @ 2.1.14
+|-- Adafruit MCP9808 Library @ 2.0.2
+|-- Adafruit INA260 Library @ 1.5.3
+|-- Adafruit INA219 @ 1.2.3
+|-- Adafruit MPU6050 @ 2.2.9
+|-- Adafruit LIS3DH @ 1.3.0
+|-- Adafruit AHTX0 @ 2.0.6
+|-- Adafruit LSM6DS @ 4.7.4
+|-- Adafruit TSL2591 Library @ 1.4.5
+|-- EmotiBit MLX90632 @ 1.0.8
+|-- Adafruit MLX90614 Library @ 2.1.6
+|-- INA3221 @ 1.0.1
+|-- QMC5883LCompass @ 1.2.3
+|-- DFRobot_RTU @ 1.0.6
+|-- DFRobot_RainfallSensor @ 1.0.0
+|-- INA226 @ 0.6.6
+|-- SparkFun MAX3010x Pulse and Proximity Sensor Library @ 1.1.2
+|-- SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library @ 1.3.2
+|-- ICM42670P @ 1.0.8
+|-- Adafruit LTR390 Library @ 1.1.2
+|-- Adafruit PCT2075 @ 1.0.6
+|-- DFRobot_BMM150 @ 1.0.0
+|-- SparkFun MMC5983MA Magnetometer Arduino Library @ 1.1.5
+|-- Adafruit TSL2561 @ 1.1.3
+|-- BH1750_WE @ 1.1.10
+|-- Adafruit SHTC3 Library @ 1.0.2
+|-- Adafruit BMP3XX Library @ 2.1.6
+|-- Adafruit MAX1704X @ 1.0.3
+|-- Adafruit LPS2X @ 2.0.6
+|-- Adafruit SHT31 Library @ 2.2.2
+|-- Adafruit VEML7700 Library @ 2.1.6
+|-- Adafruit SHT4x Library @ 1.0.5
+|-- SparkFun Qwiic Scale NAU7802 Arduino Library @ 1.0.6
+|-- ClosedCube OPT3001 @ 1.1.2
+|-- DFRobot_LarkWeatherStation @ 1.0.0
+|-- Sensirion Core @ 0.7.3
+|-- Sensirion I2C SCD4x @ 1.1.0
+|-- Sensirion I2C SFA3x @ 1.0.0
+|-- Sensirion I2C SCD30 @ 1.1.1
+|-- bsec2 @ 1.10.2610
+|-- BME68x Sensor library @ 1.3.40408
+|-- Adafruit nRFCrypto @ 0.0.5
+|-- GxEPD2 @ 1.3.4
+|-- PCF8563_Library @ 1.0.1
+|-- Adafruit DRV2605 Library @ 1.2.4
+|-- SPI @ 1.0
+|-- SoftwareSerial @ 1.0.0
+|-- Wire @ 1.0
+|-- Rotary Encoder @ 0.8.0
+|-- Adafruit Bluefruit nRF52 Libraries @ 0.21.0
+|-- Adafruit TinyUSB Library
+|-- Adafruit Internal File System on Bluefruit nRF52 @ 0.11.0
+Building in release mode
+Using meshtastic platformio-custom.py, firmware version 2.7.26.54e0d8d on t-echo-plus
+Using flags:
+-DAPP_VERSION=2.7.26.54e0d8d
+-DAPP_VERSION_SHORT=2.7.26
+-DAPP_ENV=t-echo-plus
+-DAPP_REPO=meshtastic/firmware
+-DBUILD_EPOCH=1791756000
+-DUSERPREFS_RINGTONE_RTTTL=\"24:d=32,o=5,b=565:f6,p,f6,4p,p,f6,p,f6,2p,p,b6,p,b6,p,b6,p,b6,p,b,p,b,p,b,p,b,p,b,p,b,p,b,p,b,1p.,2p.,p\"
+-DUSERPREFS_TZ_STRING=\"tzplaceholder                                         \"
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_TinyUSB_API.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBD_CDC.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBD_Device.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBD_Interface.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBH_Host.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\cdc\Adafruit_USBH_CDC.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\hid\Adafruit_USBD_HID.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\midi\Adafruit_USBD_MIDI.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\msc\Adafruit_USBD_MSC.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\msc\Adafruit_USBH_MSC.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\esp32\Adafruit_TinyUSB_esp32.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\nrf\Adafruit_TinyUSB_nrf.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\rp2040\Adafruit_TinyUSB_rp2040.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\samd\Adafruit_TinyUSB_samd.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\video\Adafruit_USBD_Video.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\arduino\webusb\Adafruit_USBD_WebUSB.cpp.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\audio\audio_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\bth\bth_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\cdc\cdc_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\cdc\cdc_host.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\dfu\dfu_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\dfu\dfu_rt_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\hid\hid_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\hid\hid_host.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\midi\midi_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\msc\msc_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\msc\msc_host.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\net\ecm_rndis_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\net\ncm_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\usbtmc\usbtmc_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\vendor\vendor_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\class\video\video_device.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\common\tusb_fifo.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\device\usbd.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\device\usbd_control.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\host\hub.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\host\usbh.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\portable\analog\max3421\hcd_max3421.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\portable\microchip\samd\dcd_samd.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\portable\nordic\nrf5x\dcd_nrf5x.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\pio_usb\dcd_pio_usb.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\pio_usb\hcd_pio_usb.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\rp2040\dcd_rp2040.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\rp2040\hcd_rp2040.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\rp2040\rp2040_usb.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\portable\synopsys\dwc2\dcd_dwc2.c.o
+Compiling .pio\build\t-echo-plus\lib304\Adafruit_TinyUSB_Arduino\tusb.c.o
+Compiling .pio\build\t-echo-plus\libe37\Adafruit nRFCrypto\Adafruit_nRFCrypto.cpp.o
+Compiling .pio\build\t-echo-plus\libe37\Adafruit nRFCrypto\ecc\nRFCrypto_ECC.cpp.o
+Compiling .pio\build\t-echo-plus\libe37\Adafruit nRFCrypto\ecc\nRFCrypto_ECC_PrivateKey.cpp.o
+Compiling .pio\build\t-echo-plus\libe37\Adafruit nRFCrypto\ecc\nRFCrypto_ECC_PublicKey.cpp.o
+Compiling .pio\build\t-echo-plus\libe37\Adafruit nRFCrypto\nRFCrypto_AES.cpp.o
+Compiling .pio\build\t-echo-plus\libe37\Adafruit nRFCrypto\nRFCrypto_Chacha.cpp.o
+Compiling .pio\build\t-echo-plus\libe37\Adafruit nRFCrypto\nRFCrypto_Hash.cpp.o
+Compiling .pio\build\t-echo-plus\libe37\Adafruit nRFCrypto\nRFCrypto_Random.cpp.o
+Compiling .pio\build\t-echo-plus\variants\nrf52840\t-echo-plus\variant.cpp.o
+Compiling .pio\build\t-echo-plus\src\BluetoothCommon.cpp.o
+Compiling .pio\build\t-echo-plus\src\DebugConfiguration.cpp.o
+Compiling .pio\build\t-echo-plus\src\DisplayFormatters.cpp.o
+Compiling .pio\build\t-echo-plus\src\FSCommon.cpp.o
+Compiling .pio\build\t-echo-plus\src\Fusion\FusionAhrs.c.o
+Compiling .pio\build\t-echo-plus\src\Fusion\FusionCompass.c.o
+Compiling .pio\build\t-echo-plus\src\Fusion\FusionOffset.c.o
+Compiling .pio\build\t-echo-plus\src\GpioLogic.cpp.o
+Compiling .pio\build\t-echo-plus\src\MessageStore.cpp.o
+Compiling .pio\build\t-echo-plus\src\Observer.cpp.o
+Compiling .pio\build\t-echo-plus\src\Power.cpp.o
+Compiling .pio\build\t-echo-plus\src\PowerFSM.cpp.o
+Compiling .pio\build\t-echo-plus\src\PowerMon.cpp.o
+Compiling .pio\build\t-echo-plus\src\RedirectablePrint.cpp.o
+Compiling .pio\build\t-echo-plus\src\SPILock.cpp.o
+Compiling .pio\build\t-echo-plus\src\SafeFile.cpp.o
+Compiling .pio\build\t-echo-plus\src\SerialConsole.cpp.o
+Compiling .pio\build\t-echo-plus\src\airtime.cpp.o
+Compiling .pio\build\t-echo-plus\src\buzz\BuzzerFeedbackThread.cpp.o
+Compiling .pio\build\t-echo-plus\src\buzz\buzz.cpp.o
+Compiling .pio\build\t-echo-plus\src\concurrency\BinarySemaphoreFreeRTOS.cpp.o
+Compiling .pio\build\t-echo-plus\src\concurrency\BinarySemaphorePosix.cpp.o
+Compiling .pio\build\t-echo-plus\src\concurrency\InterruptableDelay.cpp.o
+Compiling .pio\build\t-echo-plus\src\concurrency\Lock.cpp.o
+Compiling .pio\build\t-echo-plus\src\concurrency\LockGuard.cpp.o
+Compiling .pio\build\t-echo-plus\src\concurrency\NotifiedWorkerThread.cpp.o
+Compiling .pio\build\t-echo-plus\src\concurrency\OSThread.cpp.o
+Compiling .pio\build\t-echo-plus\src\detect\ScanI2C.cpp.o
+Compiling .pio\build\t-echo-plus\src\detect\ScanI2CConsumer.cpp.o
+Compiling .pio\build\t-echo-plus\src\detect\ScanI2CTwoWire.cpp.o
+Compiling .pio\build\t-echo-plus\src\detect\reClockI2C.cpp.o
+Compiling .pio\build\t-echo-plus\src\gps\GPS.cpp.o
+Compiling .pio\build\t-echo-plus\src\gps\GPSUpdateScheduling.cpp.o
+Compiling .pio\build\t-echo-plus\src\gps\GeoCoord.cpp.o
+Compiling .pio\build\t-echo-plus\src\gps\NMEAWPL.cpp.o
+Compiling .pio\build\t-echo-plus\src\gps\RTC.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\EInkDisplay2.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\EInkDynamicDisplay.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\EInkParallelDisplay.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\EmoteRenderer.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\Panel_sdl.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\Screen.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\ScreenGlobals.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\SharedUIDisplay.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\TFTDisplay.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\TimeFormatters.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\VirtualKeyboard.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\draw\ClockRenderer.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\draw\CompassRenderer.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\draw\DebugRenderer.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\draw\MenuHandler.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\draw\MessageRenderer.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\draw\NodeListRenderer.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\draw\NotificationRenderer.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\draw\UIRenderer.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\emotes.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\fonts\EinkDisplayFonts.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\fonts\OLEDDisplayFontsCS.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\fonts\OLEDDisplayFontsGR.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\fonts\OLEDDisplayFontsPL.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\fonts\OLEDDisplayFontsRU.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\fonts\OLEDDisplayFontsUA.cpp.o
+Compiling .pio\build\t-echo-plus\src\graphics\tftSetup.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\BBQ10Keyboard.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\ButtonThread.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\CardputerKeyboard.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\ExpressLRSFiveWay.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\HackadayCommunicatorKeyboard.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\HapticFeedback.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\InputBroker.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\LinuxInput.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\LinuxInputImpl.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\MPR121Keyboard.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\RotaryEncoderImpl.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\RotaryEncoderInterruptBase.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\RotaryEncoderInterruptImpl1.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\SeesawRotary.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\SerialKeyboard.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\SerialKeyboardImpl.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\TCA8418Keyboard.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\TCA8418KeyboardBase.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\TDeckProKeyboard.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\TLoraPagerKeyboard.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\TouchScreenBase.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\TouchScreenImpl1.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\TrackballInterruptBase.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\TrackballInterruptImpl1.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\UpDownInterruptBase.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\UpDownInterruptImpl1.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\cardKbI2cImpl.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\i2cButton.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\kbI2cBase.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\kbMatrixBase.cpp.o
+Compiling .pio\build\t-echo-plus\src\input\kbMatrixImpl.cpp.o
+Compiling .pio\build\t-echo-plus\src\main.cpp.o
+Compiling .pio\build\t-echo-plus\src\memGet.cpp.o
+Compiling .pio\build\t-echo-plus\src\meshUtils.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\Channels.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\CryptoEngine.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\Default.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\FloodingRouter.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\HardwareRNG.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\InterfacesTemplates.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\LLCC68Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\LR1110Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\LR1120Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\LR1121Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\LR11x0Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\LR20x0Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\LoRaFEMInterface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\MeshModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\MeshPacketQueue.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\MeshService.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\NextHopRouter.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\NodeDB.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\PacketCache.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\PacketHistory.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\PhoneAPI.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\PositionPrecision.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\ProtobufModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\RF95Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\RadioInterface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\RadioLibInterface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\RadioLibRF95.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\ReliableRouter.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\Router.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\STM32WLE5JCInterface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\SX1262Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\SX1268Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\SX126xInterface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\SX1280Interface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\SX128xInterface.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\StreamAPI.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\Throttle.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\TransmitHistory.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\TypeConversions.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\aes-ccm.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\compression\unishox2.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\admin.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\apponly.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\atak.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\cannedmessages.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\channel.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\clientonly.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\config.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\connection_status.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\device_ui.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\deviceonly.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\interdevice.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\localonly.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\mesh.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\module_config.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\mqtt.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\paxcount.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\portnums.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\powermon.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\remote_hardware.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\rtttl.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\serial_hal.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\storeforward.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\telemetry.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\generated\meshtastic\xmodem.pb.cpp.o
+Compiling .pio\build\t-echo-plus\src\mesh\mesh-pb-constants.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\AdminModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\AtakPluginModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\CannedMessageModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\DetectionSensorModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\DropzoneModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\ExternalNotificationModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\GenericThreadModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\KeyVerificationModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Modules.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\NeighborInfoModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\NodeInfoModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\OnScreenKeyboardModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\PositionModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\PowerStressModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\RangeTestModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\RemoteHardwareModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\ReplyBotModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\ReplyModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\RoutingModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\SerialModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\StatusLEDModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\StatusMessageModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\StoreForwardModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\SystemCommandsModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\AirQualityTelemetry.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\DeviceTelemetry.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\EnvironmentTelemetry.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\HealthTelemetry.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\HostMetrics.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\PowerTelemetry.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\AHT10.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\BH1750Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\BME280Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\BME680Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\BMP085Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\BMP280Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\BMP3XXSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\CGRadSensSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\DFRobotGravitySensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\DFRobotLarkSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\DPS310Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\INA219Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\INA226Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\INA260Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\INA3221Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\IndicatorSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\LPS22HBSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\LTR390UVSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\MAX17048Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\MAX30102Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\MCP9808Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\MLX90614Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\MLX90632Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\NAU7802Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\OPT3001Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\PCT2075Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\PMSA003ISensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\RAK12035Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\RAK9154Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\RCWL9620Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\SCD30Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\SCD4XSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\SEN5XSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\SFA30Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\SHT31Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\SHT4XSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\SHTC3Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\T1000xSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\TSL2561Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\TSL2591Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\TelemetrySensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\VEML7700Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\Sensor\nullSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\Telemetry\UnitConversions.cpp.o
+src/modules/Telemetry/Sensor/SEN5XSensor.cpp: In member function 'bool SEN5XSensor::findModel()':
+src/modules/Telemetry/Sensor/SEN5XSensor.cpp:61:19: warning: 'name[4]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   61 |     switch (name[4]) {
+      |             ~~~~~~^
+src/modules/Telemetry/Sensor/SEN5XSensor.cpp: In member function 'uint8_t SEN5XSensor::getMeasurements()':
+src/modules/Telemetry/Sensor/SEN5XSensor.cpp:757:39: warning: 'dataReadyBuffer[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  757 |     bool dataReady = dataReadyBuffer[1];
+      |                      ~~~~~~~~~~~~~~~~~^
+Compiling .pio\build\t-echo-plus\src\modules\TextMessageModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\TraceRouteModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\modules\WaypointModule.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\BMA423Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\BMI270Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\BMM150Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\BMX160Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\ICM20948Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\ICM42607PSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\LIS3DHSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\LSM6DS3Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\MMC5983MASensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\MPU6050Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\MotionSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\QMA6100PSensor.cpp.o
+Compiling .pio\build\t-echo-plus\src\motion\STK8XXXSensor.cpp.o
+src/motion/ICM42607PSensor.cpp: In member function 'virtual int32_t ICM42607PSensor::runOnce()':
+src/motion/ICM42607PSensor.cpp:74:13: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+   74 |     int16_t x = 0;
+      |             ^
+src/motion/ICM42607PSensor.cpp:75:13: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+   75 |     int16_t y = 0;
+      |             ^
+src/motion/ICM42607PSensor.cpp:76:13: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+   76 |     int16_t z = 0;
+      |             ^
+Compiling .pio\build\t-echo-plus\src\mqtt\MQTT.cpp.o
+Compiling .pio\build\t-echo-plus\src\mqtt\ServiceEnvelope.cpp.o
+Compiling .pio\build\t-echo-plus\src\network-stubs.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\extra_variants\heltec_wireless_tracker\variant.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\extra_variants\m5stack_cardputer_adv\variant.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\extra_variants\t_deck_pro\variant.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\extra_variants\t_lora_pager\variant.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\extra_variants\tbeam_displayshield\variant.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\AsyncUDP.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\BLEDfuSecure.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\NRF52Bluetooth.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\NRF52CryptoEngine.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\Nrf52SaadcLock.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\aes-256\tiny-aes.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\alloc.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\hardfault.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\main-bare.cpp.o
+Compiling .pio\build\t-echo-plus\src\platform\nrf52\main-nrf52.cpp.o
+Compiling .pio\build\t-echo-plus\src\power\PowerHAL.cpp.o
+Compiling .pio\build\t-echo-plus\src\power\SGM41562.cpp.o
+Compiling .pio\build\t-echo-plus\src\sleep.cpp.o
+Compiling .pio\build\t-echo-plus\src\watchdog\watchdogThread.cpp.o
+Compiling .pio\build\t-echo-plus\src\xmodem.cpp.o
+Compiling .pio\build\t-echo-plus\lib738\Wire\Wire_nRF52.cpp.o
+Compiling .pio\build\t-echo-plus\liba76\SPI\SPI.cpp.o
+Compiling .pio\build\t-echo-plus\liba76\SPI\SPI_nrf52832.cpp.o
+Compiling .pio\build\t-echo-plus\lib058\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplay.cpp.o
+Archiving .pio\build\t-echo-plus\lib738\libWire.a
+Compiling .pio\build\t-echo-plus\lib058\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplayFonts.cpp.o
+Compiling .pio\build\t-echo-plus\lib058\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplayUi.cpp.o
+Compiling .pio\build\t-echo-plus\lib8b5\OneButton\OneButton.cpp.o
+Compiling .pio\build\t-echo-plus\lib8b5\OneButton\OneButtonTiny.cpp.o
+Archiving .pio\build\t-echo-plus\liba76\libSPI.a
+Compiling .pio\build\t-echo-plus\lib392\arduino-fsm\Fsm.cpp.o
+Compiling .pio\build\t-echo-plus\libb89\TinyGPSPlus\TinyGPS++.cpp.o
+Compiling .pio\build\t-echo-plus\lib9ab\ArduinoThread\Thread.cpp.o
+Compiling .pio\build\t-echo-plus\lib9ab\ArduinoThread\ThreadController.cpp.o
+Compiling .pio\build\t-echo-plus\libfb7\Nanopb\pb_common.c.o
+Compiling .pio\build\t-echo-plus\libfb7\Nanopb\pb_decode.c.o
+Archiving .pio\build\t-echo-plus\lib8b5\libOneButton.a
+Compiling .pio\build\t-echo-plus\libfb7\Nanopb\pb_encode.c.o
+Compiling .pio\build\t-echo-plus\lib471\ErriezCRC32\ErriezCRC32.c.o
+Archiving .pio\build\t-echo-plus\lib392\libarduino-fsm.a
+Compiling .pio\build\t-echo-plus\lib6eb\NonBlockingRTTTL\NonBlockingRtttl.cpp.o
+Archiving .pio\build\t-echo-plus\lib058\libESP8266 and ESP32 OLED driver for SSD1306 displays.a
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\Hal.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\Module.cpp.o
+Archiving .pio\build\t-echo-plus\libb89\libTinyGPSPlus.a
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\hal\Arduino\ArduinoHal.cpp.o
+Archiving .pio\build\t-echo-plus\lib471\libErriezCRC32.a
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\hal\RPiPico\PicoHal.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\CC1101\CC1101.cpp.o
+Archiving .pio\build\t-echo-plus\lib9ab\libArduinoThread.a
+Archiving .pio\build\t-echo-plus\libfb7\libNanopb.a
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR11x0\LR1110.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR11x0\LR1120.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR11x0\LR1121.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR11x0\LR11x0.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR11x0\LR11x0_commands.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR11x0\LR11x0_crypto.cpp.o
+Archiving .pio\build\t-echo-plus\lib6eb\libNonBlockingRTTTL.a
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR11x0\LR11x0_gnss.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR11x0\LR11x0_wifi.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR11x0\LR_common.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_cmds_chip_control.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_cmds_flrc.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_cmds_gfsk.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_cmds_lora.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_cmds_misc.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_cmds_ook.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_cmds_oqpsk.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_cmds_radio.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_cmds_ranging.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\LR2021\LR2021_config.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX123x\SX1231.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX123x\SX1233.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX126x\SX1261.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX126x\SX126x_LR_FHSS.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX126x\SX126x_commands.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX126x\SX126x_config.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\ADSB\ADSB.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\BellModem\BellModem.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\LoRaWAN\LoRaWAN.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\LoRaWAN\LoRaWANBands.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\Print\ITA2String.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\Print\Print.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\utils\CRC.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\utils\Cryptography.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\utils\FEC.cpp.o
+Compiling .pio\build\t-echo-plus\lib04f\RadioLib\utils\Utils.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\AES128.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\AES192.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\AES256.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\AESCommon.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\AESEsp32.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\AuthenticatedCipher.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\BLAKE2b.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\BLAKE2s.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\BigNumberUtil.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\BlockCipher.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\CTR.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\ChaCha.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\ChaChaPoly.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\Cipher.cpp.o
+Archiving .pio\build\t-echo-plus\lib04f\libRadioLib.a
+Compiling .pio\build\t-echo-plus\lib684\Crypto\Crypto.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\Curve25519.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\EAX.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\Ed25519.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\GCM.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\GF128.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\GHASH.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\HKDF.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\Hash.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\KeccakCore.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\NoiseSource.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\OMAC.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\P521.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\Poly1305.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\RNG.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\SHA224.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\SHA256.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\SHA3.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\SHA384.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\SHA512.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\SHAKE.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\XOF.cpp.o
+Compiling .pio\build\t-echo-plus\lib684\Crypto\XTS.cpp.o
+Compiling .pio\build\t-echo-plus\lib1e4\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\t-echo-plus\lib1e4\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\t-echo-plus\lib1e4\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\t-echo-plus\lib1e4\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\t-echo-plus\libb76\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\t-echo-plus\lib54c\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\t-echo-plus\lib54c\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\t-echo-plus\lib54c\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\t-echo-plus\lib54c\Adafruit GFX Library\glcdfont.c.o
+.pio\libdeps\t-echo-plus\Crypto\RNG.cpp:63:2: warning: #warning "no hardware random number source detected for this platform" [-Wcpp]
+   63 | #warning "no hardware random number source detected for this platform"
+      |  ^~~~~~~
+Compiling .pio\build\t-echo-plus\lib962\Adafruit NeoPixel\Adafruit_NeoPixel.cpp.o
+Compiling .pio\build\t-echo-plus\lib962\Adafruit NeoPixel\Adafruit_Neopixel_RP2.cpp.o
+Archiving .pio\build\t-echo-plus\lib684\libCrypto.a
+Compiling .pio\build\t-echo-plus\lib962\Adafruit NeoPixel\esp.c.o
+Compiling .pio\build\t-echo-plus\lib962\Adafruit NeoPixel\esp8266.c.o
+Compiling .pio\build\t-echo-plus\lib962\Adafruit NeoPixel\kendyte_k210.c.o
+Compiling .pio\build\t-echo-plus\lib962\Adafruit NeoPixel\psoc6.c.o
+Archiving .pio\build\t-echo-plus\lib1e4\libAdafruit BusIO.a
+Archiving .pio\build\t-echo-plus\libb76\libAdafruit Unified Sensor.a
+Compiling .pio\build\t-echo-plus\lib017\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Compiling .pio\build\t-echo-plus\lib806\Adafruit BMP280 Library\Adafruit_BMP280.cpp.o
+Compiling .pio\build\t-echo-plus\libc5f\Adafruit BMP085 Library\Adafruit_BMP085.cpp.o
+Compiling .pio\build\t-echo-plus\lib257\Adafruit BME280 Library\Adafruit_BME280.cpp.o
+Compiling .pio\build\t-echo-plus\lib29c\Adafruit DPS310\Adafruit_DPS310.cpp.o
+Compiling .pio\build\t-echo-plus\lib616\Adafruit SH110X\Adafruit_SH1106G.cpp.o
+Compiling .pio\build\t-echo-plus\lib616\Adafruit SH110X\Adafruit_SH1107.cpp.o
+Compiling .pio\build\t-echo-plus\lib616\Adafruit SH110X\Adafruit_SH110X.cpp.o
+Compiling .pio\build\t-echo-plus\lib9fe\Adafruit MCP9808 Library\Adafruit_MCP9808.cpp.o
+Compiling .pio\build\t-echo-plus\lib7e6\Adafruit INA260 Library\Adafruit_INA260.cpp.o
+Archiving .pio\build\t-echo-plus\lib54c\libAdafruit GFX Library.a
+Archiving .pio\build\t-echo-plus\lib962\libAdafruit NeoPixel.a
+Compiling .pio\build\t-echo-plus\lib009\Adafruit INA219\Adafruit_INA219.cpp.o
+Compiling .pio\build\t-echo-plus\lib332\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Archiving .pio\build\t-echo-plus\lib806\libAdafruit BMP280 Library.a
+Archiving .pio\build\t-echo-plus\libc5f\libAdafruit BMP085 Library.a
+Archiving .pio\build\t-echo-plus\lib017\libAdafruit SSD1306.a
+Compiling .pio\build\t-echo-plus\lib8c9\Adafruit LIS3DH\Adafruit_LIS3DH.cpp.o
+Archiving .pio\build\t-echo-plus\lib616\libAdafruit SH110X.a
+Compiling .pio\build\t-echo-plus\lib7d9\Adafruit AHTX0\Adafruit_AHTX0.cpp.o
+Archiving .pio\build\t-echo-plus\lib257\libAdafruit BME280 Library.a
+Compiling .pio\build\t-echo-plus\lib958\Adafruit LSM6DS\Adafruit_ISM330DHCX.cpp.o
+Compiling .pio\build\t-echo-plus\lib958\Adafruit LSM6DS\Adafruit_LSM6DS.cpp.o
+Archiving .pio\build\t-echo-plus\lib7e6\libAdafruit INA260 Library.a
+Archiving .pio\build\t-echo-plus\lib29c\libAdafruit DPS310.a
+Compiling .pio\build\t-echo-plus\lib958\Adafruit LSM6DS\Adafruit_LSM6DS3.cpp.o
+Compiling .pio\build\t-echo-plus\lib958\Adafruit LSM6DS\Adafruit_LSM6DS33.cpp.o
+Archiving .pio\build\t-echo-plus\lib9fe\libAdafruit MCP9808 Library.a
+Compiling .pio\build\t-echo-plus\lib958\Adafruit LSM6DS\Adafruit_LSM6DS3TRC.cpp.o
+Compiling .pio\build\t-echo-plus\lib958\Adafruit LSM6DS\Adafruit_LSM6DSL.cpp.o
+Compiling .pio\build\t-echo-plus\lib958\Adafruit LSM6DS\Adafruit_LSM6DSO32.cpp.o
+Compiling .pio\build\t-echo-plus\lib958\Adafruit LSM6DS\Adafruit_LSM6DSOX.cpp.o
+Archiving .pio\build\t-echo-plus\lib009\libAdafruit INA219.a
+Archiving .pio\build\t-echo-plus\lib332\libAdafruit MPU6050.a
+Compiling .pio\build\t-echo-plus\libf68\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp.o
+Compiling .pio\build\t-echo-plus\lib18d\EmotiBit MLX90632\SparkFun_MLX90632_Arduino_Library.cpp.o
+Archiving .pio\build\t-echo-plus\lib8c9\libAdafruit LIS3DH.a
+Compiling .pio\build\t-echo-plus\libb59\Adafruit MLX90614 Library\Adafruit_MLX90614.cpp.o
+Compiling .pio\build\t-echo-plus\lib70c\INA3221\INA3221.cpp.o
+Compiling .pio\build\t-echo-plus\libc1d\QMC5883LCompass\QMC5883LCompass.cpp.o
+Compiling .pio\build\t-echo-plus\lib8b9\DFRobot_RTU\DFRobot_RTU.cpp.o
+Compiling .pio\build\t-echo-plus\lib52c\DFRobot_RainfallSensor\DFRobot_RainfallSensor.cpp.o
+Compiling .pio\build\t-echo-plus\lib263\INA226\INA226.cpp.o
+Archiving .pio\build\t-echo-plus\lib7d9\libAdafruit AHTX0.a
+Compiling .pio\build\t-echo-plus\lib528\SparkFun MAX3010x Pulse and Proximity Sensor Library\MAX30105.cpp.o
+Compiling .pio\build\t-echo-plus\lib528\SparkFun MAX3010x Pulse and Proximity Sensor Library\heartRate.cpp.o
+Archiving .pio\build\t-echo-plus\lib958\libAdafruit LSM6DS.a
+Compiling .pio\build\t-echo-plus\lib528\SparkFun MAX3010x Pulse and Proximity Sensor Library\spo2_algorithm.cpp.o
+Archiving .pio\build\t-echo-plus\libf68\libAdafruit TSL2591 Library.a
+Compiling .pio\build\t-echo-plus\lib7dc\SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library\ICM_20948.cpp.o
+Compiling .pio\build\t-echo-plus\lib7dc\SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library\util\ICM_20948_C.c.o
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::reset()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:88:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   88 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:90:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   90 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setModePowerDown()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:96:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   96 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:99:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   99 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setModeContinious()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:105:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  105 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:107:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  107 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setModeTriggered()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:113:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  113 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:115:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  115 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntMeasEnable()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:121:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  121 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:123:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  123 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntMeasDisable()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:129:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  129 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:131:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  131 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setBusMeasEnable()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:137:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  137 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:139:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  139 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setBusMeasDisable()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:145:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  145 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:147:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  147 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setAveragingMode(ina3221_avg_mode_t)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:153:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  153 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:155:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  155 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setBusConversionTime(ina3221_conv_time_t)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:161:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  161 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:163:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  163 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntConversionTime(ina3221_conv_time_t)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:169:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  169 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:171:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  171 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setWarnAlertLatchEnable()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:197:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  197 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:199:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  199 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setWarnAlertLatchDisable()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:206:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  206 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:208:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  208 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCritAlertLatchEnable()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:215:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  215 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:217:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  217 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCritAlertLatchDisable()':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:224:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  224 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:226:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  226 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setChannelEnable(ina3221_ch_t)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:265:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  265 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:279:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  279 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setChannelDisable(ina3221_ch_t)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:285:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  285 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:299:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  299 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCurrentSumEnable(ina3221_ch_t)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:359:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  359 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:373:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  373 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCurrentSumDisable(ina3221_ch_t)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:380:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  380 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:394:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  394 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::begin(TwoWire*)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:59:17: warning: array subscript 1 is above array bounds of 'float [1]' [-Warray-bounds]
+   59 |     _filterRes[1] = 0;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:60:17: warning: array subscript 2 is above array bounds of 'float [1]' [-Warray-bounds]
+   60 |     _filterRes[2] = 0;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntRes(float, float, float)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:68:16: warning: array subscript 1 is above array bounds of 'float [1]' [-Warray-bounds]
+   68 |     _shuntRes[1] = res_ch2;
+      |     ~~~~~~~~~~~^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:69:16: warning: array subscript 2 is above array bounds of 'float [1]' [-Warray-bounds]
+   69 |     _shuntRes[2] = res_ch3;
+      |     ~~~~~~~~~~~^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp: In member function 'void INA3221::setFilterRes(float, float, float)':
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:75:17: warning: array subscript 1 is above array bounds of 'float [1]' [-Warray-bounds]
+   75 |     _filterRes[1] = res_ch2;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\t-echo-plus\INA3221\src\INA3221.cpp:76:17: warning: array subscript 2 is above array bounds of 'float [1]' [-Warray-bounds]
+   76 |     _filterRes[2] = res_ch3;
+      |     ~~~~~~~~~~~~^
+Archiving .pio\build\t-echo-plus\lib18d\libEmotiBit MLX90632.a
+Archiving .pio\build\t-echo-plus\lib70c\libINA3221.a
+Compiling .pio\build\t-echo-plus\lib7f6\ICM42670P\ICM42670P.cpp.o
+Archiving .pio\build\t-echo-plus\libb59\libAdafruit MLX90614 Library.a
+Archiving .pio\build\t-echo-plus\lib8b9\libDFRobot_RTU.a
+Archiving .pio\build\t-echo-plus\lib263\libINA226.a
+Compiling .pio\build\t-echo-plus\lib7f6\ICM42670P\imu\inv_imu_apex.c.o
+Compiling .pio\build\t-echo-plus\lib7f6\ICM42670P\imu\inv_imu_driver.c.o
+.pio\libdeps\t-echo-plus\SparkFun MAX3010x Pulse and Proximity Sensor Library\src\heartRate.cpp: In function 'bool checkForBeat(int32_t)':
+.pio\libdeps\t-echo-plus\SparkFun MAX3010x Pulse and Proximity Sensor Library\src\heartRate.cpp:108:33: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  108 |     if ((IR_AC_Max - IR_AC_Min) > 20 & (IR_AC_Max - IR_AC_Min) < 1000)
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+Archiving .pio\build\t-echo-plus\libc1d\libQMC5883LCompass.a
+Archiving .pio\build\t-echo-plus\lib52c\libDFRobot_RainfallSensor.a
+Compiling .pio\build\t-echo-plus\lib7f6\ICM42670P\imu\inv_imu_selftest.c.o
+Compiling .pio\build\t-echo-plus\lib7f6\ICM42670P\imu\inv_imu_transport.c.o
+Compiling .pio\build\t-echo-plus\lib7f6\ICM42670P\inv_time.c.o
+Compiling .pio\build\t-echo-plus\lib12c\Adafruit LTR390 Library\Adafruit_LTR390.cpp.o
+Compiling .pio\build\t-echo-plus\lib62a\Adafruit PCT2075\Adafruit_PCT2075.cpp.o
+Compiling .pio\build\t-echo-plus\lib96f\DFRobot_BMM150\DFRobot_BMM150.cpp.o
+Archiving .pio\build\t-echo-plus\lib528\libSparkFun MAX3010x Pulse and Proximity Sensor Library.a
+Compiling .pio\build\t-echo-plus\libadd\SparkFun MMC5983MA Magnetometer Arduino Library\SparkFun_MMC5983MA_Arduino_Library.cpp.o
+Compiling .pio\build\t-echo-plus\libadd\SparkFun MMC5983MA Magnetometer Arduino Library\SparkFun_MMC5983MA_IO.cpp.o
+Compiling .pio\build\t-echo-plus\lib907\Adafruit TSL2561\Adafruit_TSL2561_U.cpp.o
+Archiving .pio\build\t-echo-plus\lib7dc\libSparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library.a
+Compiling .pio\build\t-echo-plus\libb67\BH1750_WE\BH1750_WE.cpp.o
+Compiling .pio\build\t-echo-plus\libd57\Adafruit SHTC3 Library\Adafruit_SHTC3.cpp.o
+Compiling .pio\build\t-echo-plus\lib4d0\Adafruit BMP3XX Library\Adafruit_BMP3XX.cpp.o
+Compiling .pio\build\t-echo-plus\lib4d0\Adafruit BMP3XX Library\bmp3.c.o
+Compiling .pio\build\t-echo-plus\libd06\Adafruit MAX1704X\Adafruit_MAX1704X.cpp.o
+Archiving .pio\build\t-echo-plus\lib7f6\libICM42670P.a
+Archiving .pio\build\t-echo-plus\lib12c\libAdafruit LTR390 Library.a
+Compiling .pio\build\t-echo-plus\lib8be\Adafruit LPS2X\Adafruit_LPS22.cpp.o
+Archiving .pio\build\t-echo-plus\lib62a\libAdafruit PCT2075.a
+Compiling .pio\build\t-echo-plus\lib8be\Adafruit LPS2X\Adafruit_LPS25.cpp.o
+Compiling .pio\build\t-echo-plus\lib8be\Adafruit LPS2X\Adafruit_LPS2X.cpp.o
+Compiling .pio\build\t-echo-plus\libfa6\Adafruit SHT31 Library\Adafruit_SHT31.cpp.o
+Compiling .pio\build\t-echo-plus\libe38\Adafruit VEML7700 Library\Adafruit_VEML7700.cpp.o
+Archiving .pio\build\t-echo-plus\lib96f\libDFRobot_BMM150.a
+Archiving .pio\build\t-echo-plus\lib907\libAdafruit TSL2561.a
+Archiving .pio\build\t-echo-plus\libb67\libBH1750_WE.a
+Compiling .pio\build\t-echo-plus\libfea\Adafruit SHT4x Library\Adafruit_SHT4x.cpp.o
+Compiling .pio\build\t-echo-plus\lib0ae\SparkFun Qwiic Scale NAU7802 Arduino Library\SparkFun_Qwiic_Scale_NAU7802_Arduino_Library.cpp.o
+Archiving .pio\build\t-echo-plus\libadd\libSparkFun MMC5983MA Magnetometer Arduino Library.a
+Archiving .pio\build\t-echo-plus\libd57\libAdafruit SHTC3 Library.a
+Compiling .pio\build\t-echo-plus\lib8e2\ClosedCube OPT3001\ClosedCube_OPT3001.cpp.o
+Archiving .pio\build\t-echo-plus\lib4d0\libAdafruit BMP3XX Library.a
+Archiving .pio\build\t-echo-plus\libd06\libAdafruit MAX1704X.a
+Compiling .pio\build\t-echo-plus\libddc\SoftwareSerial\SoftwareSerial.cpp.o
+Compiling .pio\build\t-echo-plus\lib153\DFRobot_LarkWeatherStation\DFRobot_LarkWeatherStation.cpp.o
+Compiling .pio\build\t-echo-plus\libc46\Sensirion Core\SensirionCrc.cpp.o
+Compiling .pio\build\t-echo-plus\libc46\Sensirion Core\SensirionErrors.cpp.o
+Compiling .pio\build\t-echo-plus\libc46\Sensirion Core\SensirionI2CCommunication.cpp.o
+Compiling .pio\build\t-echo-plus\libc46\Sensirion Core\SensirionI2CTxFrame.cpp.o
+Compiling .pio\build\t-echo-plus\libc46\Sensirion Core\SensirionRxFrame.cpp.o
+Compiling .pio\build\t-echo-plus\libc46\Sensirion Core\SensirionShdlcCommunication.cpp.o
+Archiving .pio\build\t-echo-plus\libe38\libAdafruit VEML7700 Library.a
+Archiving .pio\build\t-echo-plus\libfa6\libAdafruit SHT31 Library.a
+Archiving .pio\build\t-echo-plus\lib8be\libAdafruit LPS2X.a
+Archiving .pio\build\t-echo-plus\libfea\libAdafruit SHT4x Library.a
+Archiving .pio\build\t-echo-plus\lib0ae\libSparkFun Qwiic Scale NAU7802 Arduino Library.a
+Compiling .pio\build\t-echo-plus\libc46\Sensirion Core\SensirionShdlcTxFrame.cpp.o
+Compiling .pio\build\t-echo-plus\lib1cf\Sensirion I2C SCD4x\SensirionI2cScd4x.cpp.o
+Archiving .pio\build\t-echo-plus\lib8e2\libClosedCube OPT3001.a
+Compiling .pio\build\t-echo-plus\lib6bb\Sensirion I2C SFA3x\SensirionI2cSfa3x.cpp.o
+Compiling .pio\build\t-echo-plus\lib53a\Sensirion I2C SCD30\SensirionI2cScd30.cpp.o
+Compiling .pio\build\t-echo-plus\lib125\BME68x Sensor library\bme68xLibrary.cpp.o
+Compiling .pio\build\t-echo-plus\lib125\BME68x Sensor library\bme68x\bme68x.c.o
+Archiving .pio\build\t-echo-plus\libddc\libSoftwareSerial.a
+Compiling .pio\build\t-echo-plus\libff2\bsec2\bsec2.cpp.o
+Archiving .pio\build\t-echo-plus\lib153\libDFRobot_LarkWeatherStation.a
+Compiling .pio\build\t-echo-plus\libff2\bsec2\commMux\commMux.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\GxEPD2_EPD.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_154_Z90c.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_154c.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_213_Z19c.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_213c.cpp.o
+Archiving .pio\build\t-echo-plus\lib1cf\libSensirion I2C SCD4x.a
+Archiving .pio\build\t-echo-plus\lib53a\libSensirion I2C SCD30.a
+Archiving .pio\build\t-echo-plus\lib125\libBME68x Sensor library.a
+Archiving .pio\build\t-echo-plus\lib6bb\libSensirion I2C SFA3x.a
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_270c.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_290_C90c.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_290_Z13c.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_290c.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_420c.cpp.o
+Archiving .pio\build\t-echo-plus\libc46\libSensirion Core.a
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_565c.cpp.o
+Archiving .pio\build\t-echo-plus\libff2\libbsec2.a
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_583c.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_750c.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_750c_Z08.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd3c\GxEPD2_750c_Z90.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_1160_T91.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_1248.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_154.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_154_D67.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_154_M09.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_154_M10.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_154_T8.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_213.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_213_B72.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_213_B73.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_213_B74.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_213_BN.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_213_FC1.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_213_M21.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_213_T5D.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_213_flex.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_260.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_260_M01.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_270.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_290.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_290_M06.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_290_T5.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_290_T5D.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_290_T94.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_371.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_420.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_420_M01.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_583.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_583_T8.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_750.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\epd\GxEPD2_750_T7.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\it8951\GxEPD2_it60.cpp.o
+Compiling .pio\build\t-echo-plus\lib75f\GxEPD2\it8951\GxEPD2_it60_1448x1072.cpp.o
+Compiling .pio\build\t-echo-plus\libec7\PCF8563_Library\pcf8563.cpp.o
+Compiling .pio\build\t-echo-plus\libaa3\Adafruit DRV2605 Library\Adafruit_DRV2605.cpp.o
+Compiling .pio\build\t-echo-plus\lib603\RotaryEncoder\RotaryEncoder.cpp.o
+Compiling .pio\build\t-echo-plus\lib603\RotaryEncoder\SwRotaryEncoder.cpp.o
+Compiling .pio\build\t-echo-plus\lib158\InternalFileSytem\InternalFileSystem.cpp.o
+Compiling .pio\build\t-echo-plus\lib158\InternalFileSytem\flash\flash_cache.c.o
+Compiling .pio\build\t-echo-plus\lib158\InternalFileSytem\flash\flash_nrf5x.c.o
+Compiling .pio\build\t-echo-plus\lib46d\Adafruit_LittleFS\Adafruit_LittleFS.cpp.o
+Compiling .pio\build\t-echo-plus\lib46d\Adafruit_LittleFS\Adafruit_LittleFS_File.cpp.o
+Compiling .pio\build\t-echo-plus\lib46d\Adafruit_LittleFS\littlefs\lfs.c.o
+Compiling .pio\build\t-echo-plus\lib46d\Adafruit_LittleFS\littlefs\lfs_util.c.o
+Archiving .pio\build\t-echo-plus\lib75f\libGxEPD2.a
+Archiving .pio\build\t-echo-plus\libec7\libPCF8563_Library.a
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEAdvertising.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLECentral.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLECharacteristic.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEClientCharacteristic.cpp.o
+Archiving .pio\build\t-echo-plus\libaa3\libAdafruit DRV2605 Library.a
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEClientService.cpp.o
+Archiving .pio\build\t-echo-plus\lib603\libRotaryEncoder.a
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEConnection.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEDiscovery.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEGatt.cpp.o
+Archiving .pio\build\t-echo-plus\lib158\libInternalFileSytem.a
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEPeriph.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEScanner.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLESecurity.cpp.o
+Archiving .pio\build\t-echo-plus\lib46d\libAdafruit_LittleFS.a
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEService.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\BLEUuid.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\bluefruit.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\clients\BLEAncs.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\clients\BLEClientBas.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\clients\BLEClientCts.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\clients\BLEClientDis.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\clients\BLEClientHidAdafruit.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\clients\BLEClientIas.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\clients\BLEClientUart.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEBas.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEBeacon.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEDfu.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEDis.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEHidAdafruit.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEHidGamepad.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEHidGeneric.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEIas.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEMidi.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\BLEUart.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\services\EddyStone.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\utility\AdaMsg.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\utility\bonding.cpp.o
+Compiling .pio\build\t-echo-plus\lib2c8\Bluefruit52Lib\utility\bootloader_util.c.o
+Archiving .pio\build\t-echo-plus\libFrameworkArduinoVariant.a
+Compiling .pio\build\t-echo-plus\FrameworkArduino\HardwarePWM.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\RingBuffer.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\Uart.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\WInterrupts.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\abi.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\avr\dtostrf.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\delay.c.o
+Archiving .pio\build\t-echo-plus\lib2c8\libBluefruit52Lib.a
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\Source\croutine.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\Source\event_groups.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\Source\list.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\Source\portable\MemMang\heap_3.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\Source\queue.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\Source\stream_buffer.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\Source\tasks.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\Source\timers.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\portable\CMSIS\nrf52\port_cmsis.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\portable\CMSIS\nrf52\port_cmsis_systick.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\freertos\portable\GCC\nrf52\port.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\hooks.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\itoa.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\linker\gcc_startup_nrf52.S.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\linker\gcc_startup_nrf52833.S.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\linker\gcc_startup_nrf52840.S.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\main.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\new.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_gpiote.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_power.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_pwm.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_qspi.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_spim.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_spis.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_temp.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_timer.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_wdt.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\mdk\system_nrf52.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\mdk\system_nrf52833.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\nordic\nrfx\mdk\system_nrf52840.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\pulse.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\pulse_asm.S.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\rtos.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\sysview\Config\SEGGER_SYSVIEW_Config_FreeRTOS.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\sysview\SEGGER\SEGGER_RTT.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\sysview\SEGGER\SEGGER_RTT_ASM_ARMv7M.S.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\sysview\SEGGER\SEGGER_RTT_printf.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\sysview\SEGGER\SEGGER_SYSVIEW.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\sysview\SEGGER_SYSVIEW_FreeRTOS.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\utility\AdaCallback.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\utility\SoftwareTimer.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\utility\adafruit_fifo.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\utility\debug.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\utility\utilities.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\wiring.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\wiring_analog.cpp.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\wiring_analog_nRF52.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\wiring_digital.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\wiring_private.c.o
+Compiling .pio\build\t-echo-plus\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\t-echo-plus\libFrameworkArduino.a
+Linking .pio\build\t-echo-plus\firmware-t-echo-plus-2.7.26.54e0d8d.elf
+Building .pio\build\t-echo-plus\firmware-t-echo-plus-2.7.26.54e0d8d.hex
+Checking size .pio\build\t-echo-plus\firmware-t-echo-plus-2.7.26.54e0d8d.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [====      ]  37.5% (used 93388 bytes from 248832 bytes)
+Flash: [========= ]  90.8% (used 740032 bytes from 815104 bytes)
+nrf52_hex_to_uf2([".pio\build\t-echo-plus\firmware-t-echo-plus-2.7.26.54e0d8d.hex"], [".pio\build\t-echo-plus\firmware-t-echo-plus-2.7.26.54e0d8d.elf"])
+Generating UF2 file from firmware-t-echo-plus-2.7.26.54e0d8d.hex
+Converting to uf2, output size: 1480192, start address: 0x26000
+Wrote 1480192 bytes to C:\fwbuild\meshtastic\.pio\build\t-echo-plus\firmware-t-echo-plus-2.7.26.54e0d8d.uf2
+Building .pio\build\t-echo-plus\firmware-t-echo-plus-2.7.26.54e0d8d.zip
+Zip created at .pio\build\t-echo-plus\firmware-t-echo-plus-2.7.26.54e0d8d.zip
+manifest_gather(["mtjson"], ["buildprog"])
+{'name': 'firmware-t-echo-plus-2.7.26.54e0d8d.elf', 'md5': '8664604220f5cca221082fa07583438b', 'bytes': 1419552}
+{'name': 'firmware-t-echo-plus-2.7.26.54e0d8d.hex', 'md5': 'a4d936d9fc7d2b9022693fdfde2b7291', 'bytes': 2081591}
+{'name': 'firmware-t-echo-plus-2.7.26.54e0d8d.uf2', 'md5': 'ac36c6db227a816ba15351907423cb86', 'bytes': 1480192}
+{'name': 'firmware-t-echo-plus-2.7.26.54e0d8d-ota.zip', 'md5': '0efac3bc8138290c77ce832c13f40744', 'bytes': 741014}
+======================== [SUCCESS] Took 2302.18 seconds ========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+t-echo-plus    SUCCESS   00:38:22.176
+========================= 1 succeeded in 00:38:22.176 =========================

@@ -1,0 +1,422 @@
+Processing ttgo_t_deck_GPS (framework: arduino; platform: espressif32 @ 6.3.1; board: esp32-s3-devkitc-1)
+--------------------------------------------------------------------------------
+Platform Manager: Installing espressif32 @ 6.3.1
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Platform Manager: espressif32@6.3.1 has been installed!
+Tool Manager: Installing platformio/framework-arduinoespressif32 @ ~3.20009.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: framework-arduinoespressif32@3.20009.0 has been installed!
+Tool Manager: Installing platformio/tool-esptoolpy @ ~1.40501.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: tool-esptoolpy@1.40501.0 has been installed!
+Library Manager: Installing adafruit/Adafruit Unified Sensor @ 1.1.15
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing adafruit/Adafruit AHTX0 @ 2.0.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit AHTX0@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit BusIO
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing Adafruit SH110X
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SH110X@2.1.15 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit GFX Library
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BME280 Library @ 2.3.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME280 Library@2.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BMP280 Library @ 3.0.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP280 Library@3.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BME680 Library @ 2.0.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME680 Library@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit SSD1306
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit INA219 @ 1.2.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA219@1.2.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit NeoPixel
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit NeoPixel@1.15.5 has been installed!
+Library Manager: Installing adafruit/Adafruit Si7021 Library @ 1.5.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90%
+Library Manager: Adafruit Si7021 Library@1.5.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing ayushsharma82/ElegantOTA @ 3.1.7
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ElegantOTA@3.1.7 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing esp32async/ESPAsyncWebServer @ ^3.7.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ESPAsyncWebServer@3.12.1 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing ESP32Async/AsyncTCP @ ^3.5.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: AsyncTCP@3.5.0 has been installed!
+Library Manager: Installing bblanchon/ArduinoJson @ 7.4.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ArduinoJson@7.4.3 has been installed!
+Library Manager: Installing jgromes/RadioLib @ 7.6.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: RadioLib@7.6.0 has been installed!
+Library Manager: Installing knolleary/PubSubClient @ 2.8
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: PubSubClient@2.8.0 has been installed!
+Library Manager: Installing mikalhart/TinyGPSPlus @ 1.1.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: TinyGPSPlus@1.1.0 has been installed!
+Library Manager: Installing richonguzman/APRSPacketLib @ 1.0.10
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: APRSPacketLib@1.0.10 has been installed!
+Library Manager: Installing bodmer/TFT_eSPI @ 2.5.43
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: TFT_eSPI@2.5.43 has been installed!
+Library Manager: Installing git+https://github.com/mmMicky/TouchLib.git
+git version 2.56.0.windows.1
+Cloning into 'C:\Users\anatol.lopez\.platformio\.cache\tmp\pkg-installing-68908xl6'...
+Library Manager: TouchLib@0.0.2+sha.ccaedcd has been installed!
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (6.3.1) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-prog) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20009.0 (2.0.9) 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 55 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- Adafruit AHTX0 @ 2.0.6
+|-- Adafruit BME280 Library @ 2.3.0
+|-- Adafruit BMP280 Library @ 3.0.0
+|-- Adafruit BME680 Library @ 2.0.6
+|-- Adafruit INA219 @ 1.2.3
+|-- Adafruit Si7021 Library @ 1.5.3
+|-- ElegantOTA @ 3.1.7
+|-- ArduinoJson @ 7.4.3
+|-- RadioLib @ 7.6.0
+|-- PubSubClient @ 2.8.0
+|-- AsyncTCP @ 3.5.0
+|-- ESPAsyncWebServer @ 3.12.1
+|-- TinyGPSPlus @ 1.1.0
+|-- APRSPacketLib @ 1.0.10
+|-- TFT_eSPI @ 2.5.43
+|-- TouchLib @ 0.0.2+sha.ccaedcd
+|-- WiFi @ 2.0.0
+|-- SPIFFS @ 2.0.0
+|-- Adafruit GFX Library @ 1.12.6
+|-- Adafruit SH110X @ 2.1.15
+|-- Adafruit SSD1306 @ 2.5.17
+|-- Wire @ 2.0.0
+|-- ESPmDNS @ 2.0.0
+|-- FS @ 2.0.0
+|-- Ethernet @ 2.0.0
+|-- SPI @ 2.0.0
+Building in release mode
+Converting .pio\build\ttgo_t_deck_GPS\index.html.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\style.css.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\script.js.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\bootstrap.css.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\bootstrap.js.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\leaflet.css.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\leaflet.js.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\favicon.png.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\aprs-symbols-24-0.png.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\aprs-symbols-24-1.png.gz.txt.o
+Converting .pio\build\ttgo_t_deck_GPS\aprs-symbols-24-2.png.gz.txt.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\A7670_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\LoRa_APRS_iGate.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\aprs_is_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\battery_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\configuration.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\digi_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\display.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\gps_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\kiss_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\lora_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\map_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\mqtt_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\network_manager.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\ntp_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\ota_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\power_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\query_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\sleep_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\station_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\syslog_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\telemetry_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\tnc_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\web_utils.cpp.o
+src/network_manager.cpp: In member function 'bool NetworkManager::ethernetConnect(eth_phy_type_t, uint8_t, uint8_t, uint8_t, int, eth_clock_mode_t, bool)':
+src/network_manager.cpp:309:73: note: #pragma message: Compiling ETH init: SDK 4.x (Arduino core 2.x)
+         #pragma message("Compiling ETH init: SDK 4.x (Arduino core 2.x)")
+                                                                         ^
+Compiling .pio\build\ttgo_t_deck_GPS\src\wifi_utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\src\wx_utils.cpp.o
+Building .pio\build\ttgo_t_deck_GPS\bootloader.bin
+Generating partitions .pio\build\ttgo_t_deck_GPS\partitions.bin
+Compiling .pio\build\ttgo_t_deck_GPS\lib4fe\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libf55\Wire\Wire.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libcdc\SPI\SPI.cpp.o
+esptool.py v4.5.1
+Creating esp32s3 image...
+Merged 1 ELF section
+Successfully created esp32s3 image.
+Compiling .pio\build\ttgo_t_deck_GPS\lib506\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib506\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib506\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib506\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib72e\Adafruit AHTX0\Adafruit_AHTX0.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\libcdc\libSPI.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib659\Adafruit BME280 Library\Adafruit_BME280.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib2a5\Adafruit BMP280 Library\Adafruit_BMP280.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib44d\Adafruit BME680 Library\Adafruit_BME680.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\libf55\libWire.a
+Archiving .pio\build\ttgo_t_deck_GPS\lib4fe\libAdafruit Unified Sensor.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib44d\Adafruit BME680 Library\bme68x.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib700\Adafruit INA219\Adafruit_INA219.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib7b2\Adafruit Si7021 Library\Adafruit_Si7021.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libaef\AsyncTCP\AsyncTCP.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib862\FS\FS.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib862\FS\vfs_api.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib438\WiFi\WiFi.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib506\libAdafruit BusIO.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib438\WiFi\WiFiAP.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib438\WiFi\WiFiClient.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib659\libAdafruit BME280 Library.a
+Archiving .pio\build\ttgo_t_deck_GPS\lib72e\libAdafruit AHTX0.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib438\WiFi\WiFiGeneric.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib438\WiFi\WiFiMulti.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib2a5\libAdafruit BMP280 Library.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib438\WiFi\WiFiSTA.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib438\WiFi\WiFiScan.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\libaef\libAsyncTCP.a
+Archiving .pio\build\ttgo_t_deck_GPS\lib7b2\libAdafruit Si7021 Library.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib438\WiFi\WiFiServer.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib438\WiFi\WiFiUdp.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib44d\libAdafruit BME680 Library.a
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\AsyncEventSource.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib862\libFS.a
+Archiving .pio\build\ttgo_t_deck_GPS\lib700\libAdafruit INA219.a
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\AsyncJson.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\AsyncWebHeader.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\AsyncWebServerRequest.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\AsyncWebSocket.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\BackPort_SHA1Builder.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\ChunkPrint.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\Middleware.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\WebAuthentication.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\WebHandlers.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\WebRequest.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\WebResponses.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib438\libWiFi.a
+Compiling .pio\build\ttgo_t_deck_GPS\libfb7\ESPAsyncWebServer\WebServer.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libcb0\LittleFS\LittleFS.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\liba90\Update\HttpsOTAUpdate.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\liba90\Update\Updater.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib97f\WebServer\Parsing.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib97f\WebServer\WebServer.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib97f\WebServer\detail\mimetable.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib591\ElegantOTA\ElegantOTA.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib591\ElegantOTA\elop.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\Hal.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\libcb0\libLittleFS.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\Module.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\hal\Arduino\ArduinoHal.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\hal\RPiPico\PicoHal.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\CC1101\CC1101.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\libfb7\libESPAsyncWebServer.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR11x0\LR1110.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR11x0\LR1120.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR11x0\LR1121.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\liba90\libUpdate.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR11x0\LR11x0.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR11x0\LR11x0_commands.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR11x0\LR11x0_crypto.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib97f\libWebServer.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR11x0\LR11x0_gnss.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR11x0\LR11x0_wifi.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR11x0\LR_common.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_cmds_chip_control.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_cmds_flrc.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_cmds_gfsk.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_cmds_lora.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib591\libElegantOTA.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_cmds_misc.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_cmds_ook.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_cmds_oqpsk.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_cmds_radio.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_cmds_ranging.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\LR2021\LR2021_config.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX123x\SX1231.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX123x\SX1233.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX126x\SX1261.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX126x\SX126x_LR_FHSS.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX126x\SX126x_commands.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX126x\SX126x_config.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\ADSB\ADSB.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\BellModem\BellModem.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\LoRaWAN\LoRaWAN.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\LoRaWAN\LoRaWANBands.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\Print\ITA2String.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\Print\Print.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\utils\CRC.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\utils\Cryptography.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\utils\FEC.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib9bf\RadioLib\utils\Utils.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib365\PubSubClient\PubSubClient.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libba8\TinyGPSPlus\TinyGPS++.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib48a\APRSPacketLib\APRSPacketLib_base.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib48a\APRSPacketLib\APRSPacketLib_base91.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib48a\APRSPacketLib\APRSPacketLib_coordinates.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib48a\APRSPacketLib\APRSPacketLib_decoder.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib48a\APRSPacketLib\APRSPacketLib_digipeater.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib48a\APRSPacketLib\APRSPacketLib_messages.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib48a\APRSPacketLib\APRSPacketLib_mice.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\libbee\SPIFFS\SPIFFS.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\liba3c\TFT_eSPI\TFT_eSPI.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib9bf\libRadioLib.a
+Archiving .pio\build\ttgo_t_deck_GPS\lib365\libPubSubClient.a
+Compiling .pio\build\ttgo_t_deck_GPS\libec3\TouchLib\TouchLibInterface.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\libba8\libTinyGPSPlus.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib6aa\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib6aa\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\libec3\libTouchLib.a
+Compiling .pio\build\ttgo_t_deck_GPS\lib6aa\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib6aa\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib8e0\Adafruit SH110X\Adafruit_SH1106G.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib8e0\Adafruit SH110X\Adafruit_SH1107.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib8e0\Adafruit SH110X\Adafruit_SH110X.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib252\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib69f\ESPmDNS\ESPmDNS.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\lib281\Ethernet\ETH.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib48a\libAPRSPacketLib.a
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\Esp.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\libbee\libSPIFFS.a
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\FirmwareMSC.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\liba3c\libTFT_eSPI.a
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\IPAddress.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib6aa\libAdafruit GFX Library.a
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\Print.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib8e0\libAdafruit SH110X.a
+Archiving .pio\build\ttgo_t_deck_GPS\lib252\libAdafruit SSD1306.a
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\StreamString.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib69f\libESPmDNS.a
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\Tone.cpp.o
+Archiving .pio\build\ttgo_t_deck_GPS\lib281\libEthernet.a
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\main.cpp.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\ttgo_t_deck_GPS\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\ttgo_t_deck_GPS\libFrameworkArduino.a
+Linking .pio\build\ttgo_t_deck_GPS\firmware.elf
+Retrieving maximum program size .pio\build\ttgo_t_deck_GPS\firmware.elf
+Checking size .pio\build\ttgo_t_deck_GPS\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  16.2% (used 52980 bytes from 327680 bytes)
+Flash: [========  ]  76.5% (used 1504473 bytes from 1966080 bytes)
+Building .pio\build\ttgo_t_deck_GPS\firmware.bin with action:
+  "$PYTHONEXE" "$OBJCOPY" --chip esp32s3 elf2image --flash_mode ${__get_board_flash_mode(__env__)} --flash_freq ${__get_board_f_flash(__env__)} --flash_size 8MB --elf-sha256-offset 0xb0 -o $TARGET $SOURCES
+Building .pio\build\ttgo_t_deck_GPS\firmware.bin
+esptool.py v4.5.1
+Creating esp32s3 image...
+Merged 3 ELF sections
+Successfully created esp32s3 image.
+======================== [SUCCESS] Took 1667.23 seconds ========================
+
+Environment      Status    Duration
+---------------  --------  ------------
+ttgo_t_deck_GPS  SUCCESS   00:27:47.225
+========================= 1 succeeded in 00:27:47.225 =========================

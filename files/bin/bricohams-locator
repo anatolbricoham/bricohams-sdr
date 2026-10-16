@@ -3,7 +3,7 @@
 
   bricohams-locator info [LOCATOR]          coordenadas, zona y lo más cercano de cada categoría
   bricohams-locator coordenadas LOCATOR     centro de la cuadrícula («38.854167 -1.291667»)
-  bricohams-locator locator LAT LON         locator de unas coordenadas («IM98wb»)
+  bricohams-locator locator LAT LON         locator de unas coordenadas («IM97kx»)
   bricohams-locator refrescar [--forzar]    baja AEMET (con AEMET_API_KEY) y las FM de la zona
   bricohams-locator marcadores [--aplicar]  enseña los marcadores [AUTO-LOCATOR]; con --aplicar los
                                             fusiona en bookmarks.json y reinicia OpenWebRX+

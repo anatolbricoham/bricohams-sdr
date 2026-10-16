@@ -1,0 +1,396 @@
+Processing ESP32_DIY_LoRa_915_SX1276 (board: esp32dev; platform: espressif32 @ 6.12.0; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing adafruit/Adafruit Unified Sensor @ 1.1.15
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing adafruit/Adafruit AHTX0 @ 2.0.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit AHTX0@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit BusIO
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing Adafruit SH110X
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SH110X@2.1.15 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit GFX Library
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BME280 Library @ 2.3.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME280 Library@2.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BMP280 Library @ 3.0.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP280 Library@3.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BME680 Library @ 2.0.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME680 Library@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit SSD1306
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit INA219 @ 1.2.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA219@1.2.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit NeoPixel
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit NeoPixel@1.15.5 has been installed!
+Library Manager: Installing adafruit/Adafruit Si7021 Library @ 1.5.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90%
+Library Manager: Adafruit Si7021 Library@1.5.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing ayushsharma82/ElegantOTA @ 3.1.7
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ElegantOTA@3.1.7 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing esp32async/ESPAsyncWebServer @ ^3.7.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ESPAsyncWebServer@3.12.1 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing ESP32Async/AsyncTCP @ ^3.5.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: AsyncTCP@3.5.0 has been installed!
+Library Manager: Installing bblanchon/ArduinoJson @ 7.4.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ArduinoJson@7.4.3 has been installed!
+Library Manager: Installing jgromes/RadioLib @ 7.6.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: RadioLib@7.6.0 has been installed!
+Library Manager: Installing knolleary/PubSubClient @ 2.8
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: PubSubClient@2.8.0 has been installed!
+Library Manager: Installing mikalhart/TinyGPSPlus @ 1.1.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: TinyGPSPlus@1.1.0 has been installed!
+Library Manager: Installing richonguzman/APRSPacketLib @ 1.0.10
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: APRSPacketLib@1.0.10 has been installed!
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.12.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (esp-prog) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 53 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- Adafruit AHTX0 @ 2.0.6
+|-- Adafruit BME280 Library @ 2.3.0
+|-- Adafruit BMP280 Library @ 3.0.0
+|-- Adafruit BME680 Library @ 2.0.6
+|-- Adafruit INA219 @ 1.2.3
+|-- Adafruit Si7021 Library @ 1.5.3
+|-- ElegantOTA @ 3.1.7
+|-- ArduinoJson @ 7.4.3
+|-- RadioLib @ 7.6.0
+|-- PubSubClient @ 2.8.0
+|-- AsyncTCP @ 3.5.0
+|-- ESPAsyncWebServer @ 3.12.1
+|-- TinyGPSPlus @ 1.1.0
+|-- APRSPacketLib @ 1.0.10
+|-- Adafruit GFX Library @ 1.12.6
+|-- Adafruit SSD1306 @ 2.5.17
+|-- WiFi @ 2.0.0
+|-- SPIFFS @ 2.0.0
+|-- Adafruit SH110X @ 2.1.15
+|-- Wire @ 2.0.0
+|-- ESPmDNS @ 2.0.0
+|-- FS @ 2.0.0
+|-- Ethernet @ 2.0.0
+|-- SPI @ 2.0.0
+Building in release mode
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\index.html.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\style.css.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\script.js.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\bootstrap.css.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\bootstrap.js.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\leaflet.css.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\leaflet.js.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\favicon.png.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\aprs-symbols-24-0.png.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\aprs-symbols-24-1.png.gz.txt.o
+Converting .pio\build\ESP32_DIY_LoRa_915_SX1276\aprs-symbols-24-2.png.gz.txt.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\A7670_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\LoRa_APRS_iGate.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\aprs_is_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\battery_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\configuration.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\digi_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\display.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\gps_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\kiss_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\lora_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\map_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\mqtt_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\network_manager.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\ntp_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\ota_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\power_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\query_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\sleep_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\station_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\syslog_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\telemetry_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\tnc_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\web_utils.cpp.o
+src/network_manager.cpp: In member function 'bool NetworkManager::ethernetConnect(eth_phy_type_t, uint8_t, uint8_t, uint8_t, int, eth_clock_mode_t, bool)':
+src/network_manager.cpp:309:73: note: #pragma message: Compiling ETH init: SDK 4.x (Arduino core 2.x)
+         #pragma message("Compiling ETH init: SDK 4.x (Arduino core 2.x)")
+                                                                         ^
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\wifi_utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\src\wx_utils.cpp.o
+Building .pio\build\ESP32_DIY_LoRa_915_SX1276\bootloader.bin
+Generating partitions .pio\build\ESP32_DIY_LoRa_915_SX1276\partitions.bin
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib474\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib8ab\Wire\Wire.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib535\SPI\SPI.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib14e\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib14e\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib14e\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib14e\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libf2e\Adafruit AHTX0\Adafruit_AHTX0.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib6d8\Adafruit BME280 Library\Adafruit_BME280.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib474\libAdafruit Unified Sensor.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib42f\Adafruit BMP280 Library\Adafruit_BMP280.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib8ab\libWire.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\liba3c\Adafruit BME680 Library\Adafruit_BME680.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\liba3c\Adafruit BME680 Library\bme68x.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\liba81\Adafruit INA219\Adafruit_INA219.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib48d\Adafruit Si7021 Library\Adafruit_Si7021.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib535\libSPI.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libe7d\AsyncTCP\AsyncTCP.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libcbd\FS\FS.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libcbd\FS\vfs_api.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\WiFi\WiFi.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\WiFi\WiFiAP.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib14e\libAdafruit BusIO.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\WiFi\WiFiClient.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib6d8\libAdafruit BME280 Library.a
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\libf2e\libAdafruit AHTX0.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\WiFi\WiFiGeneric.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\WiFi\WiFiMulti.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib42f\libAdafruit BMP280 Library.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\WiFi\WiFiSTA.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\liba81\libAdafruit INA219.a
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\liba3c\libAdafruit BME680 Library.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\WiFi\WiFiScan.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\WiFi\WiFiServer.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib48d\libAdafruit Si7021 Library.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\WiFi\WiFiUdp.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\AsyncEventSource.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\libcbd\libFS.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\AsyncJson.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\libe7d\libAsyncTCP.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\AsyncWebHeader.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\AsyncWebServerRequest.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\AsyncWebSocket.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\BackPort_SHA1Builder.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\ChunkPrint.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\Middleware.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\WebAuthentication.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\WebHandlers.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\WebRequest.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\WebResponses.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib056\libWiFi.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\ESPAsyncWebServer\WebServer.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib10f\LittleFS\LittleFS.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib2b0\Update\HttpsOTAUpdate.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib2b0\Update\Updater.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib637\WebServer\Parsing.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib637\WebServer\WebServer.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib637\WebServer\detail\mimetable.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libfb7\ElegantOTA\ElegantOTA.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libfb7\ElegantOTA\elop.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\Hal.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\Module.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\hal\Arduino\ArduinoHal.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib2b0\libUpdate.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\hal\RPiPico\PicoHal.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\CC1101\CC1101.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib10f\libLittleFS.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR11x0\LR1110.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR11x0\LR1120.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib981\libESPAsyncWebServer.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR11x0\LR1121.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR11x0\LR11x0.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR11x0\LR11x0_commands.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib637\libWebServer.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR11x0\LR11x0_crypto.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR11x0\LR11x0_gnss.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR11x0\LR11x0_wifi.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR11x0\LR_common.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\libfb7\libElegantOTA.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_cmds_chip_control.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_cmds_flrc.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_cmds_gfsk.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_cmds_lora.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_cmds_misc.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_cmds_ook.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_cmds_oqpsk.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_cmds_radio.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_cmds_ranging.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\LR2021\LR2021_config.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX123x\SX1231.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX123x\SX1233.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX126x\SX1261.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX126x\SX126x_LR_FHSS.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX126x\SX126x_commands.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX126x\SX126x_config.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\ADSB\ADSB.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\BellModem\BellModem.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\LoRaWAN\LoRaWAN.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\LoRaWAN\LoRaWANBands.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\Print\ITA2String.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\Print\Print.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\utils\CRC.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\utils\Cryptography.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\utils\FEC.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\RadioLib\utils\Utils.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib0eb\PubSubClient\PubSubClient.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib39d\TinyGPSPlus\TinyGPS++.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib780\APRSPacketLib\APRSPacketLib_base.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib780\APRSPacketLib\APRSPacketLib_base91.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib780\APRSPacketLib\APRSPacketLib_coordinates.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib780\APRSPacketLib\APRSPacketLib_decoder.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib780\APRSPacketLib\APRSPacketLib_digipeater.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib780\APRSPacketLib\APRSPacketLib_messages.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib780\APRSPacketLib\APRSPacketLib_mice.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib22b\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib22b\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib027\libRadioLib.a
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib0eb\libPubSubClient.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib22b\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib39d\libTinyGPSPlus.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib22b\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib2fe\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libda9\SPIFFS\SPIFFS.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libf13\Adafruit SH110X\Adafruit_SH1106G.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libf13\Adafruit SH110X\Adafruit_SH1107.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\libf13\Adafruit SH110X\Adafruit_SH110X.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib510\ESPmDNS\ESPmDNS.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\lib973\Ethernet\ETH.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\Esp.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib780\libAPRSPacketLib.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\IPAddress.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib22b\libAdafruit GFX Library.a
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib2fe\libAdafruit SSD1306.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\Print.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\libda9\libSPIFFS.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\StreamString.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\libf13\libAdafruit SH110X.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\USB.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib510\libESPmDNS.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\cbuf.cpp.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\lib973\libEthernet.a
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\main.cpp.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\ESP32_DIY_LoRa_915_SX1276\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\ESP32_DIY_LoRa_915_SX1276\libFrameworkArduino.a
+Linking .pio\build\ESP32_DIY_LoRa_915_SX1276\firmware.elf
+Retrieving maximum program size .pio\build\ESP32_DIY_LoRa_915_SX1276\firmware.elf
+Checking size .pio\build\ESP32_DIY_LoRa_915_SX1276\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  17.2% (used 56324 bytes from 327680 bytes)
+Flash: [========  ]  81.5% (used 1602213 bytes from 1966080 bytes)
+Building .pio\build\ESP32_DIY_LoRa_915_SX1276\firmware.bin with action:
+  "$PYTHONEXE" "$OBJCOPY" --chip esp32 elf2image --flash_mode ${__get_board_flash_mode(__env__)} --flash_freq ${__get_board_f_image(__env__)} --flash_size 4MB --elf-sha256-offset 0xb0 -o $TARGET $SOURCES
+Building .pio\build\ESP32_DIY_LoRa_915_SX1276\firmware.bin
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 27 ELF sections
+Successfully created esp32 image.
+======================== [SUCCESS] Took 953.81 seconds ========================
+
+Environment                Status    Duration
+-------------------------  --------  ------------
+ESP32_DIY_LoRa_915_SX1276  SUCCESS   00:15:53.807
+========================= 1 succeeded in 00:15:53.807 =========================

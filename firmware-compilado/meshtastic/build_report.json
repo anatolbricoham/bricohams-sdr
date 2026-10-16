@@ -1,0 +1,390 @@
+{
+  "kind": "meshtastic",
+  "results": [
+    {
+      "env": "heltec-mesh-node-t096",
+      "variant": "nrf52840/heltec_mesh_node_t096",
+      "ok": true,
+      "seconds": 1728,
+      "files": [
+        "firmware-heltec-mesh-node-t096-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-node-t096-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-node-t096-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-node-t1",
+      "variant": "nrf52840/heltec_mesh_node_t1",
+      "ok": true,
+      "seconds": 1711,
+      "files": [
+        "firmware-heltec-mesh-node-t1-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-node-t1-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-node-t1-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-node-t114",
+      "variant": "nrf52840/heltec_mesh_node_t114",
+      "ok": true,
+      "seconds": 1683,
+      "files": [
+        "firmware-heltec-mesh-node-t114-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-node-t114-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-node-t114-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-pocket-10000",
+      "variant": "nrf52840/heltec_mesh_pocket",
+      "ok": true,
+      "seconds": 2152,
+      "files": [
+        "firmware-heltec-mesh-pocket-10000-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-pocket-10000-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-pocket-10000-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-pocket-10000-inkhud",
+      "variant": "nrf52840/heltec_mesh_pocket",
+      "ok": true,
+      "seconds": 2159,
+      "files": [
+        "firmware-heltec-mesh-pocket-10000-inkhud-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-pocket-10000-inkhud-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-pocket-10000-inkhud-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-pocket-5000",
+      "variant": "nrf52840/heltec_mesh_pocket",
+      "ok": true,
+      "seconds": 2156,
+      "files": [
+        "firmware-heltec-mesh-pocket-5000-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-pocket-5000-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-pocket-5000-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-pocket-5000-inkhud",
+      "variant": "nrf52840/heltec_mesh_pocket",
+      "ok": true,
+      "seconds": 2167,
+      "files": [
+        "firmware-heltec-mesh-pocket-5000-inkhud-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-pocket-5000-inkhud-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-pocket-5000-inkhud-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-solar",
+      "variant": "nrf52840/heltec_mesh_solar",
+      "ok": true,
+      "seconds": 1936,
+      "files": [
+        "firmware-heltec-mesh-solar-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-solar-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-solar-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-solar-eink",
+      "variant": "nrf52840/heltec_mesh_solar",
+      "ok": true,
+      "seconds": 1996,
+      "files": [
+        "firmware-heltec-mesh-solar-eink-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-solar-eink-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-solar-eink-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-solar-inkhud",
+      "variant": "nrf52840/heltec_mesh_solar",
+      "ok": true,
+      "seconds": 2021,
+      "files": [
+        "firmware-heltec-mesh-solar-inkhud-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-solar-inkhud-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-solar-inkhud-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-solar-oled",
+      "variant": "nrf52840/heltec_mesh_solar",
+      "ok": true,
+      "seconds": 1930,
+      "files": [
+        "firmware-heltec-mesh-solar-oled-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-solar-oled-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-solar-oled-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-mesh-solar-tft",
+      "variant": "nrf52840/heltec_mesh_solar",
+      "ok": true,
+      "seconds": 2172,
+      "files": [
+        "firmware-heltec-mesh-solar-tft-2.7.26.54e0d8d.uf2",
+        "firmware-heltec-mesh-solar-tft-2.7.26.54e0d8d.hex",
+        "firmware-heltec-mesh-solar-tft-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "heltec-v1",
+      "variant": "esp32/heltec_v1",
+      "ok": true,
+      "seconds": 2001,
+      "files": [
+        "firmware-heltec-v1-2.7.26.54e0d8d.bin",
+        "firmware-heltec-v1-2.7.26.54e0d8d.factory.bin",
+        "littlefs-heltec-v1-2.7.26.54e0d8d.bin"
+      ]
+    },
+    {
+      "env": "heltec-v2_0",
+      "variant": "esp32/heltec_v2",
+      "ok": true,
+      "seconds": 5808,
+      "files": [
+        "firmware-heltec-v2_0-2.7.26.54e0d8d.bin",
+        "firmware-heltec-v2_0-2.7.26.54e0d8d.factory.bin",
+        "littlefs-heltec-v2_0-2.7.26.54e0d8d.bin"
+      ]
+    },
+    {
+      "env": "heltec-v2_1",
+      "variant": "esp32/heltec_v2.1",
+      "ok": true,
+      "seconds": 5820,
+      "files": [
+        "firmware-heltec-v2_1-2.7.26.54e0d8d.bin",
+        "firmware-heltec-v2_1-2.7.26.54e0d8d.factory.bin",
+        "littlefs-heltec-v2_1-2.7.26.54e0d8d.bin"
+      ]
+    },
+    {
+      "env": "seeed_solar_node",
+      "variant": "nrf52840/seeed_solar_node",
+      "ok": true,
+      "seconds": 1827,
+      "files": [
+        "firmware-seeed_solar_node-2.7.26.54e0d8d.uf2",
+        "firmware-seeed_solar_node-2.7.26.54e0d8d.hex",
+        "firmware-seeed_solar_node-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "seeed_wio_tracker_L1",
+      "variant": "nrf52840/seeed_wio_tracker_L1",
+      "ok": true,
+      "seconds": 1903,
+      "files": [
+        "firmware-seeed_wio_tracker_L1-2.7.26.54e0d8d.uf2",
+        "firmware-seeed_wio_tracker_L1-2.7.26.54e0d8d.hex",
+        "firmware-seeed_wio_tracker_L1-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "seeed_wio_tracker_L1_eink",
+      "variant": "nrf52840/seeed_wio_tracker_L1_eink",
+      "ok": true,
+      "seconds": 1987,
+      "files": [
+        "firmware-seeed_wio_tracker_L1_eink-2.7.26.54e0d8d.uf2",
+        "firmware-seeed_wio_tracker_L1_eink-2.7.26.54e0d8d.hex",
+        "firmware-seeed_wio_tracker_L1_eink-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "seeed_wio_tracker_L1_eink-inkhud",
+      "variant": "nrf52840/seeed_wio_tracker_L1_eink",
+      "ok": true,
+      "seconds": 2263,
+      "files": [
+        "firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.uf2",
+        "firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.hex",
+        "firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "seeed_xiao_nrf52840_btb",
+      "variant": "nrf52840/diy/seeed-xiao-nrf52840-wio-sx1262",
+      "ok": true,
+      "seconds": 2192,
+      "files": [
+        "firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.uf2",
+        "firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.hex",
+        "firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "seeed_xiao_nrf52840_kit",
+      "variant": "nrf52840/seeed_xiao_nrf52840_kit",
+      "ok": true,
+      "seconds": 1955,
+      "files": [
+        "firmware-seeed_xiao_nrf52840_kit-2.7.26.54e0d8d.uf2",
+        "firmware-seeed_xiao_nrf52840_kit-2.7.26.54e0d8d.hex",
+        "firmware-seeed_xiao_nrf52840_kit-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "seeed_xiao_nrf52840_kit_i2c",
+      "variant": "nrf52840/seeed_xiao_nrf52840_kit",
+      "ok": true,
+      "seconds": 1954,
+      "files": [
+        "firmware-seeed_xiao_nrf52840_kit_i2c-2.7.26.54e0d8d.uf2",
+        "firmware-seeed_xiao_nrf52840_kit_i2c-2.7.26.54e0d8d.hex",
+        "firmware-seeed_xiao_nrf52840_kit_i2c-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "t-echo",
+      "variant": "nrf52840/t-echo",
+      "ok": true,
+      "seconds": 2038,
+      "files": [
+        "firmware-t-echo-2.7.26.54e0d8d.uf2",
+        "firmware-t-echo-2.7.26.54e0d8d.hex",
+        "firmware-t-echo-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "t-echo-inkhud",
+      "variant": "nrf52840/t-echo",
+      "ok": true,
+      "seconds": 2476,
+      "files": [
+        "firmware-t-echo-inkhud-2.7.26.54e0d8d.uf2",
+        "firmware-t-echo-inkhud-2.7.26.54e0d8d.hex",
+        "firmware-t-echo-inkhud-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "t-echo-lite",
+      "variant": "nrf52840/t-echo-lite",
+      "ok": true,
+      "seconds": 2311,
+      "files": [
+        "firmware-t-echo-lite-2.7.26.54e0d8d.uf2",
+        "firmware-t-echo-lite-2.7.26.54e0d8d.hex",
+        "firmware-t-echo-lite-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "t-echo-plus",
+      "variant": "nrf52840/t-echo-plus",
+      "ok": true,
+      "seconds": 2335,
+      "files": [
+        "firmware-t-echo-plus-2.7.26.54e0d8d.uf2",
+        "firmware-t-echo-plus-2.7.26.54e0d8d.hex",
+        "firmware-t-echo-plus-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "t-impulse-plus",
+      "variant": "nrf52840/t-impulse-plus",
+      "ok": true,
+      "seconds": 2188,
+      "files": [
+        "firmware-t-impulse-plus-2.7.26.54e0d8d.uf2",
+        "firmware-t-impulse-plus-2.7.26.54e0d8d.hex",
+        "firmware-t-impulse-plus-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "tbeam",
+      "variant": "esp32/tbeam",
+      "ok": true,
+      "seconds": 5833,
+      "files": [
+        "firmware-tbeam-2.7.26.54e0d8d.bin",
+        "firmware-tbeam-2.7.26.54e0d8d.factory.bin",
+        "littlefs-tbeam-2.7.26.54e0d8d.bin"
+      ]
+    },
+    {
+      "env": "tbeam0_7",
+      "variant": "esp32/tbeam_v07",
+      "ok": true,
+      "seconds": 6732,
+      "files": [
+        "firmware-tbeam0_7-2.7.26.54e0d8d.bin",
+        "firmware-tbeam0_7-2.7.26.54e0d8d.factory.bin",
+        "littlefs-tbeam0_7-2.7.26.54e0d8d.bin"
+      ]
+    },
+    {
+      "env": "tlora-v1",
+      "variant": "esp32/tlora_v1",
+      "ok": true,
+      "seconds": 6714,
+      "files": [
+        "firmware-tlora-v1-2.7.26.54e0d8d.bin",
+        "firmware-tlora-v1-2.7.26.54e0d8d.factory.bin",
+        "littlefs-tlora-v1-2.7.26.54e0d8d.bin"
+      ]
+    },
+    {
+      "env": "tlora-v2",
+      "variant": "esp32/tlora_v2",
+      "ok": true,
+      "seconds": 6670,
+      "files": [
+        "firmware-tlora-v2-2.7.26.54e0d8d.bin",
+        "firmware-tlora-v2-2.7.26.54e0d8d.factory.bin",
+        "littlefs-tlora-v2-2.7.26.54e0d8d.bin"
+      ]
+    },
+    {
+      "env": "tlora_v1_3",
+      "variant": "esp32/tlora_v1_3",
+      "ok": true,
+      "seconds": 6720,
+      "files": [
+        "firmware-tlora_v1_3-2.7.26.54e0d8d.bin",
+        "firmware-tlora_v1_3-2.7.26.54e0d8d.factory.bin",
+        "littlefs-tlora_v1_3-2.7.26.54e0d8d.bin"
+      ]
+    },
+    {
+      "env": "xiao_ble",
+      "variant": "nrf52840/diy/xiao_ble",
+      "ok": true,
+      "seconds": 1952,
+      "files": [
+        "firmware-xiao_ble-2.7.26.54e0d8d.uf2",
+        "firmware-xiao_ble-2.7.26.54e0d8d.hex",
+        "firmware-xiao_ble-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "xiao_ble_30db",
+      "variant": "nrf52840/diy/xiao_ble",
+      "ok": true,
+      "seconds": 1954,
+      "files": [
+        "firmware-xiao_ble_30db-2.7.26.54e0d8d.uf2",
+        "firmware-xiao_ble_30db-2.7.26.54e0d8d.hex",
+        "firmware-xiao_ble_30db-2.7.26.54e0d8d.zip"
+      ]
+    },
+    {
+      "env": "xiao_ble_33db",
+      "variant": "nrf52840/diy/xiao_ble",
+      "ok": true,
+      "seconds": 1952,
+      "files": [
+        "firmware-xiao_ble_33db-2.7.26.54e0d8d.uf2",
+        "firmware-xiao_ble_33db-2.7.26.54e0d8d.hex",
+        "firmware-xiao_ble_33db-2.7.26.54e0d8d.zip"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+{
+ "kind": "igate",
+ "results": [
+  {
+   "env": "ESP32C3_DIY_1W_LoRa_915_E22_900M30S",
+   "variant": "ESP32C3_DIY_1W_LoRa_915_E22_900M30S",
+   "ok": true,
+   "seconds": 877,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32C3_DIY_1W_LoRa_915_E22_900M30S.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32C3_DIY_1W_LoRa_E22_400M30S",
+   "variant": "ESP32C3_DIY_1W_LoRa_E22_400M30S",
+   "ok": true,
+   "seconds": 872,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32C3_DIY_1W_LoRa_E22_400M30S.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32C3_OctopusLab_LoRa",
+   "variant": "ESP32C3_OctopusLab_LoRa",
+   "ok": true,
+   "seconds": 869,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32C3_OctopusLab_LoRa.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32C3_SuperMini_DIY_LoRa_SX1278",
+   "variant": "ESP32C3_SuperMini_DIY_LoRa_SX1278",
+   "ok": true,
+   "seconds": 826,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32C3_SuperMini_DIY_LoRa_SX1278.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_9M2IBR_1W_LoRa_GPS_E22_400M30S",
+   "variant": "ESP32_9M2IBR_1W_LoRa_GPS_E22_400M30S",
+   "ok": true,
+   "seconds": 591,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_9M2IBR_1W_LoRa_GPS_E22_400M30S.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_DIY_1W_LoRa_915_E22_900M30S",
+   "variant": "ESP32_DIY_1W_LoRa_915_E22_900M30S",
+   "ok": true,
+   "seconds": 892,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_DIY_1W_LoRa_915_E22_900M30S.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_DIY_1W_LoRa_E220_400M30S",
+   "variant": "ESP32_DIY_1W_LoRa_E220_400M30S",
+   "ok": true,
+   "seconds": 892,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_DIY_1W_LoRa_E220_400M30S.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_DIY_1W_LoRa_E22_400M30S",
+   "variant": "ESP32_DIY_1W_LoRa_E22_400M30S",
+   "ok": true,
+   "seconds": 892,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_DIY_1W_LoRa_E22_400M30S.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_DIY_1W_LoRa_E32_400M30S",
+   "variant": "ESP32_DIY_1W_LoRa_E32_400M30S",
+   "ok": true,
+   "seconds": 958,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_DIY_1W_LoRa_E32_400M30S.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_DIY_1W_LoRa_Mesh_V1_2_E22_400M30S",
+   "variant": "ESP32_DIY_1W_LoRa_Mesh_V1_2_E22_400M30S",
+   "ok": true,
+   "seconds": 962,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_DIY_1W_LoRa_Mesh_V1_2_E22_400M30S.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_DIY_LoRa_915_SX1276",
+   "variant": "ESP32_DIY_LoRa_915_SX1276",
+   "ok": true,
+   "seconds": 959,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_DIY_LoRa_915_SX1276.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_DIY_LoRa_A7670_915_SX1276",
+   "variant": "ESP32_DIY_LoRa_A7670_915_SX1276",
+   "ok": true,
+   "seconds": 957,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_DIY_LoRa_A7670_915_SX1276.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_DIY_LoRa_A7670_SX1278",
+   "variant": "ESP32_DIY_LoRa_A7670_SX1278",
+   "ok": true,
+   "seconds": 953,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_DIY_LoRa_A7670_SX1278.factory.bin"
+   ]
+  },
+  {
+   "env": "ESP32_DIY_LoRa_SX1278",
+   "variant": "ESP32_DIY_LoRa_SX1278",
+   "ok": true,
+   "seconds": 944,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ESP32_DIY_LoRa_SX1278.factory.bin"
+   ]
+  },
+  {
+   "env": "LoRaHAM_V2",
+   "variant": "LoRaHAM_V2",
+   "ok": true,
+   "seconds": 1065,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "LoRaHAM_V2.factory.bin"
+   ]
+  },
+  {
+   "env": "OE5HWN_MeshCom",
+   "variant": "OE5HWN_MeshCom",
+   "ok": true,
+   "seconds": 1056,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "OE5HWN_MeshCom.factory.bin"
+   ]
+  },
+  {
+   "env": "QRPLabs_LightGateway_1_0",
+   "variant": "QRPLabs_LightGateway_1_0",
+   "ok": true,
+   "seconds": 927,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "QRPLabs_LightGateway_1_0.factory.bin"
+   ]
+  },
+  {
+   "env": "QRPLabs_LightGateway_Plus_1_0",
+   "variant": "QRPLabs_LightGateway_Plus_1_0",
+   "ok": true,
+   "seconds": 907,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "QRPLabs_LightGateway_Plus_1_0.factory.bin"
+   ]
+  },
+  {
+   "env": "RAK3112",
+   "variant": "RAK3112",
+   "ok": true,
+   "seconds": 926,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "RAK3112.factory.bin"
+   ]
+  },
+  {
+   "env": "RAK3312",
+   "variant": "RAK3312",
+   "ok": true,
+   "seconds": 873,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "RAK3312.factory.bin"
+   ]
+  },
+  {
+   "env": "RPC_LORA_DIGIGATE_1W",
+   "variant": "RPC_LORA_DIGIGATE_1W",
+   "ok": true,
+   "seconds": 1032,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "RPC_LORA_DIGIGATE_1W.factory.bin"
+   ]
+  },
+  {
+   "env": "TROY_LoRa_APRS",
+   "variant": "TROY_LoRa_APRS",
+   "ok": true,
+   "seconds": 952,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "TROY_LoRa_APRS.factory.bin"
+   ]
+  },
+  {
+   "env": "WEMOS_D1_R32_DIY_LoRa_SX1278",
+   "variant": "WEMOS_D1_R32_DIY_LoRa_SX1278",
+   "ok": true,
+   "seconds": 1110,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "WEMOS_D1_R32_DIY_LoRa_SX1278.factory.bin"
+   ]
+  },
+  {
+   "env": "WEMOS_LOLIN32_OLED_DIY_LoRa_SX1278",
+   "variant": "WEMOS_LOLIN32_OLED_DIY_LoRa_SX1278",
+   "ok": true,
+   "seconds": 1099,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "WEMOS_LOLIN32_OLED_DIY_LoRa_SX1278.factory.bin"
+   ]
+  },
+  {
+   "env": "WEMOS_S2_MINI_DIY_LoRa_SX1278",
+   "variant": "WEMOS_S2_MINI_DIY_LoRa_SX1278",
+   "ok": true,
+   "seconds": 1074,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "WEMOS_S2_MINI_DIY_LoRa_SX1278.factory.bin"
+   ]
+  },
+  {
+   "env": "XIAO_ESP32S3_WIO_SX1262",
+   "variant": "XIAO_ESP32S3_WIO_SX1262",
+   "ok": true,
+   "seconds": 1044,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "XIAO_ESP32S3_WIO_SX1262.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec-lora32-v2",
+   "variant": "heltec-lora32-v2",
+   "ok": true,
+   "seconds": 905,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec-lora32-v2.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec-lora32-v2_915",
+   "variant": "heltec-lora32-v2_915",
+   "ok": true,
+   "seconds": 905,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec-lora32-v2_915.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_ht-ct62",
+   "variant": "heltec_ht-ct62",
+   "ok": true,
+   "seconds": 649,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_ht-ct62.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_vision_master_e290",
+   "variant": "heltec_vision_master_e290",
+   "ok": true,
+   "seconds": 1249,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_vision_master_e290.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wifi_lora_32_V3",
+   "variant": "heltec_wifi_lora_32_V3",
+   "ok": true,
+   "seconds": 1049,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wifi_lora_32_V3.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wifi_lora_32_V3_2",
+   "variant": "heltec_wifi_lora_32_V3_2",
+   "ok": true,
+   "seconds": 852,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wifi_lora_32_V3_2.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wifi_lora_32_V4",
+   "variant": "heltec_wifi_lora_32_V4",
+   "ok": true,
+   "seconds": 926,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wifi_lora_32_V4.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wireless_bridge",
+   "variant": "heltec_wireless_bridge",
+   "ok": true,
+   "seconds": 1011,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wireless_bridge.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wireless_paper_v1",
+   "variant": "heltec_wireless_paper_v1",
+   "ok": true,
+   "seconds": 1094,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wireless_paper_v1.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wireless_paper_v1_2",
+   "variant": "heltec_wireless_paper_v1_2",
+   "ok": true,
+   "seconds": 1083,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wireless_paper_v1_2.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wireless_stick",
+   "variant": "heltec_wireless_stick",
+   "ok": true,
+   "seconds": 850,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wireless_stick.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wireless_stick_lite_v3",
+   "variant": "heltec_wireless_stick_lite_v3",
+   "ok": true,
+   "seconds": 735,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wireless_stick_lite_v3.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wireless_stick_lite_v3_display",
+   "variant": "heltec_wireless_stick_lite_v3_display",
+   "ok": true,
+   "seconds": 1081,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wireless_stick_lite_v3_display.factory.bin"
+   ]
+  },
+  {
+   "env": "heltec_wireless_tracker",
+   "variant": "heltec_wireless_tracker",
+   "ok": true,
+   "seconds": 1032,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "heltec_wireless_tracker.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-lora32-v21",
+   "variant": "ttgo-lora32-v21",
+   "ok": true,
+   "seconds": 942,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-lora32-v21.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-lora32-v21_915",
+   "variant": "ttgo-lora32-v21_915",
+   "ok": true,
+   "seconds": 958,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-lora32-v21_915.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-lora32-v21_915_GPS",
+   "variant": "ttgo-lora32-v21_915_GPS",
+   "ok": true,
+   "seconds": 976,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-lora32-v21_915_GPS.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-lora32-v21_GPS",
+   "variant": "ttgo-lora32-v21_GPS",
+   "ok": true,
+   "seconds": 938,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-lora32-v21_GPS.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-t-beam-v1",
+   "variant": "ttgo-t-beam-v1",
+   "ok": true,
+   "seconds": 893,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-t-beam-v1.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-t-beam-v1_2",
+   "variant": "ttgo-t-beam-v1_2",
+   "ok": true,
+   "seconds": 991,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-t-beam-v1_2.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-t-beam-v1_2_915",
+   "variant": "ttgo-t-beam-v1_2_915",
+   "ok": true,
+   "seconds": 1015,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-t-beam-v1_2_915.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-t-beam-v1_2_SX1262",
+   "variant": "ttgo-t-beam-v1_2_SX1262",
+   "ok": true,
+   "seconds": 1133,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-t-beam-v1_2_SX1262.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-t-beam-v1_915",
+   "variant": "ttgo-t-beam-v1_915",
+   "ok": true,
+   "seconds": 1092,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-t-beam-v1_915.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-t-beam-v1_SX1262",
+   "variant": "ttgo-t-beam-v1_SX1262",
+   "ok": true,
+   "seconds": 1071,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-t-beam-v1_SX1262.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo-t-beam-v1_SX1268",
+   "variant": "ttgo-t-beam-v1_SX1268",
+   "ok": true,
+   "seconds": 951,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo-t-beam-v1_SX1268.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo_lora32_t3s3_v1_2",
+   "variant": "ttgo_lora32_t3s3_v1_2",
+   "ok": true,
+   "seconds": 808,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo_lora32_t3s3_v1_2.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo_t_beam_s3_SUPREME_v3",
+   "variant": "ttgo_t_beam_s3_SUPREME_v3",
+   "ok": true,
+   "seconds": 790,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo_t_beam_s3_SUPREME_v3.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo_t_deck_GPS",
+   "variant": "ttgo_t_deck_GPS",
+   "ok": true,
+   "seconds": 1690,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo_t_deck_GPS.factory.bin"
+   ]
+  },
+  {
+   "env": "ttgo_t_deck_plus",
+   "variant": "ttgo_t_deck_plus",
+   "ok": true,
+   "seconds": 1053,
+   "files": [
+    "firmware.bin",
+    "bootloader.bin",
+    "partitions.bin",
+    "ttgo_t_deck_plus.factory.bin"
+   ]
+  }
+ ]
+}

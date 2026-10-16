@@ -1,0 +1,515 @@
+Processing heltec_vision_master_e290 (board: esp32-s3-devkitc-1; platform: espressif32 @ 6.12.0; framework: arduino)
+--------------------------------------------------------------------------------
+Tool Manager: Installing espressif/toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5 has been installed!
+Library Manager: Installing adafruit/Adafruit Unified Sensor @ 1.1.15
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing adafruit/Adafruit AHTX0 @ 2.0.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit AHTX0@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit BusIO
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing Adafruit SH110X
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SH110X@2.1.15 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit GFX Library
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BME280 Library @ 2.3.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME280 Library@2.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BMP280 Library @ 3.0.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP280 Library@3.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BME680 Library @ 2.0.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME680 Library@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit SSD1306
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit INA219 @ 1.2.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA219@1.2.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit NeoPixel
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit NeoPixel@1.15.5 has been installed!
+Library Manager: Installing adafruit/Adafruit Si7021 Library @ 1.5.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90%
+Library Manager: Adafruit Si7021 Library@1.5.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing ayushsharma82/ElegantOTA @ 3.1.7
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ElegantOTA@3.1.7 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing esp32async/ESPAsyncWebServer @ ^3.7.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ESPAsyncWebServer@3.12.1 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing ESP32Async/AsyncTCP @ ^3.5.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: AsyncTCP@3.5.0 has been installed!
+Library Manager: Installing bblanchon/ArduinoJson @ 7.4.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ArduinoJson@7.4.3 has been installed!
+Library Manager: Installing jgromes/RadioLib @ 7.6.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: RadioLib@7.6.0 has been installed!
+Library Manager: Installing knolleary/PubSubClient @ 2.8
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: PubSubClient@2.8.0 has been installed!
+Library Manager: Installing mikalhart/TinyGPSPlus @ 1.1.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: TinyGPSPlus@1.1.0 has been installed!
+Library Manager: Installing richonguzman/APRSPacketLib @ 1.0.10
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: APRSPacketLib@1.0.10 has been installed!
+Library Manager: Installing git+https://github.com/todd-herbert/heltec-eink-modules.git
+git version 2.56.0.windows.1
+Cloning into 'C:\Users\anatol.lopez\.platformio\.cache\tmp\pkg-installing-bzfyscgu'...
+Updating files:   5% (26/457)Updating files:   6% (28/457)Updating files:   7% (32/457)Updating files:   8% (37/457)Updating files:   9% (42/457)Updating files:  10% (46/457)Updating files:  11% (51/457)Updating files:  12% (55/457)Updating files:  13% (60/457)Updating files:  14% (64/457)Updating files:  15% (69/457)Updating files:  16% (74/457)Updating files:  17% (78/457)Updating files:  18% (83/457)Updating files:  19% (87/457)Updating files:  20% (92/457)Updating files:  21% (96/457)Updating files:  21% (100/457)Updating files:  22% (101/457)Updating files:  23% (106/457)Updating files:  24% (110/457)Updating files:  25% (115/457)Updating files:  26% (119/457)Updating files:  27% (124/457)Updating files:  28% (128/457)Updating files:  29% (133/457)Updating files:  30% (138/457)Updating files:  31% (142/457)Updating files:  32% (147/457)Updating files:  33% (151/457)Updating files:  34% (156/457)Updating files:  35% (160/457)Updating files:  36% (165/457)Updating files:  37% (170/457)Updating files:  38% (174/457)Updating files:  39% (179/457)Updating files:  40% (183/457)Updating files:  41% (188/457)Updating files:  42% (192/457)Updating files:  43% (197/457)Updating files:  44% (202/457)Updating files:  45% (206/457)Updating files:  46% (211/457)Updating files:  47% (215/457)Updating files:  48% (220/457)Updating files:  49% (224/457)Updating files:  50% (229/457)Updating files:  51% (234/457)Updating files:  52% (238/457)Updating files:  53% (243/457)Updating files:  53% (245/457)Updating files:  54% (247/457)Updating files:  55% (252/457)Updating files:  56% (256/457)Updating files:  57% (261/457)Updating files:  58% (266/457)Updating files:  59% (270/457)Updating files:  60% (275/457)Updating files:  61% (279/457)Updating files:  62% (284/457)Updating files:  63% (288/457)Updating files:  64% (293/457)Updating files:  65% (298/457)Updating files:  66% (302/457)Updating files:  67% (307/457)Updating files:  68% (311/457)Updating files:  69% (316/457)Updating files:  70% (320/457)Updating files:  71% (325/457)Updating files:  72% (330/457)Updating files:  73% (334/457)Updating files:  74% (339/457)Updating files:  75% (343/457)Updating files:  76% (348/457)Updating files:  77% (352/457)Updating files:  78% (357/457)Updating files:  79% (362/457)Updating files:  80% (366/457)Updating files:  81% (371/457)Updating files:  82% (375/457)Updating files:  83% (380/457)Updating files:  84% (384/457)Updating files:  85% (389/457)Updating files:  85% (391/457)Updating files:  86% (394/457)Updating files:  87% (398/457)Updating files:  88% (403/457)Updating files:  89% (407/457)Updating files:  90% (412/457)Updating files:  91% (416/457)Updating files:  92% (421/457)Updating files:  93% (426/457)Updating files:  94% (430/457)Updating files:  95% (435/457)Updating files:  96% (439/457)Updating files:  97% (444/457)Updating files:  98% (448/457)Updating files:  99% (453/457)Updating files: 100% (457/457)Updating files: 100% (457/457), done.
+Library Manager: heltec-eink-modules@4.6.0+sha.9207eb6 has been installed!
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (6.12.0) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-prog) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 54 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- Adafruit AHTX0 @ 2.0.6
+|-- Adafruit BME280 Library @ 2.3.0
+|-- Adafruit BMP280 Library @ 3.0.0
+|-- Adafruit BME680 Library @ 2.0.6
+|-- Adafruit INA219 @ 1.2.3
+|-- Adafruit Si7021 Library @ 1.5.3
+|-- ElegantOTA @ 3.1.7
+|-- ArduinoJson @ 7.4.3
+|-- RadioLib @ 7.6.0
+|-- PubSubClient @ 2.8.0
+|-- AsyncTCP @ 3.5.0
+|-- ESPAsyncWebServer @ 3.12.1
+|-- TinyGPSPlus @ 1.1.0
+|-- APRSPacketLib @ 1.0.10
+|-- heltec-eink-modules @ 4.6.0+sha.9207eb6
+|-- WiFi @ 2.0.0
+|-- SPIFFS @ 2.0.0
+|-- Adafruit GFX Library @ 1.12.6
+|-- Adafruit SH110X @ 2.1.15
+|-- Adafruit SSD1306 @ 2.5.17
+|-- Wire @ 2.0.0
+|-- ESPmDNS @ 2.0.0
+|-- FS @ 2.0.0
+|-- Ethernet @ 2.0.0
+|-- SPI @ 2.0.0
+Building in release mode
+Converting .pio\build\heltec_vision_master_e290\index.html.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\style.css.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\script.js.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\bootstrap.css.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\bootstrap.js.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\leaflet.css.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\leaflet.js.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\favicon.png.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\aprs-symbols-24-0.png.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\aprs-symbols-24-1.png.gz.txt.o
+Converting .pio\build\heltec_vision_master_e290\aprs-symbols-24-2.png.gz.txt.o
+Compiling .pio\build\heltec_vision_master_e290\src\A7670_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\LoRa_APRS_iGate.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\aprs_is_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\battery_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\configuration.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\digi_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\display.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\gps_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\kiss_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\lora_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\map_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\mqtt_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\network_manager.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\ntp_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\ota_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\power_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\query_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\sleep_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\station_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\syslog_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\telemetry_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\tnc_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\web_utils.cpp.o
+src/network_manager.cpp: In member function 'bool NetworkManager::ethernetConnect(eth_phy_type_t, uint8_t, uint8_t, uint8_t, int, eth_clock_mode_t, bool)':
+src/network_manager.cpp:309:73: note: #pragma message: Compiling ETH init: SDK 4.x (Arduino core 2.x)
+         #pragma message("Compiling ETH init: SDK 4.x (Arduino core 2.x)")
+                                                                         ^
+Compiling .pio\build\heltec_vision_master_e290\src\wifi_utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\src\wx_utils.cpp.o
+Building .pio\build\heltec_vision_master_e290\bootloader.bin
+Generating partitions .pio\build\heltec_vision_master_e290\partitions.bin
+Compiling .pio\build\heltec_vision_master_e290\lib440\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib8ab\Wire\Wire.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib535\SPI\SPI.cpp.o
+esptool.py v4.9.0
+Creating esp32s3 image...
+Merged 1 ELF section
+Successfully created esp32s3 image.
+Compiling .pio\build\heltec_vision_master_e290\libc0d\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libc0d\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libc0d\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libc0d\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libb5a\Adafruit AHTX0\Adafruit_AHTX0.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libf8a\Adafruit BME280 Library\Adafruit_BME280.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib440\libAdafruit Unified Sensor.a
+Compiling .pio\build\heltec_vision_master_e290\libf48\Adafruit BMP280 Library\Adafruit_BMP280.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib657\Adafruit BME680 Library\Adafruit_BME680.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib657\Adafruit BME680 Library\bme68x.c.o
+Archiving .pio\build\heltec_vision_master_e290\lib535\libSPI.a
+Archiving .pio\build\heltec_vision_master_e290\lib8ab\libWire.a
+Compiling .pio\build\heltec_vision_master_e290\lib984\Adafruit INA219\Adafruit_INA219.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib3d1\Adafruit Si7021 Library\Adafruit_Si7021.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib615\AsyncTCP\AsyncTCP.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libcbd\FS\FS.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libcbd\FS\vfs_api.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib056\WiFi\WiFi.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\libc0d\libAdafruit BusIO.a
+Compiling .pio\build\heltec_vision_master_e290\lib056\WiFi\WiFiAP.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib056\WiFi\WiFiClient.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\libb5a\libAdafruit AHTX0.a
+Compiling .pio\build\heltec_vision_master_e290\lib056\WiFi\WiFiGeneric.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\libf8a\libAdafruit BME280 Library.a
+Compiling .pio\build\heltec_vision_master_e290\lib056\WiFi\WiFiMulti.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\libf48\libAdafruit BMP280 Library.a
+Archiving .pio\build\heltec_vision_master_e290\lib657\libAdafruit BME680 Library.a
+Compiling .pio\build\heltec_vision_master_e290\lib056\WiFi\WiFiSTA.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib056\WiFi\WiFiScan.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib3d1\libAdafruit Si7021 Library.a
+Archiving .pio\build\heltec_vision_master_e290\lib984\libAdafruit INA219.a
+Compiling .pio\build\heltec_vision_master_e290\lib056\WiFi\WiFiServer.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib056\WiFi\WiFiUdp.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib615\libAsyncTCP.a
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\AsyncEventSource.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\AsyncJson.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\libcbd\libFS.a
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\AsyncWebHeader.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\AsyncWebServerRequest.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\AsyncWebSocket.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\BackPort_SHA1Builder.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\ChunkPrint.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\Middleware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\WebAuthentication.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\WebHandlers.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\WebRequest.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\WebResponses.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib056\libWiFi.a
+Compiling .pio\build\heltec_vision_master_e290\lib715\ESPAsyncWebServer\WebServer.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib10f\LittleFS\LittleFS.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib2b0\Update\HttpsOTAUpdate.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib2b0\Update\Updater.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib637\WebServer\Parsing.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib637\WebServer\WebServer.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib637\WebServer\detail\mimetable.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib6cd\ElegantOTA\ElegantOTA.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib6cd\ElegantOTA\elop.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\Hal.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\Module.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib10f\libLittleFS.a
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\hal\Arduino\ArduinoHal.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\hal\RPiPico\PicoHal.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\CC1101\CC1101.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR11x0\LR1110.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib2b0\libUpdate.a
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR11x0\LR1120.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR11x0\LR1121.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib715\libESPAsyncWebServer.a
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR11x0\LR11x0.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR11x0\LR11x0_commands.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR11x0\LR11x0_crypto.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib637\libWebServer.a
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR11x0\LR11x0_gnss.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR11x0\LR11x0_wifi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR11x0\LR_common.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib6cd\libElegantOTA.a
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_cmds_chip_control.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_cmds_flrc.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_cmds_gfsk.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_cmds_lora.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_cmds_misc.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_cmds_ook.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_cmds_oqpsk.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_cmds_radio.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_cmds_ranging.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\LR2021\LR2021_config.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX123x\SX1231.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX123x\SX1233.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX126x\SX1261.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX126x\SX126x_LR_FHSS.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX126x\SX126x_commands.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX126x\SX126x_config.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\ADSB\ADSB.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\BellModem\BellModem.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\LoRaWAN\LoRaWAN.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\LoRaWAN\LoRaWANBands.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\Print\ITA2String.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\Print\Print.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\utils\CRC.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\utils\Cryptography.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\utils\FEC.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib35b\RadioLib\utils\Utils.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib7e9\PubSubClient\PubSubClient.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib667\TinyGPSPlus\TinyGPS++.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libcaf\APRSPacketLib\APRSPacketLib_base.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libcaf\APRSPacketLib\APRSPacketLib_base91.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libcaf\APRSPacketLib\APRSPacketLib_coordinates.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libcaf\APRSPacketLib\APRSPacketLib_decoder.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libcaf\APRSPacketLib\APRSPacketLib_digipeater.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libcaf\APRSPacketLib\APRSPacketLib_messages.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libcaf\APRSPacketLib\APRSPacketLib_mice.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib2a5\SD\SD.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib2a5\SD\sd_diskio.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib35b\libRadioLib.a
+Compiling .pio\build\heltec_vision_master_e290\lib2a5\SD\sd_diskio_crc.c.o
+Archiving .pio\build\heltec_vision_master_e290\lib667\libTinyGPSPlus.a
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\BaseDisplay\Bounds\window.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\BaseDisplay\SD.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib7e9\libPubSubClient.a
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\BaseDisplay\graphical.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\BaseDisplay\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\BaseDisplay\layout.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\BaseDisplay\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\BaseDisplay\paging.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\BaseDisplay\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\BaseDisplay\text.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\libcaf\libAPRSPacketLib.a
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0150BNS810\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0150BNS810\mode.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib2a5\libSD.a
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0150BNS810\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0154BNS800\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0154BNS800\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0154BNS800\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0213BNS800\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0213BNS800\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0213BNS800\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0290BNS75A\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0290BNS75A\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0290BNS75A\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0290BNS800\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0290BNS800\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\DEPG0290BNS800\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\E0213A367\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\E0213A367\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\E0213A367\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\GDE029A1\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\GDE029A1\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\GDE029A1\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\GDEP015OC1\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\GDEP015OC1\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\GDEP015OC1\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\LCMEN2R13EFC1\SD.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\LCMEN2R13EFC1\graphical.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\LCMEN2R13EFC1\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\LCMEN2R13EFC1\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\LCMEN2R13EFC1\paging.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\LCMEN2R13EFC1\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\QYEG0213RWS800\hardware.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\QYEG0213RWS800\mode.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Displays\QYEG0213RWS800\setup.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\GFX_Root\GFX.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\GFX_Root\glcdfont.c.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\ESP32\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\ESP8266\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\M1280\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\M2560\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\M328P\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\SAMD21G18A\pin_mux.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\SAMD21G18A\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\VisionMasterE213\power_controls.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\VisionMasterE213\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\VisionMasterE290\power_controls.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\VisionMasterE290\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\WirelessPaper\power_controls.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\WirelessPaper\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\Platforms\fallback\spi.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\ExFatLib\ExFatDbg.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\ExFatLib\ExFatFile.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\ExFatLib\ExFatFilePrint.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\ExFatLib\ExFatFileWrite.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\ExFatLib\ExFatFormatter.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\ExFatLib\ExFatName.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\ExFatLib\ExFatPartition.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\ExFatLib\ExFatVolume.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FatLib\FatDbg.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FatLib\FatFile.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FatLib\FatFileLFN.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FatLib\FatFilePrint.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FatLib\FatFileSFN.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FatLib\FatFormatter.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FatLib\FatName.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FatLib\FatPartition.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FatLib\FatVolume.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FreeStack.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FsLib\FsFile.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FsLib\FsNew.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\FsLib\FsVolume.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\MinimumSerial.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SdCard\SdCardInfo.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SdCard\SdSpiCard.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SdCard\SdioTeensy.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SpiDriver\SdSpiArtemis.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SpiDriver\SdSpiChipSelect.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SpiDriver\SdSpiDue.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SpiDriver\SdSpiESP.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SpiDriver\SdSpiParticle.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SpiDriver\SdSpiSTM32.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SpiDriver\SdSpiSTM32Core.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\SpiDriver\SdSpiTeensy3.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\common\FmtNumber.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\common\FsCache.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\common\FsDateTime.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\common\FsName.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\common\FsStructs.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\common\FsUtf.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\common\upcase.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\iostream\StdioStream.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\iostream\StreamBaseClass.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\iostream\istream.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\SdFat\iostream\ostream.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libffb\heltec-eink-modules\SDWrapper\sd_wrapper.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\libda9\SPIFFS\SPIFFS.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib5f7\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib5f7\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib5f7\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib5f7\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\heltec_vision_master_e290\lib917\Adafruit SH110X\Adafruit_SH1106G.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib917\Adafruit SH110X\Adafruit_SH1107.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib917\Adafruit SH110X\Adafruit_SH110X.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib091\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib510\ESPmDNS\ESPmDNS.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\lib973\Ethernet\ETH.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\Esp.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\libffb\libheltec-eink-modules.a
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\FunctionalInterrupt.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\libda9\libSPIFFS.a
+Archiving .pio\build\heltec_vision_master_e290\lib5f7\libAdafruit GFX Library.a
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\IPv6Address.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib091\libAdafruit SSD1306.a
+Archiving .pio\build\heltec_vision_master_e290\lib917\libAdafruit SH110X.a
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\Stream.cpp.o
+Archiving .pio\build\heltec_vision_master_e290\lib973\libEthernet.a
+Archiving .pio\build\heltec_vision_master_e290\lib510\libESPmDNS.a
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\main.cpp.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\heltec_vision_master_e290\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\heltec_vision_master_e290\libFrameworkArduino.a
+Linking .pio\build\heltec_vision_master_e290\firmware.elf
+Retrieving maximum program size .pio\build\heltec_vision_master_e290\firmware.elf
+Checking size .pio\build\heltec_vision_master_e290\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  15.8% (used 51868 bytes from 327680 bytes)
+Flash: [========  ]  75.1% (used 1476373 bytes from 1966080 bytes)
+Building .pio\build\heltec_vision_master_e290\firmware.bin with action:
+  "$PYTHONEXE" "$OBJCOPY" --chip esp32s3 elf2image --flash_mode ${__get_board_flash_mode(__env__)} --flash_freq ${__get_board_f_image(__env__)} --flash_size 8MB --elf-sha256-offset 0xb0 -o $TARGET $SOURCES
+Building .pio\build\heltec_vision_master_e290\firmware.bin
+esptool.py v4.9.0
+Creating esp32s3 image...
+Merged 3 ELF sections
+Successfully created esp32s3 image.
+======================== [SUCCESS] Took 1245.51 seconds ========================
+
+Environment                Status    Duration
+-------------------------  --------  ------------
+heltec_vision_master_e290  SUCCESS   00:20:45.512
+========================= 1 succeeded in 00:20:45.512 =========================

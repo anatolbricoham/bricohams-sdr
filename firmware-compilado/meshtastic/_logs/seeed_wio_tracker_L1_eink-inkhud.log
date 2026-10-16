@@ -1,0 +1,1449 @@
+Processing seeed_wio_tracker_L1_eink-inkhud (board: seeed_wio_tracker_L1; platform: 
+platformio/nordicnrf52@10.11.0; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing https://github.com/ZinggJM/GFX_Root/archive/3195764e352a0d2567c8d277ac408ca7293a99b0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: GFX_Root@2.0.0 has been installed!
+Library Manager: Installing https://github.com/meshtastic/esp8266-oled-ssd1306/archive/2e26010040e028baee72e2093402fa7b3c59e430.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ESP8266 and ESP32 OLED driver for SSD1306 displays@4.4.1 has been installed!
+Library Manager: Installing https://github.com/meshtastic/OneButton/archive/fa352d668c53f290cfa480a5f79ad422cd828c70.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: OneButton@2.6.1 has been installed!
+Library Manager: Installing https://github.com/meshtastic/arduino-fsm/archive/7db3702bf0cfe97b783d6c72595e3f38e0b19159.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: arduino-fsm@2.2.0 has been installed!
+Library Manager: Installing https://github.com/meshtastic/TinyGPSPlus/archive/71a82db35f3b973440044c476d4bcdc673b104f4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: TinyGPSPlus@1.0.3 has been installed!
+Library Manager: Installing https://github.com/meshtastic/ArduinoThread/archive/b841b0415721f1341ea41cccfb4adccfaf951567.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ArduinoThread@0.0.0+20261012071009 has been installed!
+Library Manager: Installing https://github.com/nanopb/nanopb/archive/refs/tags/nanopb-0.4.9.1.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Nanopb@0.4.9+1 has been installed!
+Library Manager: Installing https://github.com/Erriez/ErriezCRC32/archive/refs/tags/1.0.1.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ErriezCRC32@1.0.1 has been installed!
+Library Manager: Installing https://github.com/end2endzone/NonBlockingRTTTL/archive/refs/tags/1.4.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: NonBlockingRTTTL@1.4.0 has been installed!
+Library Manager: Installing https://github.com/jgromes/RadioLib/archive/refs/tags/7.6.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: RadioLib@7.6.0 has been installed!
+Library Manager: Installing rweather/Crypto @ 0.4.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Crypto@0.4.0 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_BusIO/archive/refs/tags/1.17.4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_Sensor/archive/refs/tags/1.1.15.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit-GFX-Library/archive/refs/tags/1.12.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_NeoPixel/archive/1.15.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit NeoPixel@1.15.5 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_SSD1306/archive/2.5.17.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_BMP280_Library/archive/refs/tags/3.0.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP280 Library@3.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit-BMP085-Library/archive/refs/tags/1.2.4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP085 Library@1.2.4 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_BME280_Library/archive/refs/tags/2.3.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME280 Library@2.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_DPS310/archive/refs/tags/1.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit DPS310@1.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_SH110x/archive/refs/tags/2.1.14.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SH110X@2.1.14 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_MCP9808_Library/archive/refs/tags/2.0.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MCP9808 Library@2.0.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_INA260/archive/refs/tags/1.5.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA260 Library@1.5.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_INA219/archive/refs/tags/1.2.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA219@1.2.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_MPU6050/archive/refs/tags/2.2.9.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MPU6050@2.2.9 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_LIS3DH/archive/refs/tags/1.3.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LIS3DH@1.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_AHTX0/archive/refs/tags/2.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit AHTX0@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_LSM6DS/archive/refs/tags/4.7.4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LSM6DS@4.7.4 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_TSL2591_Library/archive/refs/tags/1.4.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit TSL2591 Library@1.4.5 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/EmotiBit/EmotiBit_MLX90632/archive/refs/tags/v1.0.8.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: EmotiBit MLX90632@1.0.8 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit-MLX90614-Library/archive/refs/tags/2.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MLX90614 Library@2.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/sgtwilko/INA3221/archive/bb03d7e9bfcc74fc798838a54f4f99738f29fc6a.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: INA3221@1.0.1 has been installed!
+Library Manager: Installing https://github.com/mprograms/QMC5883LCompass/archive/refs/tags/v1.2.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: QMC5883LCompass@1.2.3 has been installed!
+Library Manager: Installing https://github.com/DFRobot/DFRobot_RTU/archive/refs/tags/V1.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_RTU@1.0.6 has been installed!
+Library Manager: Installing https://github.com/DFRobot/DFRobot_RainfallSensor/archive/38fea5e02b40a5430be6dab39a99a6f6347d667e.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_RainfallSensor@1.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/RobTillaart/INA226/archive/refs/tags/0.6.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: INA226@0.6.6 has been installed!
+Library Manager: Installing https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library/archive/refs/tags/v1.1.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun MAX3010x Pulse and Proximity Sensor Library@1.1.2 has been installed!
+Library Manager: Installing https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary/archive/refs/tags/v1.3.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library@1.3.2 has been installed!
+Library Manager: Installing https://github.com/tdk-invn-oss/motion.arduino.ICM42670P/archive/refs/tags/1.0.8.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ICM42670P@1.0.8 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_LTR390/archive/refs/tags/1.1.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LTR390 Library@1.1.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_PCT2075/archive/refs/tags/1.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit PCT2075@1.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/DFRobot/DFRobot_BMM150/archive/refs/tags/V1.0.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_BMM150@1.0.0 has been installed!
+Library Manager: Installing https://github.com/sparkfun/SparkFun_MMC5983MA_Magnetometer_Arduino_Library/archive/v1.1.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun MMC5983MA Magnetometer Arduino Library@1.1.5 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_TSL2561/archive/refs/tags/1.1.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit TSL2561@1.1.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/wollewald/BH1750_WE/archive/refs/tags/1.1.10.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: BH1750_WE@1.1.10 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_SHTC3/archive/refs/tags/1.0.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SHTC3 Library@1.0.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_BMP3XX/archive/refs/tags/2.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP3XX Library@2.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_MAX1704X/archive/refs/tags/1.0.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MAX1704X@1.0.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_LPS2X/archive/refs/tags/2.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LPS2X@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_SHT31/archive/refs/tags/2.2.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SHT31 Library@2.2.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_VEML7700/archive/refs/tags/2.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit VEML7700 Library@2.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_SHT4X/archive/refs/tags/1.0.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SHT4x Library@1.0.5 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/sparkfun/SparkFun_Qwiic_Scale_NAU7802_Arduino_Library/archive/refs/tags/v1.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun Qwiic Scale NAU7802 Arduino Library@1.0.6 has been installed!
+Library Manager: Installing closedcube/ClosedCube OPT3001 @ 1.1.2
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: ClosedCube OPT3001@1.1.2 has been installed!
+Library Manager: Installing https://github.com/meshtastic/DFRobot_LarkWeatherStation/archive/4de3a9cadef0f6a5220a8a906cf9775b02b0040d.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_LarkWeatherStation@1.0.0 has been installed!
+Library Manager: Installing https://github.com/Sensirion/arduino-core/archive/refs/tags/0.7.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion Core@0.7.3 has been installed!
+Library Manager: Installing https://github.com/Sensirion/arduino-i2c-scd4x/archive/refs/tags/1.1.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion I2C SCD4x@1.1.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/Sensirion/arduino-i2c-sfa3x/archive/refs/tags/1.0.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion I2C SFA3x@1.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/Sensirion/arduino-i2c-scd30/archive/1.1.1.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion I2C SCD30@1.1.1 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/boschsensortec/Bosch-BSEC2-Library/archive/refs/tags/1.10.2610.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: bsec2@1.10.2610 has been installed!
+Library Manager: Installing https://github.com/boschsensortec/Bosch-BME68x-Library/archive/refs/tags/v1.3.40408.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: BME68x Sensor library@1.3.40408 has been installed!
+Library Manager: Installing https://github.com/Kongduino/Adafruit_nRFCrypto/archive/8cde7189b5ead9dcd49f72601b43b969c0bbc06e.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit nRFCrypto@0.0.5 has been installed!
+Library Manager: Installing throwtheswitch/Unity @ ^2.6.1
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Unity@2.6.1 has been installed!
+Verbose mode can be enabled via `-v, --verbose` option
+PROGNAME: firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d
+CONFIGURATION: https://docs.platformio.org/page/boards/nordicnrf52/seeed_wio_tracker_L1.html
+PLATFORM: Nordic nRF52 (10.11.0) > seeed_wio_tracker_L1
+HARDWARE: NRF52840 64MHz, 243KB RAM, 796KB Flash
+DEBUG: Current (jlink) External (blackmagic, cmsis-dap, jlink, stlink)
+PACKAGES: 
+ - framework-arduinoadafruitnrf52 @ 1.10601.0+sha.9ddcbc9 
+ - framework-cmsis @ 2.50700.210515 (5.7.0) 
+ - tool-adafruit-nrfutil @ 1.503.0 (5.3) 
+ - tool-sreccat @ 1.164.0 (1.64) 
+ - toolchain-gccarmnoneeabi @ 1.90301.200702 (9.3.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+[nanopb] No generation needed.
+Found 76 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- GFX_Root @ 2.0.0
+|-- ESP8266 and ESP32 OLED driver for SSD1306 displays @ 4.4.1
+|-- OneButton @ 2.6.1
+|-- arduino-fsm @ 2.2.0
+|-- TinyGPSPlus @ 1.0.3
+|-- ArduinoThread @ 0.0.0+20261012071009
+|-- Nanopb @ 0.4.9+1
+|-- ErriezCRC32 @ 1.0.1
+|-- NonBlockingRTTTL @ 1.4.0
+|-- RadioLib @ 7.6.0
+|-- Crypto @ 0.4.0
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- Adafruit GFX Library @ 1.12.6
+|-- Adafruit NeoPixel @ 1.15.5
+|-- Adafruit SSD1306 @ 2.5.17
+|-- Adafruit BMP280 Library @ 3.0.0
+|-- Adafruit BMP085 Library @ 1.2.4
+|-- Adafruit BME280 Library @ 2.3.0
+|-- Adafruit DPS310 @ 1.1.6
+|-- Adafruit SH110X @ 2.1.14
+|-- Adafruit MCP9808 Library @ 2.0.2
+|-- Adafruit INA260 Library @ 1.5.3
+|-- Adafruit INA219 @ 1.2.3
+|-- Adafruit MPU6050 @ 2.2.9
+|-- Adafruit LIS3DH @ 1.3.0
+|-- Adafruit AHTX0 @ 2.0.6
+|-- Adafruit LSM6DS @ 4.7.4
+|-- Adafruit TSL2591 Library @ 1.4.5
+|-- EmotiBit MLX90632 @ 1.0.8
+|-- Adafruit MLX90614 Library @ 2.1.6
+|-- INA3221 @ 1.0.1
+|-- QMC5883LCompass @ 1.2.3
+|-- DFRobot_RTU @ 1.0.6
+|-- DFRobot_RainfallSensor @ 1.0.0
+|-- INA226 @ 0.6.6
+|-- SparkFun MAX3010x Pulse and Proximity Sensor Library @ 1.1.2
+|-- SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library @ 1.3.2
+|-- ICM42670P @ 1.0.8
+|-- Adafruit LTR390 Library @ 1.1.2
+|-- Adafruit PCT2075 @ 1.0.6
+|-- DFRobot_BMM150 @ 1.0.0
+|-- SparkFun MMC5983MA Magnetometer Arduino Library @ 1.1.5
+|-- Adafruit TSL2561 @ 1.1.3
+|-- BH1750_WE @ 1.1.10
+|-- Adafruit SHTC3 Library @ 1.0.2
+|-- Adafruit BMP3XX Library @ 2.1.6
+|-- Adafruit MAX1704X @ 1.0.3
+|-- Adafruit LPS2X @ 2.0.6
+|-- Adafruit SHT31 Library @ 2.2.2
+|-- Adafruit VEML7700 Library @ 2.1.6
+|-- Adafruit SHT4x Library @ 1.0.5
+|-- SparkFun Qwiic Scale NAU7802 Arduino Library @ 1.0.6
+|-- ClosedCube OPT3001 @ 1.1.2
+|-- DFRobot_LarkWeatherStation @ 1.0.0
+|-- Sensirion Core @ 0.7.3
+|-- Sensirion I2C SCD4x @ 1.1.0
+|-- Sensirion I2C SFA3x @ 1.0.0
+|-- Sensirion I2C SCD30 @ 1.1.1
+|-- bsec2 @ 1.10.2610
+|-- BME68x Sensor library @ 1.3.40408
+|-- Adafruit nRFCrypto @ 0.0.5
+|-- SPI @ 1.0
+|-- SoftwareSerial @ 1.0.0
+|-- Wire @ 1.0
+|-- Rotary Encoder @ 0.8.0
+|-- Adafruit Bluefruit nRF52 Libraries @ 0.21.0
+|-- Adafruit TinyUSB Library
+|-- Adafruit Internal File System on Bluefruit nRF52 @ 0.11.0
+Building in release mode
+Using meshtastic platformio-custom.py, firmware version 2.7.26.54e0d8d on seeed_wio_tracker_L1_eink-inkhud
+Using flags:
+-DAPP_VERSION=2.7.26.54e0d8d
+-DAPP_VERSION_SHORT=2.7.26
+-DAPP_ENV=seeed_wio_tracker_L1_eink-inkhud
+-DAPP_REPO=meshtastic/firmware
+-DBUILD_EPOCH=1791756000
+-DUSERPREFS_RINGTONE_RTTTL=\"24:d=32,o=5,b=565:f6,p,f6,4p,p,f6,p,f6,2p,p,b6,p,b6,p,b6,p,b6,p,b,p,b,p,b,p,b,p,b,p,b,p,b,p,b,1p.,2p.,p\"
+-DUSERPREFS_TZ_STRING=\"tzplaceholder                                         \"
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_TinyUSB_API.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBD_CDC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBD_Device.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBD_Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBH_Host.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\cdc\Adafruit_USBH_CDC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\hid\Adafruit_USBD_HID.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\midi\Adafruit_USBD_MIDI.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\msc\Adafruit_USBD_MSC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\msc\Adafruit_USBH_MSC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\esp32\Adafruit_TinyUSB_esp32.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\nrf\Adafruit_TinyUSB_nrf.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\rp2040\Adafruit_TinyUSB_rp2040.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\samd\Adafruit_TinyUSB_samd.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\video\Adafruit_USBD_Video.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\arduino\webusb\Adafruit_USBD_WebUSB.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\audio\audio_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\bth\bth_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\cdc\cdc_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\cdc\cdc_host.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\dfu\dfu_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\dfu\dfu_rt_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\hid\hid_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\hid\hid_host.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\midi\midi_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\msc\msc_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\msc\msc_host.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\net\ecm_rndis_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\net\ncm_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\usbtmc\usbtmc_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\vendor\vendor_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\class\video\video_device.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\common\tusb_fifo.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\device\usbd.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\device\usbd_control.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\host\hub.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\host\usbh.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\portable\analog\max3421\hcd_max3421.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\portable\microchip\samd\dcd_samd.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\portable\nordic\nrf5x\dcd_nrf5x.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\pio_usb\dcd_pio_usb.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\pio_usb\hcd_pio_usb.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\rp2040\dcd_rp2040.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\rp2040\hcd_rp2040.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\rp2040\rp2040_usb.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\portable\synopsys\dwc2\dcd_dwc2.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib304\Adafruit_TinyUSB_Arduino\tusb.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1e6\Adafruit nRFCrypto\Adafruit_nRFCrypto.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1e6\Adafruit nRFCrypto\ecc\nRFCrypto_ECC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1e6\Adafruit nRFCrypto\ecc\nRFCrypto_ECC_PrivateKey.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1e6\Adafruit nRFCrypto\ecc\nRFCrypto_ECC_PublicKey.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1e6\Adafruit nRFCrypto\nRFCrypto_AES.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1e6\Adafruit nRFCrypto\nRFCrypto_Chacha.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1e6\Adafruit nRFCrypto\nRFCrypto_Hash.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1e6\Adafruit nRFCrypto\nRFCrypto_Random.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\variants\nrf52840\seeed_wio_tracker_L1_eink\variant.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\BluetoothCommon.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\DebugConfiguration.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\DisplayFormatters.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\FSCommon.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\Fusion\FusionAhrs.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\Fusion\FusionCompass.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\Fusion\FusionOffset.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\GpioLogic.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\MessageStore.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\Observer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\Power.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\PowerFSM.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\PowerMon.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\RedirectablePrint.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\SPILock.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\SafeFile.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\SerialConsole.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\airtime.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\buzz\BuzzerFeedbackThread.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\buzz\buzz.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\concurrency\BinarySemaphoreFreeRTOS.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\concurrency\BinarySemaphorePosix.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\concurrency\InterruptableDelay.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\concurrency\Lock.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\concurrency\LockGuard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\concurrency\NotifiedWorkerThread.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\concurrency\OSThread.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\detect\ScanI2C.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\detect\ScanI2CConsumer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\detect\ScanI2CTwoWire.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\detect\reClockI2C.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\gps\GPS.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\gps\GPSUpdateScheduling.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\gps\GeoCoord.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\gps\NMEAWPL.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\gps\RTC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\EInkDisplay2.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\EInkDynamicDisplay.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\EInkParallelDisplay.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\EmoteRenderer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\Panel_sdl.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\Screen.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\ScreenGlobals.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\SharedUIDisplay.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\TFTDisplay.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\TimeFormatters.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\VirtualKeyboard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\draw\ClockRenderer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\draw\CompassRenderer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\draw\DebugRenderer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\draw\MenuHandler.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\draw\MessageRenderer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\draw\NodeListRenderer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\draw\NotificationRenderer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\draw\UIRenderer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\emotes.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\fonts\EinkDisplayFonts.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\fonts\OLEDDisplayFontsCS.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\fonts\OLEDDisplayFontsGR.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\fonts\OLEDDisplayFontsPL.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\fonts\OLEDDisplayFontsRU.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\fonts\OLEDDisplayFontsUA.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\Backlight\LatchingBacklight.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\DEPG0213BNS800.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\DEPG0290BNS800.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\E0213A367.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\ED047TC1.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\EInk.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\GDEW0102T4.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\GDEY0154D67.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\GDEY0213B74.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\HINK_E0213A289.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\HINK_E042A87.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\LCMEN2R13ECC1.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\LCMEN2R13EFC1.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\SSD1682.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\SSD16XX.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\UC8175.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\ZJY122250_0213BAAMFGN.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Drivers\EInk\ZJY128296_029EAAMFGN.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\AppletFont.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\Bases\Map\MapApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\Bases\NodeList\NodeListApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\Examples\BasicExample\BasicExampleApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\Examples\NewMsgExample\NewMsgExampleApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\Examples\UserAppletInputExample\UserAppletInputExample.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\System\AlignStick\AlignStickApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\System\BatteryIcon\BatteryIconApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\System\Keyboard\KeyboardApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\System\Logo\LogoApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\System\Menu\MenuApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\System\Notification\NotificationApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\System\Pairing\PairingApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\System\Placeholder\PlaceholderApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\System\Tips\TipsApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\User\AllMessage\AllMessageApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\User\DM\DMApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\User\FavoritesMap\FavoritesMapApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\User\Heard\HeardApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\User\Positions\PositionsApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\User\RecentsList\RecentsListApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Applets\User\ThreadedMessage\ThreadedMessageApplet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\DisplayHealth.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Events.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\InkHUD.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\MessageStore.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Persistence.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Renderer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\Tile.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\InkHUD\WindowManager.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Inputs\TwoButton.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Inputs\TwoButtonExtended.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\niche\Utils\CannedMessageStore.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\graphics\tftSetup.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\BBQ10Keyboard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\ButtonThread.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\CardputerKeyboard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\ExpressLRSFiveWay.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\HackadayCommunicatorKeyboard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\HapticFeedback.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\InputBroker.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\LinuxInput.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\LinuxInputImpl.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\MPR121Keyboard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\RotaryEncoderImpl.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\RotaryEncoderInterruptBase.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\RotaryEncoderInterruptImpl1.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\SeesawRotary.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\SerialKeyboard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\SerialKeyboardImpl.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\TCA8418Keyboard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\TCA8418KeyboardBase.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\TDeckProKeyboard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\TLoraPagerKeyboard.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\TouchScreenBase.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\TouchScreenImpl1.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\TrackballInterruptBase.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\TrackballInterruptImpl1.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\UpDownInterruptBase.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\UpDownInterruptImpl1.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\cardKbI2cImpl.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\i2cButton.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\kbI2cBase.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\kbMatrixBase.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\input\kbMatrixImpl.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\main.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\memGet.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\meshUtils.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\Channels.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\CryptoEngine.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\Default.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\FloodingRouter.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\HardwareRNG.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\InterfacesTemplates.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\LLCC68Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\LR1110Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\LR1120Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\LR1121Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\LR11x0Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\LR20x0Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\LoRaFEMInterface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\MeshModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\MeshPacketQueue.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\MeshService.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\NextHopRouter.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\NodeDB.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\PacketCache.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\PacketHistory.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\PhoneAPI.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\PositionPrecision.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\ProtobufModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\RF95Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\RadioInterface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\RadioLibInterface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\RadioLibRF95.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\ReliableRouter.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\Router.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\STM32WLE5JCInterface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\SX1262Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\SX1268Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\SX126xInterface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\SX1280Interface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\SX128xInterface.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\StreamAPI.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\Throttle.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\TransmitHistory.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\TypeConversions.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\aes-ccm.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\compression\unishox2.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\admin.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\apponly.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\atak.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\cannedmessages.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\channel.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\clientonly.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\config.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\connection_status.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\device_ui.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\deviceonly.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\interdevice.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\localonly.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\mesh.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\module_config.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\mqtt.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\paxcount.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\portnums.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\powermon.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\remote_hardware.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\rtttl.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\serial_hal.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\storeforward.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\telemetry.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\generated\meshtastic\xmodem.pb.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mesh\mesh-pb-constants.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\AdminModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\AtakPluginModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\CannedMessageModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\DetectionSensorModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\DropzoneModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\ExternalNotificationModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\GenericThreadModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\KeyVerificationModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Modules.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\NeighborInfoModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\NodeInfoModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\OnScreenKeyboardModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\PositionModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\PowerStressModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\RangeTestModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\RemoteHardwareModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\ReplyBotModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\ReplyModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\RoutingModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\SerialModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\StatusLEDModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\StatusMessageModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\StoreForwardModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\SystemCommandsModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\AirQualityTelemetry.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\DeviceTelemetry.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\EnvironmentTelemetry.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\HealthTelemetry.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\HostMetrics.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\PowerTelemetry.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\AHT10.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\BH1750Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\BME280Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\BME680Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\BMP085Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\BMP280Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\BMP3XXSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\CGRadSensSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\DFRobotGravitySensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\DFRobotLarkSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\DPS310Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\INA219Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\INA226Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\INA260Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\INA3221Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\IndicatorSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\LPS22HBSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\LTR390UVSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\MAX17048Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\MAX30102Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\MCP9808Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\MLX90614Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\MLX90632Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\NAU7802Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\OPT3001Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\PCT2075Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\PMSA003ISensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\RAK12035Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\RAK9154Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\RCWL9620Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\SCD30Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\SCD4XSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\SEN5XSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\SFA30Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\SHT31Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\SHT4XSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\SHTC3Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\T1000xSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\TSL2561Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\TSL2591Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\TelemetrySensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\VEML7700Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\Sensor\nullSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\Telemetry\UnitConversions.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\TextMessageModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\TraceRouteModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\modules\WaypointModule.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\BMA423Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\BMI270Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\BMM150Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\BMX160Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\ICM20948Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\ICM42607PSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\LIS3DHSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\LSM6DS3Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\MMC5983MASensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\MPU6050Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\MotionSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\QMA6100PSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\motion\STK8XXXSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mqtt\MQTT.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\mqtt\ServiceEnvelope.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\network-stubs.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\extra_variants\heltec_wireless_tracker\variant.cpp.o
+src/motion/ICM42607PSensor.cpp: In member function 'virtual int32_t ICM42607PSensor::runOnce()':
+src/motion/ICM42607PSensor.cpp:74:13: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+   74 |     int16_t x = 0;
+      |             ^
+src/motion/ICM42607PSensor.cpp:75:13: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+   75 |     int16_t y = 0;
+      |             ^
+src/motion/ICM42607PSensor.cpp:76:13: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+   76 |     int16_t z = 0;
+      |             ^
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\extra_variants\m5stack_cardputer_adv\variant.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\extra_variants\t_deck_pro\variant.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\extra_variants\t_lora_pager\variant.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\extra_variants\tbeam_displayshield\variant.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\AsyncUDP.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\BLEDfuSecure.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\NRF52Bluetooth.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\NRF52CryptoEngine.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\Nrf52SaadcLock.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\aes-256\tiny-aes.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\alloc.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\hardfault.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\main-bare.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\platform\nrf52\main-nrf52.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\power\PowerHAL.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\power\SGM41562.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\sleep.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\watchdog\watchdogThread.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\src\xmodem.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib3cc\GFX_Root\GFX.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib3cc\GFX_Root\GFX_Root.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib3cc\GFX_Root\glcdfont.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib738\Wire\Wire_nRF52.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\liba76\SPI\SPI.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\liba76\SPI\SPI_nrf52832.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libffa\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplay.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib3cc\libGFX_Root.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libffa\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplayFonts.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libffa\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplayUi.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib4c3\OneButton\OneButton.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib4c3\OneButton\OneButtonTiny.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib738\libWire.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf6b\arduino-fsm\Fsm.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib80b\TinyGPSPlus\TinyGPS++.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\liba76\libSPI.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib944\ArduinoThread\Thread.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib944\ArduinoThread\ThreadController.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1f4\Nanopb\pb_common.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1f4\Nanopb\pb_decode.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1f4\Nanopb\pb_encode.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf41\ErriezCRC32\ErriezCRC32.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib704\NonBlockingRTTTL\NonBlockingRtttl.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libffa\libESP8266 and ESP32 OLED driver for SSD1306 displays.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf6b\libarduino-fsm.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf41\libErriezCRC32.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\Hal.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib80b\libTinyGPSPlus.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\Module.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\hal\Arduino\ArduinoHal.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\hal\RPiPico\PicoHal.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib4c3\libOneButton.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\CC1101\CC1101.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1f4\libNanopb.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR11x0\LR1110.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR11x0\LR1120.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib944\libArduinoThread.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR11x0\LR1121.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR11x0\LR11x0.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR11x0\LR11x0_commands.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR11x0\LR11x0_crypto.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR11x0\LR11x0_gnss.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib704\libNonBlockingRTTTL.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR11x0\LR11x0_wifi.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR11x0\LR_common.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_cmds_chip_control.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_cmds_flrc.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_cmds_gfsk.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_cmds_lora.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_cmds_misc.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_cmds_ook.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_cmds_oqpsk.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_cmds_radio.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_cmds_ranging.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\LR2021\LR2021_config.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX123x\SX1231.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX123x\SX1233.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX126x\SX1261.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX126x\SX126x_LR_FHSS.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX126x\SX126x_commands.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX126x\SX126x_config.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\ADSB\ADSB.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\BellModem\BellModem.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\LoRaWAN\LoRaWAN.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\LoRaWAN\LoRaWANBands.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\Print\ITA2String.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\Print\Print.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\utils\CRC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\utils\Cryptography.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\utils\FEC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\RadioLib\utils\Utils.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\AES128.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\AES192.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\AES256.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\AESCommon.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\AESEsp32.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\AuthenticatedCipher.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\BLAKE2b.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\BLAKE2s.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\BigNumberUtil.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\BlockCipher.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\CTR.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\ChaCha.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\ChaChaPoly.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\Cipher.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\Crypto.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\Curve25519.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\EAX.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\Ed25519.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\GCM.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\GF128.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\GHASH.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\HKDF.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\Hash.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\KeccakCore.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib366\libRadioLib.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\NoiseSource.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\OMAC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\P521.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\Poly1305.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\RNG.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\SHA224.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\SHA256.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\SHA3.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\SHA384.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\SHA512.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\SHAKE.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\XOF.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\Crypto\XTS.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib69d\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib69d\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib69d\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib69d\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib834\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libef8\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libef8\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libef8\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libef8\Adafruit GFX Library\glcdfont.c.o
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\Crypto\RNG.cpp:63:2: warning: #warning "no hardware random number source detected for this platform" [-Wcpp]
+   63 | #warning "no hardware random number source detected for this platform"
+      |  ^~~~~~~
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib05e\Adafruit NeoPixel\Adafruit_NeoPixel.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib05e\Adafruit NeoPixel\Adafruit_Neopixel_RP2.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib05e\Adafruit NeoPixel\esp.c.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libcf1\libCrypto.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib05e\Adafruit NeoPixel\esp8266.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib05e\Adafruit NeoPixel\kendyte_k210.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib05e\Adafruit NeoPixel\psoc6.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib15c\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib210\Adafruit BMP280 Library\Adafruit_BMP280.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib69d\libAdafruit BusIO.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib834\libAdafruit Unified Sensor.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libb88\Adafruit BMP085 Library\Adafruit_BMP085.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib9e2\Adafruit BME280 Library\Adafruit_BME280.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib647\Adafruit DPS310\Adafruit_DPS310.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib20b\Adafruit SH110X\Adafruit_SH1106G.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib20b\Adafruit SH110X\Adafruit_SH1107.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib20b\Adafruit SH110X\Adafruit_SH110X.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf43\Adafruit MCP9808 Library\Adafruit_MCP9808.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib54e\Adafruit INA260 Library\Adafruit_INA260.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libef8\libAdafruit GFX Library.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib05e\libAdafruit NeoPixel.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1b2\Adafruit INA219\Adafruit_INA219.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib5a3\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib15c\libAdafruit SSD1306.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib210\libAdafruit BMP280 Library.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libb88\libAdafruit BMP085 Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libba7\Adafruit LIS3DH\Adafruit_LIS3DH.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libd31\Adafruit AHTX0\Adafruit_AHTX0.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib415\Adafruit LSM6DS\Adafruit_ISM330DHCX.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib9e2\libAdafruit BME280 Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib415\Adafruit LSM6DS\Adafruit_LSM6DS.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib647\libAdafruit DPS310.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib415\Adafruit LSM6DS\Adafruit_LSM6DS3.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf43\libAdafruit MCP9808 Library.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib54e\libAdafruit INA260 Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib415\Adafruit LSM6DS\Adafruit_LSM6DS33.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib415\Adafruit LSM6DS\Adafruit_LSM6DS3TRC.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib415\Adafruit LSM6DS\Adafruit_LSM6DSL.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib20b\libAdafruit SH110X.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib415\Adafruit LSM6DS\Adafruit_LSM6DSO32.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib415\Adafruit LSM6DS\Adafruit_LSM6DSOX.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib5a3\libAdafruit MPU6050.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1b2\libAdafruit INA219.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib418\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib01c\EmotiBit MLX90632\SparkFun_MLX90632_Arduino_Library.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libba7\libAdafruit LIS3DH.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib3f8\Adafruit MLX90614 Library\Adafruit_MLX90614.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libd31\libAdafruit AHTX0.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib9c2\INA3221\INA3221.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib205\QMC5883LCompass\QMC5883LCompass.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libb4d\DFRobot_RTU\DFRobot_RTU.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib4be\DFRobot_RainfallSensor\DFRobot_RainfallSensor.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib703\INA226\INA226.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib912\SparkFun MAX3010x Pulse and Proximity Sensor Library\MAX30105.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib912\SparkFun MAX3010x Pulse and Proximity Sensor Library\heartRate.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib912\SparkFun MAX3010x Pulse and Proximity Sensor Library\spo2_algorithm.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib415\libAdafruit LSM6DS.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib144\SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library\ICM_20948.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib01c\libEmotiBit MLX90632.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib418\libAdafruit TSL2591 Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib144\SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library\util\ICM_20948_C.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libd8f\ICM42670P\ICM42670P.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib3f8\libAdafruit MLX90614 Library.a
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::reset()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:88:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   88 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libb4d\libDFRobot_RTU.a
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:90:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   90 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setModePowerDown()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:96:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   96 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:99:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   99 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setModeContinious()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:105:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  105 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:107:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  107 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setModeTriggered()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:113:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  113 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:115:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  115 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntMeasEnable()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:121:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  121 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:123:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  123 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntMeasDisable()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:129:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  129 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:131:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  131 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setBusMeasEnable()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:137:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  137 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:139:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  139 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setBusMeasDisable()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:145:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  145 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:147:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  147 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setAveragingMode(ina3221_avg_mode_t)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:153:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  153 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:155:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  155 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setBusConversionTime(ina3221_conv_time_t)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:161:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  161 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:163:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  163 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntConversionTime(ina3221_conv_time_t)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:169:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  169 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:171:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  171 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setWarnAlertLatchEnable()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:197:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  197 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:199:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  199 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setWarnAlertLatchDisable()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:206:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  206 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:208:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  208 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCritAlertLatchEnable()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:215:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  215 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:217:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  217 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCritAlertLatchDisable()':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:224:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  224 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:226:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  226 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setChannelEnable(ina3221_ch_t)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:265:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  265 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:279:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  279 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setChannelDisable(ina3221_ch_t)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:285:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  285 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:299:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  299 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCurrentSumEnable(ina3221_ch_t)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:359:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  359 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:373:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  373 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCurrentSumDisable(ina3221_ch_t)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:380:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  380 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:394:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  394 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libd8f\ICM42670P\imu\inv_imu_apex.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libd8f\ICM42670P\imu\inv_imu_driver.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libd8f\ICM42670P\imu\inv_imu_selftest.c.o
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::begin(TwoWire*)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:59:17: warning: array subscript 1 is above array bounds of 'float [1]' [-Warray-bounds]
+   59 |     _filterRes[1] = 0;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:60:17: warning: array subscript 2 is above array bounds of 'float [1]' [-Warray-bounds]
+   60 |     _filterRes[2] = 0;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntRes(float, float, float)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:68:16: warning: array subscript 1 is above array bounds of 'float [1]' [-Warray-bounds]
+   68 |     _shuntRes[1] = res_ch2;
+      |     ~~~~~~~~~~~^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:69:16: warning: array subscript 2 is above array bounds of 'float [1]' [-Warray-bounds]
+   69 |     _shuntRes[2] = res_ch3;
+      |     ~~~~~~~~~~~^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp: In member function 'void INA3221::setFilterRes(float, float, float)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:75:17: warning: array subscript 1 is above array bounds of 'float [1]' [-Warray-bounds]
+   75 |     _filterRes[1] = res_ch2;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\INA3221\src\INA3221.cpp:76:17: warning: array subscript 2 is above array bounds of 'float [1]' [-Warray-bounds]
+   76 |     _filterRes[2] = res_ch3;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\SparkFun MAX3010x Pulse and Proximity Sensor Library\src\heartRate.cpp: In function 'bool checkForBeat(int32_t)':
+.pio\libdeps\seeed_wio_tracker_L1_eink-inkhud\SparkFun MAX3010x Pulse and Proximity Sensor Library\src\heartRate.cpp:108:33: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  108 |     if ((IR_AC_Max - IR_AC_Min) > 20 & (IR_AC_Max - IR_AC_Min) < 1000)
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libd8f\ICM42670P\imu\inv_imu_transport.c.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib703\libINA226.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib4be\libDFRobot_RainfallSensor.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libd8f\ICM42670P\inv_time.c.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib912\libSparkFun MAX3010x Pulse and Proximity Sensor Library.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib9c2\libINA3221.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libb2f\Adafruit LTR390 Library\Adafruit_LTR390.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib77f\Adafruit PCT2075\Adafruit_PCT2075.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libe59\DFRobot_BMM150\DFRobot_BMM150.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib205\libQMC5883LCompass.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib063\SparkFun MMC5983MA Magnetometer Arduino Library\SparkFun_MMC5983MA_Arduino_Library.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib063\SparkFun MMC5983MA Magnetometer Arduino Library\SparkFun_MMC5983MA_IO.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib53b\Adafruit TSL2561\Adafruit_TSL2561_U.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf38\BH1750_WE\BH1750_WE.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2ff\Adafruit SHTC3 Library\Adafruit_SHTC3.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1d4\Adafruit BMP3XX Library\Adafruit_BMP3XX.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib144\libSparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1d4\Adafruit BMP3XX Library\bmp3.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\liba25\Adafruit MAX1704X\Adafruit_MAX1704X.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libd8f\libICM42670P.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libfe5\Adafruit LPS2X\Adafruit_LPS22.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libfe5\Adafruit LPS2X\Adafruit_LPS25.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libe59\libDFRobot_BMM150.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf38\libBH1750_WE.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libb2f\libAdafruit LTR390 Library.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib77f\libAdafruit PCT2075.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libfe5\Adafruit LPS2X\Adafruit_LPS2X.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf13\Adafruit SHT31 Library\Adafruit_SHT31.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib9ad\Adafruit VEML7700 Library\Adafruit_VEML7700.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib59a\Adafruit SHT4x Library\Adafruit_SHT4x.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib53b\libAdafruit TSL2561.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib5e6\SparkFun Qwiic Scale NAU7802 Arduino Library\SparkFun_Qwiic_Scale_NAU7802_Arduino_Library.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib1d4\libAdafruit BMP3XX Library.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib063\libSparkFun MMC5983MA Magnetometer Arduino Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libe2a\ClosedCube OPT3001\ClosedCube_OPT3001.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2ff\libAdafruit SHTC3 Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libddc\SoftwareSerial\SoftwareSerial.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib550\DFRobot_LarkWeatherStation\DFRobot_LarkWeatherStation.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib419\Sensirion Core\SensirionCrc.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\liba25\libAdafruit MAX1704X.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib419\Sensirion Core\SensirionErrors.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib419\Sensirion Core\SensirionI2CCommunication.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib419\Sensirion Core\SensirionI2CTxFrame.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libfe5\libAdafruit LPS2X.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib419\Sensirion Core\SensirionRxFrame.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf13\libAdafruit SHT31 Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib419\Sensirion Core\SensirionShdlcCommunication.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib5e6\libSparkFun Qwiic Scale NAU7802 Arduino Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib419\Sensirion Core\SensirionShdlcTxFrame.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib727\Sensirion I2C SCD4x\SensirionI2cScd4x.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib9ad\libAdafruit VEML7700 Library.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib59a\libAdafruit SHT4x Library.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib39d\Sensirion I2C SFA3x\SensirionI2cSfa3x.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libb34\Sensirion I2C SCD30\SensirionI2cScd30.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libe4a\BME68x Sensor library\bme68xLibrary.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libe4a\BME68x Sensor library\bme68x\bme68x.c.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libe2a\libClosedCube OPT3001.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf49\bsec2\bsec2.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libddc\libSoftwareSerial.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib550\libDFRobot_LarkWeatherStation.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf49\bsec2\commMux\commMux.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib603\RotaryEncoder\RotaryEncoder.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib603\RotaryEncoder\SwRotaryEncoder.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib158\InternalFileSytem\InternalFileSystem.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib158\InternalFileSytem\flash\flash_cache.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib158\InternalFileSytem\flash\flash_nrf5x.c.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib419\libSensirion Core.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib727\libSensirion I2C SCD4x.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib46d\Adafruit_LittleFS\Adafruit_LittleFS.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib46d\Adafruit_LittleFS\Adafruit_LittleFS_File.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib46d\Adafruit_LittleFS\littlefs\lfs.c.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib39d\libSensirion I2C SFA3x.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib46d\Adafruit_LittleFS\littlefs\lfs_util.c.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libe4a\libBME68x Sensor library.a
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libb34\libSensirion I2C SCD30.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEAdvertising.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLECentral.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLECharacteristic.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib158\libInternalFileSytem.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEClientCharacteristic.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEClientService.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEConnection.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib603\libRotaryEncoder.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEDiscovery.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEGatt.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libf49\libbsec2.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEPeriph.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEScanner.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLESecurity.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib46d\libAdafruit_LittleFS.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEService.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\BLEUuid.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\bluefruit.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\clients\BLEAncs.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\clients\BLEClientBas.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\clients\BLEClientCts.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\clients\BLEClientDis.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\clients\BLEClientHidAdafruit.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\clients\BLEClientIas.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\clients\BLEClientUart.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEBas.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEBeacon.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEDfu.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEDis.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEHidAdafruit.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEHidGamepad.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEHidGeneric.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEIas.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEMidi.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\BLEUart.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\services\EddyStone.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\utility\AdaMsg.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\utility\bonding.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\Bluefruit52Lib\utility\bootloader_util.c.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libFrameworkArduinoVariant.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\HardwarePWM.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\RingBuffer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\Uart.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\WInterrupts.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\abi.cpp.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\lib2c8\libBluefruit52Lib.a
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\avr\dtostrf.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\delay.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\Source\croutine.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\Source\event_groups.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\Source\list.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\Source\portable\MemMang\heap_3.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\Source\queue.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\Source\stream_buffer.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\Source\tasks.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\Source\timers.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\portable\CMSIS\nrf52\port_cmsis.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\portable\CMSIS\nrf52\port_cmsis_systick.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\freertos\portable\GCC\nrf52\port.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\hooks.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\itoa.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\linker\gcc_startup_nrf52.S.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\linker\gcc_startup_nrf52833.S.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\linker\gcc_startup_nrf52840.S.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\main.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\new.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_gpiote.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_power.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_pwm.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_qspi.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_spim.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_spis.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_temp.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_timer.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_wdt.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\mdk\system_nrf52.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\mdk\system_nrf52833.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\nordic\nrfx\mdk\system_nrf52840.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\pulse.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\pulse_asm.S.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\rtos.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\sysview\Config\SEGGER_SYSVIEW_Config_FreeRTOS.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\sysview\SEGGER\SEGGER_RTT.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\sysview\SEGGER\SEGGER_RTT_ASM_ARMv7M.S.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\sysview\SEGGER\SEGGER_RTT_printf.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\sysview\SEGGER\SEGGER_SYSVIEW.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\sysview\SEGGER_SYSVIEW_FreeRTOS.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\utility\AdaCallback.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\utility\SoftwareTimer.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\utility\adafruit_fifo.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\utility\debug.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\utility\utilities.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\wiring.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\wiring_analog.cpp.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\wiring_analog_nRF52.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\wiring_digital.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\wiring_private.c.o
+Compiling .pio\build\seeed_wio_tracker_L1_eink-inkhud\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\seeed_wio_tracker_L1_eink-inkhud\libFrameworkArduino.a
+Linking .pio\build\seeed_wio_tracker_L1_eink-inkhud\firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.elf
+Building .pio\build\seeed_wio_tracker_L1_eink-inkhud\firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.hex
+Checking size .pio\build\seeed_wio_tracker_L1_eink-inkhud\firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [====      ]  37.5% (used 93244 bytes from 248832 bytes)
+Flash: [========  ]  83.6% (used 681288 bytes from 815104 bytes)
+nrf52_hex_to_uf2([".pio\build\seeed_wio_tracker_L1_eink-inkhud\firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.hex"], [".pio\build\seeed_wio_tracker_L1_eink-inkhud\firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.elf"])
+Generating UF2 file from firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.hex
+Converting to uf2, output size: 1362944, start address: 0x27000
+Wrote 1362944 bytes to C:\fwbuild\meshtastic\.pio\build\seeed_wio_tracker_L1_eink-inkhud\firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.uf2
+Building .pio\build\seeed_wio_tracker_L1_eink-inkhud\firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.zip
+Zip created at .pio\build\seeed_wio_tracker_L1_eink-inkhud\firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.zip
+manifest_gather(["mtjson"], ["buildprog"])
+{'name': 'firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.elf', 'md5': '1312e456e8f2a9c4d27c0dff19e5d0c6', 'bytes': 1296688}
+{'name': 'firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.hex', 'md5': '0cb9894a76ad346d4b1a5e16b54a76c1', 'bytes': 1916350}
+{'name': 'firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d.uf2', 'md5': '04a23164bf1bfc4cd0fdc4e6a6fde418', 'bytes': 1362944}
+{'name': 'firmware-seeed_wio_tracker_L1_eink-inkhud-2.7.26.54e0d8d-ota.zip', 'md5': '4cd652569676a373fec2f373375ceb7e', 'bytes': 682396}
+======================== [SUCCESS] Took 2205.43 seconds ========================
+
+Environment                       Status    Duration
+--------------------------------  --------  ------------
+seeed_wio_tracker_L1_eink-inkhud  SUCCESS   00:36:45.427
+========================= 1 succeeded in 00:36:45.427 =========================

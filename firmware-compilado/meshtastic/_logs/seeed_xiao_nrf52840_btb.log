@@ -1,0 +1,1429 @@
+Processing seeed_xiao_nrf52840_btb (board: xiao_ble_sense; platform: 
+platformio/nordicnrf52@10.11.0; framework: arduino)
+--------------------------------------------------------------------------------
+Platform Manager: Installing platformio/nordicnrf52 @ 10.11.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Platform Manager: nordicnrf52@10.11.0 has been installed!
+Tool Manager: Installing platformio/toolchain-gccarmnoneeabi @ ~1.90301.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: toolchain-gccarmnoneeabi@1.90301.200702 has been installed!
+Tool Manager: Installing git+https://github.com/meshtastic/Adafruit_nRF52_Arduino#cpp17-platform
+git version 2.56.0.windows.1
+Cloning into 'C:\Users\anatol.lopez\.platformio\.cache\tmp\pkg-installing-fx2zsb_a'...
+Updating files:  32% (255/779)Updating files:  33% (258/779)Updating files:  34% (265/779)Updating files:  35% (273/779)Updating files:  36% (281/779)Updating files:  37% (289/779)Updating files:  38% (297/779)Updating files:  39% (304/779)Updating files:  40% (312/779)Updating files:  41% (320/779)Updating files:  42% (328/779)Updating files:  43% (335/779)Updating files:  44% (343/779)Updating files:  45% (351/779)Updating files:  46% (359/779)Updating files:  47% (367/779)Updating files:  48% (374/779)Updating files:  49% (382/779)Updating files:  50% (390/779)Updating files:  51% (398/779)Updating files:  52% (406/779)Updating files:  53% (413/779)Updating files:  54% (421/779)Updating files:  55% (429/779)Updating files:  56% (437/779)Updating files:  57% (445/779)Updating files:  58% (452/779)Updating files:  59% (460/779)Updating files:  60% (468/779)Updating files:  61% (476/779)Updating files:  62% (483/779)Updating files:  63% (491/779)Updating files:  64% (499/779)Updating files:  65% (507/779)Updating files:  66% (515/779)Updating files:  67% (522/779)Updating files:  68% (530/779)Updating files:  68% (532/779)Updating files:  69% (538/779)Updating files:  70% (546/779)Updating files:  71% (554/779)Updating files:  72% (561/779)Updating files:  73% (569/779)Updating files:  74% (577/779)Updating files:  75% (585/779)Updating files:  76% (593/779)Updating files:  77% (600/779)Updating files:  78% (608/779)Updating files:  79% (616/779)Updating files:  80% (624/779)Updating files:  81% (631/779)Updating files:  82% (639/779)Updating files:  83% (647/779)Updating files:  84% (655/779)Updating files:  85% (663/779)Updating files:  86% (670/779)Updating files:  87% (678/779)Updating files:  88% (686/779)Updating files:  89% (694/779)Updating files:  90% (702/779)Updating files:  91% (709/779)Updating files:  92% (717/779)Updating files:  93% (725/779)Updating files:  94% (733/779)Updating files:  95% (741/779)Updating files:  95% (747/779)Updating files:  96% (748/779)Updating files:  97% (756/779)Updating files:  98% (764/779)Updating files:  99% (772/779)Updating files: 100% (779/779)Updating files: 100% (779/779), done.
+Submodule 'libraries/Adafruit_TinyUSB_Arduino' (https://github.com/adafruit/Adafruit_TinyUSB_Arduino.git) registered for path 'libraries/Adafruit_TinyUSB_Arduino'
+Submodule 'libraries/Adafruit_nRFCrypto' (https://github.com/adafruit/Adafruit_nRFCrypto.git) registered for path 'libraries/Adafruit_nRFCrypto'
+Cloning into 'C:/Users/anatol.lopez/.platformio/.cache/tmp/pkg-installing-fx2zsb_a/libraries/Adafruit_TinyUSB_Arduino'...
+Cloning into 'C:/Users/anatol.lopez/.platformio/.cache/tmp/pkg-installing-fx2zsb_a/libraries/Adafruit_nRFCrypto'...
+Submodule path 'libraries/Adafruit_TinyUSB_Arduino': checked out 'd6294767525fa16eaa4e29e118dcb6a7420a4da7'
+Submodule path 'libraries/Adafruit_nRFCrypto': checked out '2be11062ac56cf75a9a8b8ed087ad495421403f4'
+Tool Manager: framework-arduinoadafruitnrf52@1.10601.0+sha.9ddcbc9 has been installed!
+Tool Manager: Installing platformio/framework-cmsis @ ~2.50700.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: framework-cmsis@2.50700.210515 has been installed!
+Tool Manager: Installing platformio/tool-adafruit-nrfutil @ ~1.503.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: tool-adafruit-nrfutil@1.503.0 has been installed!
+Tool Manager: Installing platformio/tool-sreccat @ ~1.164.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20%
+Tool Manager: tool-sreccat@1.164.0 has been installed!
+Library Manager: Installing https://github.com/meshtastic/esp8266-oled-ssd1306/archive/2e26010040e028baee72e2093402fa7b3c59e430.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ESP8266 and ESP32 OLED driver for SSD1306 displays@4.4.1 has been installed!
+Library Manager: Installing https://github.com/meshtastic/OneButton/archive/fa352d668c53f290cfa480a5f79ad422cd828c70.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: OneButton@2.6.1 has been installed!
+Library Manager: Installing https://github.com/meshtastic/arduino-fsm/archive/7db3702bf0cfe97b783d6c72595e3f38e0b19159.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: arduino-fsm@2.2.0 has been installed!
+Library Manager: Installing https://github.com/meshtastic/TinyGPSPlus/archive/71a82db35f3b973440044c476d4bcdc673b104f4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: TinyGPSPlus@1.0.3 has been installed!
+Library Manager: Installing https://github.com/meshtastic/ArduinoThread/archive/b841b0415721f1341ea41cccfb4adccfaf951567.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ArduinoThread@0.0.0+20261012043251 has been installed!
+Library Manager: Installing https://github.com/nanopb/nanopb/archive/refs/tags/nanopb-0.4.9.1.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Nanopb@0.4.9+1 has been installed!
+Library Manager: Installing https://github.com/Erriez/ErriezCRC32/archive/refs/tags/1.0.1.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ErriezCRC32@1.0.1 has been installed!
+Library Manager: Installing https://github.com/end2endzone/NonBlockingRTTTL/archive/refs/tags/1.4.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: NonBlockingRTTTL@1.4.0 has been installed!
+Library Manager: Installing https://github.com/jgromes/RadioLib/archive/refs/tags/7.6.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: RadioLib@7.6.0 has been installed!
+Library Manager: Installing rweather/Crypto @ 0.4.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Crypto@0.4.0 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_BusIO/archive/refs/tags/1.17.4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_Sensor/archive/refs/tags/1.1.15.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit-GFX-Library/archive/refs/tags/1.12.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_NeoPixel/archive/1.15.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit NeoPixel@1.15.5 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_SSD1306/archive/2.5.17.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_BMP280_Library/archive/refs/tags/3.0.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP280 Library@3.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit-BMP085-Library/archive/refs/tags/1.2.4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP085 Library@1.2.4 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_BME280_Library/archive/refs/tags/2.3.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME280 Library@2.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_DPS310/archive/refs/tags/1.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit DPS310@1.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_SH110x/archive/refs/tags/2.1.14.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SH110X@2.1.14 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_MCP9808_Library/archive/refs/tags/2.0.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MCP9808 Library@2.0.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_INA260/archive/refs/tags/1.5.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA260 Library@1.5.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_INA219/archive/refs/tags/1.2.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA219@1.2.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_MPU6050/archive/refs/tags/2.2.9.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MPU6050@2.2.9 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_LIS3DH/archive/refs/tags/1.3.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LIS3DH@1.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_AHTX0/archive/refs/tags/2.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit AHTX0@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_LSM6DS/archive/refs/tags/4.7.4.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LSM6DS@4.7.4 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_TSL2591_Library/archive/refs/tags/1.4.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit TSL2591 Library@1.4.5 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/EmotiBit/EmotiBit_MLX90632/archive/refs/tags/v1.0.8.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: EmotiBit MLX90632@1.0.8 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit-MLX90614-Library/archive/refs/tags/2.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MLX90614 Library@2.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/sgtwilko/INA3221/archive/bb03d7e9bfcc74fc798838a54f4f99738f29fc6a.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: INA3221@1.0.1 has been installed!
+Library Manager: Installing https://github.com/mprograms/QMC5883LCompass/archive/refs/tags/v1.2.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: QMC5883LCompass@1.2.3 has been installed!
+Library Manager: Installing https://github.com/DFRobot/DFRobot_RTU/archive/refs/tags/V1.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_RTU@1.0.6 has been installed!
+Library Manager: Installing https://github.com/DFRobot/DFRobot_RainfallSensor/archive/38fea5e02b40a5430be6dab39a99a6f6347d667e.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_RainfallSensor@1.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/RobTillaart/INA226/archive/refs/tags/0.6.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: INA226@0.6.6 has been installed!
+Library Manager: Installing https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library/archive/refs/tags/v1.1.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun MAX3010x Pulse and Proximity Sensor Library@1.1.2 has been installed!
+Library Manager: Installing https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary/archive/refs/tags/v1.3.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library@1.3.2 has been installed!
+Library Manager: Installing https://github.com/tdk-invn-oss/motion.arduino.ICM42670P/archive/refs/tags/1.0.8.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ICM42670P@1.0.8 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_LTR390/archive/refs/tags/1.1.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LTR390 Library@1.1.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_PCT2075/archive/refs/tags/1.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit PCT2075@1.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/DFRobot/DFRobot_BMM150/archive/refs/tags/V1.0.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_BMM150@1.0.0 has been installed!
+Library Manager: Installing https://github.com/sparkfun/SparkFun_MMC5983MA_Magnetometer_Arduino_Library/archive/v1.1.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun MMC5983MA Magnetometer Arduino Library@1.1.5 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_TSL2561/archive/refs/tags/1.1.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit TSL2561@1.1.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/wollewald/BH1750_WE/archive/refs/tags/1.1.10.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: BH1750_WE@1.1.10 has been installed!
+Library Manager: Installing https://github.com/adafruit/Adafruit_SHTC3/archive/refs/tags/1.0.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SHTC3 Library@1.0.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_BMP3XX/archive/refs/tags/2.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP3XX Library@2.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_MAX1704X/archive/refs/tags/1.0.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MAX1704X@1.0.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_LPS2X/archive/refs/tags/2.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit LPS2X@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_SHT31/archive/refs/tags/2.2.2.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SHT31 Library@2.2.2 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_VEML7700/archive/refs/tags/2.1.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit VEML7700 Library@2.1.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/adafruit/Adafruit_SHT4X/archive/refs/tags/1.0.5.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SHT4x Library@1.0.5 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/sparkfun/SparkFun_Qwiic_Scale_NAU7802_Arduino_Library/archive/refs/tags/v1.0.6.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: SparkFun Qwiic Scale NAU7802 Arduino Library@1.0.6 has been installed!
+Library Manager: Installing closedcube/ClosedCube OPT3001 @ 1.1.2
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: ClosedCube OPT3001@1.1.2 has been installed!
+Library Manager: Installing https://github.com/meshtastic/DFRobot_LarkWeatherStation/archive/4de3a9cadef0f6a5220a8a906cf9775b02b0040d.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: DFRobot_LarkWeatherStation@1.0.0 has been installed!
+Library Manager: Installing https://github.com/Sensirion/arduino-core/archive/refs/tags/0.7.3.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion Core@0.7.3 has been installed!
+Library Manager: Installing https://github.com/Sensirion/arduino-i2c-scd4x/archive/refs/tags/1.1.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion I2C SCD4x@1.1.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/Sensirion/arduino-i2c-sfa3x/archive/refs/tags/1.0.0.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion I2C SFA3x@1.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/Sensirion/arduino-i2c-scd30/archive/1.1.1.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Sensirion I2C SCD30@1.1.1 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing https://github.com/boschsensortec/Bosch-BSEC2-Library/archive/refs/tags/1.10.2610.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: bsec2@1.10.2610 has been installed!
+Library Manager: Installing https://github.com/boschsensortec/Bosch-BME68x-Library/archive/refs/tags/v1.3.40408.zip
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: BME68x Sensor library@1.3.40408 has been installed!
+Library Manager: Installing https://github.com/Kongduino/Adafruit_nRFCrypto/archive/8cde7189b5ead9dcd49f72601b43b969c0bbc06e.zip
+Downloading...
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit nRFCrypto@0.0.5 has been installed!
+Library Manager: Installing throwtheswitch/Unity @ ^2.6.1
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Unity@2.6.1 has been installed!
+Verbose mode can be enabled via `-v, --verbose` option
+PROGNAME: firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d
+CONFIGURATION: https://docs.platformio.org/page/boards/nordicnrf52/xiao_ble_sense.html
+PLATFORM: Nordic nRF52 (10.11.0) > Seeed Xiao BLE Sense
+HARDWARE: NRF52840 64MHz, 243KB RAM, 796KB Flash
+DEBUG: Current (jlink) External (blackmagic, cmsis-dap, jlink, stlink)
+PACKAGES: 
+ - framework-arduinoadafruitnrf52 @ 1.10601.0+sha.9ddcbc9 
+ - framework-cmsis @ 2.50700.210515 (5.7.0) 
+ - tool-adafruit-nrfutil @ 1.503.0 (5.3) 
+ - tool-sreccat @ 1.164.0 (1.64) 
+ - toolchain-gccarmnoneeabi @ 1.90301.200702 (9.3.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+[nanopb] No generation needed.
+Found 75 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- ESP8266 and ESP32 OLED driver for SSD1306 displays @ 4.4.1
+|-- OneButton @ 2.6.1
+|-- arduino-fsm @ 2.2.0
+|-- TinyGPSPlus @ 1.0.3
+|-- ArduinoThread @ 0.0.0+20261012043251
+|-- Nanopb @ 0.4.9+1
+|-- ErriezCRC32 @ 1.0.1
+|-- NonBlockingRTTTL @ 1.4.0
+|-- RadioLib @ 7.6.0
+|-- Crypto @ 0.4.0
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- Adafruit GFX Library @ 1.12.6
+|-- Adafruit NeoPixel @ 1.15.5
+|-- Adafruit SSD1306 @ 2.5.17
+|-- Adafruit BMP280 Library @ 3.0.0
+|-- Adafruit BMP085 Library @ 1.2.4
+|-- Adafruit BME280 Library @ 2.3.0
+|-- Adafruit DPS310 @ 1.1.6
+|-- Adafruit SH110X @ 2.1.14
+|-- Adafruit MCP9808 Library @ 2.0.2
+|-- Adafruit INA260 Library @ 1.5.3
+|-- Adafruit INA219 @ 1.2.3
+|-- Adafruit MPU6050 @ 2.2.9
+|-- Adafruit LIS3DH @ 1.3.0
+|-- Adafruit AHTX0 @ 2.0.6
+|-- Adafruit LSM6DS @ 4.7.4
+|-- Adafruit TSL2591 Library @ 1.4.5
+|-- EmotiBit MLX90632 @ 1.0.8
+|-- Adafruit MLX90614 Library @ 2.1.6
+|-- INA3221 @ 1.0.1
+|-- QMC5883LCompass @ 1.2.3
+|-- DFRobot_RTU @ 1.0.6
+|-- DFRobot_RainfallSensor @ 1.0.0
+|-- INA226 @ 0.6.6
+|-- SparkFun MAX3010x Pulse and Proximity Sensor Library @ 1.1.2
+|-- SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library @ 1.3.2
+|-- ICM42670P @ 1.0.8
+|-- Adafruit LTR390 Library @ 1.1.2
+|-- Adafruit PCT2075 @ 1.0.6
+|-- DFRobot_BMM150 @ 1.0.0
+|-- SparkFun MMC5983MA Magnetometer Arduino Library @ 1.1.5
+|-- Adafruit TSL2561 @ 1.1.3
+|-- BH1750_WE @ 1.1.10
+|-- Adafruit SHTC3 Library @ 1.0.2
+|-- Adafruit BMP3XX Library @ 2.1.6
+|-- Adafruit MAX1704X @ 1.0.3
+|-- Adafruit LPS2X @ 2.0.6
+|-- Adafruit SHT31 Library @ 2.2.2
+|-- Adafruit VEML7700 Library @ 2.1.6
+|-- Adafruit SHT4x Library @ 1.0.5
+|-- SparkFun Qwiic Scale NAU7802 Arduino Library @ 1.0.6
+|-- ClosedCube OPT3001 @ 1.1.2
+|-- DFRobot_LarkWeatherStation @ 1.0.0
+|-- Sensirion Core @ 0.7.3
+|-- Sensirion I2C SCD4x @ 1.1.0
+|-- Sensirion I2C SFA3x @ 1.0.0
+|-- Sensirion I2C SCD30 @ 1.1.1
+|-- bsec2 @ 1.10.2610
+|-- BME68x Sensor library @ 1.3.40408
+|-- Adafruit nRFCrypto @ 0.0.5
+|-- SPI @ 1.0
+|-- SoftwareSerial @ 1.0.0
+|-- Wire @ 1.0
+|-- Rotary Encoder @ 0.8.0
+|-- Adafruit Bluefruit nRF52 Libraries @ 0.21.0
+|-- Adafruit TinyUSB Library
+|-- Adafruit Internal File System on Bluefruit nRF52 @ 0.11.0
+Building in release mode
+Using meshtastic platformio-custom.py, firmware version 2.7.26.54e0d8d on seeed_xiao_nrf52840_btb
+Using flags:
+-DAPP_VERSION=2.7.26.54e0d8d
+-DAPP_VERSION_SHORT=2.7.26
+-DAPP_ENV=seeed_xiao_nrf52840_btb
+-DAPP_REPO=meshtastic/firmware
+-DBUILD_EPOCH=1791756000
+-DUSERPREFS_RINGTONE_RTTTL=\"24:d=32,o=5,b=565:f6,p,f6,4p,p,f6,p,f6,2p,p,b6,p,b6,p,b6,p,b6,p,b,p,b,p,b,p,b,p,b,p,b,p,b,p,b,1p.,2p.,p\"
+-DUSERPREFS_TZ_STRING=\"tzplaceholder                                         \"
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_TinyUSB_API.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBD_CDC.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBD_Device.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBD_Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\Adafruit_USBH_Host.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\cdc\Adafruit_USBH_CDC.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\hid\Adafruit_USBD_HID.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\midi\Adafruit_USBD_MIDI.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\msc\Adafruit_USBD_MSC.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\msc\Adafruit_USBH_MSC.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\esp32\Adafruit_TinyUSB_esp32.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\nrf\Adafruit_TinyUSB_nrf.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\rp2040\Adafruit_TinyUSB_rp2040.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\ports\samd\Adafruit_TinyUSB_samd.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\video\Adafruit_USBD_Video.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\arduino\webusb\Adafruit_USBD_WebUSB.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\audio\audio_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\bth\bth_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\cdc\cdc_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\cdc\cdc_host.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\dfu\dfu_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\dfu\dfu_rt_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\hid\hid_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\hid\hid_host.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\midi\midi_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\msc\msc_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\msc\msc_host.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\net\ecm_rndis_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\net\ncm_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\usbtmc\usbtmc_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\vendor\vendor_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\class\video\video_device.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\common\tusb_fifo.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\device\usbd.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\device\usbd_control.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\host\hub.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\host\usbh.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\portable\analog\max3421\hcd_max3421.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\portable\microchip\samd\dcd_samd.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\portable\nordic\nrf5x\dcd_nrf5x.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\pio_usb\dcd_pio_usb.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\pio_usb\hcd_pio_usb.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\rp2040\dcd_rp2040.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\rp2040\hcd_rp2040.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\portable\raspberrypi\rp2040\rp2040_usb.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\portable\synopsys\dwc2\dcd_dwc2.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib304\Adafruit_TinyUSB_Arduino\tusb.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib792\Adafruit nRFCrypto\Adafruit_nRFCrypto.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib792\Adafruit nRFCrypto\ecc\nRFCrypto_ECC.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib792\Adafruit nRFCrypto\ecc\nRFCrypto_ECC_PrivateKey.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib792\Adafruit nRFCrypto\ecc\nRFCrypto_ECC_PublicKey.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib792\Adafruit nRFCrypto\nRFCrypto_AES.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib792\Adafruit nRFCrypto\nRFCrypto_Chacha.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib792\Adafruit nRFCrypto\nRFCrypto_Hash.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib792\Adafruit nRFCrypto\nRFCrypto_Random.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\variants\nrf52840\seeed_xiao_nrf52840_kit\variant.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\BluetoothCommon.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\DebugConfiguration.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\DisplayFormatters.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\FSCommon.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\Fusion\FusionAhrs.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\Fusion\FusionCompass.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\Fusion\FusionOffset.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\GpioLogic.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\MessageStore.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\Observer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\Power.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\PowerFSM.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\PowerMon.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\RedirectablePrint.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\SPILock.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\SafeFile.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\SerialConsole.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\airtime.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\buzz\BuzzerFeedbackThread.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\buzz\buzz.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\concurrency\BinarySemaphoreFreeRTOS.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\concurrency\BinarySemaphorePosix.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\concurrency\InterruptableDelay.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\concurrency\Lock.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\concurrency\LockGuard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\concurrency\NotifiedWorkerThread.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\concurrency\OSThread.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\detect\ScanI2C.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\detect\ScanI2CConsumer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\detect\ScanI2CTwoWire.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\detect\reClockI2C.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\gps\GPS.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\gps\GPSUpdateScheduling.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\gps\GeoCoord.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\gps\NMEAWPL.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\gps\RTC.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\EInkDisplay2.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\EInkDynamicDisplay.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\EInkParallelDisplay.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\EmoteRenderer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\Panel_sdl.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\Screen.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\ScreenGlobals.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\SharedUIDisplay.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\TFTDisplay.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\TimeFormatters.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\VirtualKeyboard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\draw\ClockRenderer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\draw\CompassRenderer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\draw\DebugRenderer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\draw\MenuHandler.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\draw\MessageRenderer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\draw\NodeListRenderer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\draw\NotificationRenderer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\draw\UIRenderer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\emotes.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\fonts\EinkDisplayFonts.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\fonts\OLEDDisplayFontsCS.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\fonts\OLEDDisplayFontsGR.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\fonts\OLEDDisplayFontsPL.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\fonts\OLEDDisplayFontsRU.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\fonts\OLEDDisplayFontsUA.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\graphics\tftSetup.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\BBQ10Keyboard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\ButtonThread.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\CardputerKeyboard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\ExpressLRSFiveWay.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\HackadayCommunicatorKeyboard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\HapticFeedback.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\InputBroker.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\LinuxInput.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\LinuxInputImpl.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\MPR121Keyboard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\RotaryEncoderImpl.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\RotaryEncoderInterruptBase.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\RotaryEncoderInterruptImpl1.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\SeesawRotary.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\SerialKeyboard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\SerialKeyboardImpl.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\TCA8418Keyboard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\TCA8418KeyboardBase.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\TDeckProKeyboard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\TLoraPagerKeyboard.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\TouchScreenBase.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\TouchScreenImpl1.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\TrackballInterruptBase.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\TrackballInterruptImpl1.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\UpDownInterruptBase.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\UpDownInterruptImpl1.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\cardKbI2cImpl.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\i2cButton.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\kbI2cBase.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\kbMatrixBase.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\input\kbMatrixImpl.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\main.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\memGet.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\meshUtils.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\Channels.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\CryptoEngine.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\Default.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\FloodingRouter.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\HardwareRNG.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\InterfacesTemplates.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\LLCC68Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\LR1110Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\LR1120Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\LR1121Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\LR11x0Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\LR20x0Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\LoRaFEMInterface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\MeshModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\MeshPacketQueue.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\MeshService.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\NextHopRouter.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\NodeDB.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\PacketCache.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\PacketHistory.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\PhoneAPI.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\PositionPrecision.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\ProtobufModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\RF95Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\RadioInterface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\RadioLibInterface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\RadioLibRF95.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\ReliableRouter.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\Router.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\STM32WLE5JCInterface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\SX1262Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\SX1268Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\SX126xInterface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\SX1280Interface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\SX128xInterface.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\StreamAPI.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\Throttle.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\TransmitHistory.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\TypeConversions.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\aes-ccm.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\compression\unishox2.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\admin.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\apponly.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\atak.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\cannedmessages.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\channel.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\clientonly.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\config.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\connection_status.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\device_ui.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\deviceonly.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\interdevice.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\localonly.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\mesh.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\module_config.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\mqtt.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\paxcount.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\portnums.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\powermon.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\remote_hardware.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\rtttl.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\serial_hal.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\storeforward.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\telemetry.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\generated\meshtastic\xmodem.pb.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mesh\mesh-pb-constants.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\AdminModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\AtakPluginModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\CannedMessageModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\DetectionSensorModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\DropzoneModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\ExternalNotificationModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\GenericThreadModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\KeyVerificationModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Modules.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\NeighborInfoModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\NodeInfoModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\OnScreenKeyboardModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\PositionModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\PowerStressModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\RangeTestModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\RemoteHardwareModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\ReplyBotModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\ReplyModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\RoutingModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\SerialModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\StatusLEDModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\StatusMessageModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\StoreForwardModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\SystemCommandsModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\AirQualityTelemetry.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\DeviceTelemetry.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\EnvironmentTelemetry.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\HealthTelemetry.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\HostMetrics.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\PowerTelemetry.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\AHT10.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\BH1750Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\BME280Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\BME680Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\BMP085Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\BMP280Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\BMP3XXSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\CGRadSensSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\DFRobotGravitySensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\DFRobotLarkSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\DPS310Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\INA219Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\INA226Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\INA260Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\INA3221Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\IndicatorSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\LPS22HBSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\LTR390UVSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\MAX17048Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\MAX30102Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\MCP9808Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\MLX90614Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\MLX90632Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\NAU7802Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\OPT3001Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\PCT2075Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\PMSA003ISensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\RAK12035Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\RAK9154Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\RCWL9620Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\SCD30Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\SCD4XSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\SEN5XSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\SFA30Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\SHT31Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\SHT4XSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\SHTC3Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\T1000xSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\TSL2561Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\TSL2591Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\TelemetrySensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\VEML7700Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\Sensor\nullSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\Telemetry\UnitConversions.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\TextMessageModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\TraceRouteModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\modules\WaypointModule.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\BMA423Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\BMI270Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\BMM150Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\BMX160Sensor.cpp.o
+src/modules/Telemetry/Sensor/SEN5XSensor.cpp: In member function 'bool SEN5XSensor::findModel()':
+src/modules/Telemetry/Sensor/SEN5XSensor.cpp:61:19: warning: 'name[4]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   61 |     switch (name[4]) {
+      |             ~~~~~~^
+src/modules/Telemetry/Sensor/SEN5XSensor.cpp: In member function 'uint8_t SEN5XSensor::getMeasurements()':
+src/modules/Telemetry/Sensor/SEN5XSensor.cpp:757:39: warning: 'dataReadyBuffer[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  757 |     bool dataReady = dataReadyBuffer[1];
+      |                      ~~~~~~~~~~~~~~~~~^
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\ICM20948Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\ICM42607PSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\LIS3DHSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\LSM6DS3Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\MMC5983MASensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\MPU6050Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\MotionSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\QMA6100PSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\motion\STK8XXXSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mqtt\MQTT.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\mqtt\ServiceEnvelope.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\network-stubs.cpp.o
+src/motion/ICM42607PSensor.cpp: In member function 'virtual int32_t ICM42607PSensor::runOnce()':
+src/motion/ICM42607PSensor.cpp:74:13: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+   74 |     int16_t x = 0;
+      |             ^
+src/motion/ICM42607PSensor.cpp:75:13: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+   75 |     int16_t y = 0;
+      |             ^
+src/motion/ICM42607PSensor.cpp:76:13: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+   76 |     int16_t z = 0;
+      |             ^
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\extra_variants\heltec_wireless_tracker\variant.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\extra_variants\m5stack_cardputer_adv\variant.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\extra_variants\t_deck_pro\variant.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\extra_variants\t_lora_pager\variant.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\extra_variants\tbeam_displayshield\variant.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\AsyncUDP.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\BLEDfuSecure.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\NRF52Bluetooth.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\NRF52CryptoEngine.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\Nrf52SaadcLock.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\aes-256\tiny-aes.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\alloc.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\hardfault.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\main-bare.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\platform\nrf52\main-nrf52.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\power\PowerHAL.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\power\SGM41562.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\sleep.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\watchdog\watchdogThread.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\src\xmodem.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib738\Wire\Wire_nRF52.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\liba76\SPI\SPI.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\liba76\SPI\SPI_nrf52832.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib738\libWire.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libb07\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplay.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libb07\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplayFonts.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libb07\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplayUi.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\liba76\libSPI.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib7ec\OneButton\OneButton.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib7ec\OneButton\OneButtonTiny.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib90d\arduino-fsm\Fsm.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib801\TinyGPSPlus\TinyGPS++.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib269\ArduinoThread\Thread.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib269\ArduinoThread\ThreadController.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib864\Nanopb\pb_common.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib864\Nanopb\pb_decode.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib7ec\libOneButton.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib864\Nanopb\pb_encode.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib90d\libarduino-fsm.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libede\ErriezCRC32\ErriezCRC32.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib78c\NonBlockingRTTTL\NonBlockingRtttl.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\Hal.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\Module.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libb07\libESP8266 and ESP32 OLED driver for SSD1306 displays.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\hal\Arduino\ArduinoHal.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib864\libNanopb.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\hal\RPiPico\PicoHal.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libede\libErriezCRC32.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\CC1101\CC1101.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR11x0\LR1110.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR11x0\LR1120.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib801\libTinyGPSPlus.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR11x0\LR1121.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib269\libArduinoThread.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR11x0\LR11x0.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR11x0\LR11x0_commands.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR11x0\LR11x0_crypto.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR11x0\LR11x0_gnss.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR11x0\LR11x0_wifi.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR11x0\LR_common.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib78c\libNonBlockingRTTTL.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_cmds_chip_control.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_cmds_flrc.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_cmds_gfsk.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_cmds_lora.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_cmds_misc.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_cmds_ook.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_cmds_oqpsk.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_cmds_radio.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_cmds_ranging.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\LR2021\LR2021_config.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX123x\SX1231.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX123x\SX1233.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX126x\SX1261.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX126x\SX126x_LR_FHSS.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX126x\SX126x_commands.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX126x\SX126x_config.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\ADSB\ADSB.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\BellModem\BellModem.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\LoRaWAN\LoRaWAN.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\LoRaWAN\LoRaWANBands.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\Print\ITA2String.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\Print\Print.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\utils\CRC.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\utils\Cryptography.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\utils\FEC.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd73\RadioLib\utils\Utils.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\AES128.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\AES192.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\AES256.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\AESCommon.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\AESEsp32.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\AuthenticatedCipher.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\BLAKE2b.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\BLAKE2s.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\BigNumberUtil.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\BlockCipher.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\CTR.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\ChaCha.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\ChaChaPoly.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\Cipher.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\Crypto.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\Curve25519.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\EAX.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libd73\libRadioLib.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\Ed25519.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\GCM.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\GF128.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\GHASH.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\HKDF.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\Hash.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\KeccakCore.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\NoiseSource.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\OMAC.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\P521.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\Poly1305.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\RNG.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\SHA224.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\SHA256.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\SHA3.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\SHA384.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\SHA512.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\SHAKE.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\XOF.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib061\Crypto\XTS.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdac\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdac\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdac\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdac\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib55e\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libba7\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libba7\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libba7\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libba7\Adafruit GFX Library\glcdfont.c.o
+.pio\libdeps\seeed_xiao_nrf52840_btb\Crypto\RNG.cpp:63:2: warning: #warning "no hardware random number source detected for this platform" [-Wcpp]
+   63 | #warning "no hardware random number source detected for this platform"
+      |  ^~~~~~~
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib689\Adafruit NeoPixel\Adafruit_NeoPixel.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib689\Adafruit NeoPixel\Adafruit_Neopixel_RP2.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib061\libCrypto.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib689\Adafruit NeoPixel\esp.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib689\Adafruit NeoPixel\esp8266.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib689\Adafruit NeoPixel\kendyte_k210.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib689\Adafruit NeoPixel\psoc6.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib099\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib55e\libAdafruit Unified Sensor.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libdac\libAdafruit BusIO.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libb63\Adafruit BMP280 Library\Adafruit_BMP280.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libebe\Adafruit BMP085 Library\Adafruit_BMP085.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libfcf\Adafruit BME280 Library\Adafruit_BME280.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libe24\Adafruit DPS310\Adafruit_DPS310.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib159\Adafruit SH110X\Adafruit_SH1106G.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib159\Adafruit SH110X\Adafruit_SH1107.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib159\Adafruit SH110X\Adafruit_SH110X.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libab1\Adafruit MCP9808 Library\Adafruit_MCP9808.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libfe1\Adafruit INA260 Library\Adafruit_INA260.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libba7\libAdafruit GFX Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libe85\Adafruit INA219\Adafruit_INA219.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib689\libAdafruit NeoPixel.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd80\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib099\libAdafruit SSD1306.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libebe\libAdafruit BMP085 Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib0f5\Adafruit LIS3DH\Adafruit_LIS3DH.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libfaf\Adafruit AHTX0\Adafruit_AHTX0.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdfc\Adafruit LSM6DS\Adafruit_ISM330DHCX.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdfc\Adafruit LSM6DS\Adafruit_LSM6DS.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libe24\libAdafruit DPS310.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libb63\libAdafruit BMP280 Library.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libfcf\libAdafruit BME280 Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdfc\Adafruit LSM6DS\Adafruit_LSM6DS3.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib159\libAdafruit SH110X.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdfc\Adafruit LSM6DS\Adafruit_LSM6DS33.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libe85\libAdafruit INA219.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdfc\Adafruit LSM6DS\Adafruit_LSM6DS3TRC.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libab1\libAdafruit MCP9808 Library.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libfe1\libAdafruit INA260 Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdfc\Adafruit LSM6DS\Adafruit_LSM6DSL.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdfc\Adafruit LSM6DS\Adafruit_LSM6DSO32.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libdfc\Adafruit LSM6DS\Adafruit_LSM6DSOX.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2a2\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libd80\libAdafruit MPU6050.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib5ae\EmotiBit MLX90632\SparkFun_MLX90632_Arduino_Library.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib759\Adafruit MLX90614 Library\Adafruit_MLX90614.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libfaf\libAdafruit AHTX0.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib698\INA3221\INA3221.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib88f\QMC5883LCompass\QMC5883LCompass.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib0b7\DFRobot_RTU\DFRobot_RTU.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib0f5\libAdafruit LIS3DH.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib7c6\DFRobot_RainfallSensor\DFRobot_RainfallSensor.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib057\INA226\INA226.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libe65\SparkFun MAX3010x Pulse and Proximity Sensor Library\MAX30105.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libe65\SparkFun MAX3010x Pulse and Proximity Sensor Library\heartRate.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libe65\SparkFun MAX3010x Pulse and Proximity Sensor Library\spo2_algorithm.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libdfc\libAdafruit LSM6DS.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib2a2\libAdafruit TSL2591 Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib8e2\SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library\ICM_20948.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib8e2\SparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library\util\ICM_20948_C.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib5ae\libEmotiBit MLX90632.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libc5a\ICM42670P\ICM42670P.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib88f\libQMC5883LCompass.a
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::reset()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:88:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   88 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:90:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   90 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setModePowerDown()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:96:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   96 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:99:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+   99 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setModeContinious()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:105:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  105 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:107:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  107 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setModeTriggered()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:113:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  113 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:115:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  115 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntMeasEnable()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:121:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  121 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:123:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  123 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntMeasDisable()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:129:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  129 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:131:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  131 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setBusMeasEnable()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:137:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  137 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:139:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  139 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setBusMeasDisable()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:145:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  145 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:147:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  147 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setAveragingMode(ina3221_avg_mode_t)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:153:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  153 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:155:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  155 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setBusConversionTime(ina3221_conv_time_t)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:161:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  161 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:163:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  163 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntConversionTime(ina3221_conv_time_t)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:169:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  169 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:171:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  171 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setWarnAlertLatchEnable()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:197:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  197 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:199:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  199 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setWarnAlertLatchDisable()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:206:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  206 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:208:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  208 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCritAlertLatchEnable()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:215:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  215 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:217:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  217 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCritAlertLatchDisable()':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:224:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  224 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:226:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  226 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setChannelEnable(ina3221_ch_t)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:265:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  265 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:279:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  279 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setChannelDisable(ina3221_ch_t)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:285:50: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  285 |     _read(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                  ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:299:51: warning: converting a packed 'INA3221::conf_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  299 |     _write(INA3221_REG_CONF, (uint16_t *)&conf_reg);
+      |                                                   ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:101:20: note: defined here
+  101 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCurrentSumEnable(ina3221_ch_t)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:359:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  359 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:373:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  373 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setCurrentSumDisable(ina3221_ch_t)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:380:59: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  380 |     _read(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                           ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:394:60: warning: converting a packed 'INA3221::masken_reg_t' pointer (alignment 1) to a 'uint16_t' {aka 'short unsigned int'} pointer (alignment 2) may result in an unaligned pointer value [-Waddress-of-packed-member]
+  394 |     _write(INA3221_REG_MASK_ENABLE, (uint16_t *)&masken_reg);
+      |                                                            ^
+In file included from .pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:29:
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.h:115:20: note: defined here
+  115 |     typedef struct {
+      |                    ^
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libc5a\ICM42670P\imu\inv_imu_apex.c.o
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::begin(TwoWire*)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:59:17: warning: array subscript 1 is above array bounds of 'float [1]' [-Warray-bounds]
+   59 |     _filterRes[1] = 0;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:60:17: warning: array subscript 2 is above array bounds of 'float [1]' [-Warray-bounds]
+   60 |     _filterRes[2] = 0;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setShuntRes(float, float, float)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:68:16: warning: array subscript 1 is above array bounds of 'float [1]' [-Warray-bounds]
+   68 |     _shuntRes[1] = res_ch2;
+      |     ~~~~~~~~~~~^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:69:16: warning: array subscript 2 is above array bounds of 'float [1]' [-Warray-bounds]
+   69 |     _shuntRes[2] = res_ch3;
+      |     ~~~~~~~~~~~^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp: In member function 'void INA3221::setFilterRes(float, float, float)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:75:17: warning: array subscript 1 is above array bounds of 'float [1]' [-Warray-bounds]
+   75 |     _filterRes[1] = res_ch2;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\seeed_xiao_nrf52840_btb\INA3221\src\INA3221.cpp:76:17: warning: array subscript 2 is above array bounds of 'float [1]' [-Warray-bounds]
+   76 |     _filterRes[2] = res_ch3;
+      |     ~~~~~~~~~~~~^
+.pio\libdeps\seeed_xiao_nrf52840_btb\SparkFun MAX3010x Pulse and Proximity Sensor Library\src\heartRate.cpp: In function 'bool checkForBeat(int32_t)':
+.pio\libdeps\seeed_xiao_nrf52840_btb\SparkFun MAX3010x Pulse and Proximity Sensor Library\src\heartRate.cpp:108:33: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  108 |     if ((IR_AC_Max - IR_AC_Min) > 20 & (IR_AC_Max - IR_AC_Min) < 1000)
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib0b7\libDFRobot_RTU.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib057\libINA226.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib759\libAdafruit MLX90614 Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libc5a\ICM42670P\imu\inv_imu_driver.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib698\libINA3221.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libc5a\ICM42670P\imu\inv_imu_selftest.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libc5a\ICM42670P\imu\inv_imu_transport.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libc5a\ICM42670P\inv_time.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libaba\Adafruit LTR390 Library\Adafruit_LTR390.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib693\Adafruit PCT2075\Adafruit_PCT2075.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib7c6\libDFRobot_RainfallSensor.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libe3f\DFRobot_BMM150\DFRobot_BMM150.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib6fa\SparkFun MMC5983MA Magnetometer Arduino Library\SparkFun_MMC5983MA_Arduino_Library.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib6fa\SparkFun MMC5983MA Magnetometer Arduino Library\SparkFun_MMC5983MA_IO.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libe65\libSparkFun MAX3010x Pulse and Proximity Sensor Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib36f\Adafruit TSL2561\Adafruit_TSL2561_U.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libb7a\BH1750_WE\BH1750_WE.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib1aa\Adafruit SHTC3 Library\Adafruit_SHTC3.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd42\Adafruit BMP3XX Library\Adafruit_BMP3XX.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib8e2\libSparkFun 9DoF IMU Breakout - ICM 20948 - Arduino Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libd42\Adafruit BMP3XX Library\bmp3.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libfe8\Adafruit MAX1704X\Adafruit_MAX1704X.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libc5a\libICM42670P.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib962\Adafruit LPS2X\Adafruit_LPS22.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libaba\libAdafruit LTR390 Library.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib693\libAdafruit PCT2075.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib962\Adafruit LPS2X\Adafruit_LPS25.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib962\Adafruit LPS2X\Adafruit_LPS2X.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib1c9\Adafruit SHT31 Library\Adafruit_SHT31.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib925\Adafruit VEML7700 Library\Adafruit_VEML7700.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib6fa\libSparkFun MMC5983MA Magnetometer Arduino Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib578\Adafruit SHT4x Library\Adafruit_SHT4x.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libe3f\libDFRobot_BMM150.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib36f\libAdafruit TSL2561.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libb7a\libBH1750_WE.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\liba24\SparkFun Qwiic Scale NAU7802 Arduino Library\SparkFun_Qwiic_Scale_NAU7802_Arduino_Library.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib1aa\libAdafruit SHTC3 Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2d1\ClosedCube OPT3001\ClosedCube_OPT3001.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libd42\libAdafruit BMP3XX Library.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libfe8\libAdafruit MAX1704X.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libddc\SoftwareSerial\SoftwareSerial.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libb44\DFRobot_LarkWeatherStation\DFRobot_LarkWeatherStation.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libbee\Sensirion Core\SensirionCrc.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libbee\Sensirion Core\SensirionErrors.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libbee\Sensirion Core\SensirionI2CCommunication.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib1c9\libAdafruit SHT31 Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libbee\Sensirion Core\SensirionI2CTxFrame.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libbee\Sensirion Core\SensirionRxFrame.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libbee\Sensirion Core\SensirionShdlcCommunication.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib925\libAdafruit VEML7700 Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libbee\Sensirion Core\SensirionShdlcTxFrame.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib578\libAdafruit SHT4x Library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib152\Sensirion I2C SCD4x\SensirionI2cScd4x.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib333\Sensirion I2C SFA3x\SensirionI2cSfa3x.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib962\libAdafruit LPS2X.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\liba24\libSparkFun Qwiic Scale NAU7802 Arduino Library.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib2d1\libClosedCube OPT3001.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib83d\Sensirion I2C SCD30\SensirionI2cScd30.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libed6\BME68x Sensor library\bme68xLibrary.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\libed6\BME68x Sensor library\bme68x\bme68x.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib456\bsec2\bsec2.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libddc\libSoftwareSerial.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libb44\libDFRobot_LarkWeatherStation.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib456\bsec2\commMux\commMux.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib603\RotaryEncoder\RotaryEncoder.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib603\RotaryEncoder\SwRotaryEncoder.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib158\InternalFileSytem\InternalFileSystem.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib158\InternalFileSytem\flash\flash_cache.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib158\InternalFileSytem\flash\flash_nrf5x.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libbee\libSensirion Core.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib152\libSensirion I2C SCD4x.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib46d\Adafruit_LittleFS\Adafruit_LittleFS.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib333\libSensirion I2C SFA3x.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib46d\Adafruit_LittleFS\Adafruit_LittleFS_File.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib46d\Adafruit_LittleFS\littlefs\lfs.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib83d\libSensirion I2C SCD30.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib46d\Adafruit_LittleFS\littlefs\lfs_util.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libed6\libBME68x Sensor library.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEAdvertising.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLECentral.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLECharacteristic.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEClientCharacteristic.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEClientService.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib158\libInternalFileSytem.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib456\libbsec2.a
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib603\libRotaryEncoder.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEConnection.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEDiscovery.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEGatt.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEPeriph.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEScanner.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLESecurity.cpp.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib46d\libAdafruit_LittleFS.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEService.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\BLEUuid.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\bluefruit.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\clients\BLEAncs.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\clients\BLEClientBas.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\clients\BLEClientCts.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\clients\BLEClientDis.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\clients\BLEClientHidAdafruit.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\clients\BLEClientIas.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\clients\BLEClientUart.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEBas.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEBeacon.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEDfu.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEDis.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEHidAdafruit.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEHidGamepad.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEHidGeneric.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEIas.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEMidi.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\BLEUart.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\services\EddyStone.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\utility\AdaMsg.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\utility\bonding.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\lib2c8\Bluefruit52Lib\utility\bootloader_util.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libFrameworkArduinoVariant.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\HardwarePWM.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\RingBuffer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\Uart.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\WInterrupts.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\abi.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\avr\dtostrf.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\delay.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\Source\croutine.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\Source\event_groups.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\Source\list.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\Source\portable\MemMang\heap_3.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\lib2c8\libBluefruit52Lib.a
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\Source\queue.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\Source\stream_buffer.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\Source\tasks.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\Source\timers.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\portable\CMSIS\nrf52\port_cmsis.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\portable\CMSIS\nrf52\port_cmsis_systick.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\freertos\portable\GCC\nrf52\port.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\hooks.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\itoa.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\linker\gcc_startup_nrf52.S.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\linker\gcc_startup_nrf52833.S.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\linker\gcc_startup_nrf52840.S.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\main.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\new.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_gpiote.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_power.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_pwm.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_qspi.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_spim.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_spis.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_temp.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_timer.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\drivers\src\nrfx_wdt.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\mdk\system_nrf52.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\mdk\system_nrf52833.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\nordic\nrfx\mdk\system_nrf52840.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\pulse.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\pulse_asm.S.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\rtos.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\sysview\Config\SEGGER_SYSVIEW_Config_FreeRTOS.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\sysview\SEGGER\SEGGER_RTT.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\sysview\SEGGER\SEGGER_RTT_ASM_ARMv7M.S.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\sysview\SEGGER\SEGGER_RTT_printf.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\sysview\SEGGER\SEGGER_SYSVIEW.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\sysview\SEGGER_SYSVIEW_FreeRTOS.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\utility\AdaCallback.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\utility\SoftwareTimer.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\utility\adafruit_fifo.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\utility\debug.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\utility\utilities.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\wiring.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\wiring_analog.cpp.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\wiring_analog_nRF52.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\wiring_digital.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\wiring_private.c.o
+Compiling .pio\build\seeed_xiao_nrf52840_btb\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\seeed_xiao_nrf52840_btb\libFrameworkArduino.a
+Linking .pio\build\seeed_xiao_nrf52840_btb\firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.elf
+Checking size .pio\build\seeed_xiao_nrf52840_btb\firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.elf
+Building .pio\build\seeed_xiao_nrf52840_btb\firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.hex
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [====      ]  41.1% (used 102204 bytes from 248832 bytes)nrf52_hex_to_uf2([".pio\build\seeed_xiao_nrf52840_btb\firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.hex"], [".pio\build\seeed_xiao_nrf52840_btb\firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.elf"])
+
+Generating UF2 file from firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.hex
+Flash: [========= ]  89.0% (used 725320 bytes from 815104 bytes)
+Converting to uf2, output size: 1451008, start address: 0x27000
+Wrote 1451008 bytes to C:\fwbuild\meshtastic\.pio\build\seeed_xiao_nrf52840_btb\firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.uf2
+Building .pio\build\seeed_xiao_nrf52840_btb\firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.zip
+Zip created at .pio\build\seeed_xiao_nrf52840_btb\firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.zip
+manifest_gather(["mtjson"], ["buildprog"])
+{'name': 'firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.elf', 'md5': 'c77b5ef1e7d8b930c817b8449c607faf', 'bytes': 1407720}
+{'name': 'firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.hex', 'md5': 'c194983efd44cdd31b0f5c1f42b34cb9', 'bytes': 2040220}
+{'name': 'firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d.uf2', 'md5': '1d8ae86aefc8b26e55f6e88cf6776ef4', 'bytes': 1451008}
+{'name': 'firmware-seeed_xiao_nrf52840_btb-2.7.26.54e0d8d-ota.zip', 'md5': '9279a69bd88ca66110143bf64426479f', 'bytes': 726374}
+======================== [SUCCESS] Took 2177.21 seconds ========================
+
+Environment              Status    Duration
+-----------------------  --------  ------------
+seeed_xiao_nrf52840_btb  SUCCESS   00:36:17.210
+========================= 1 succeeded in 00:36:17.210 =========================

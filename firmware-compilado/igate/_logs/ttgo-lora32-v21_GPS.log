@@ -1,0 +1,396 @@
+Processing ttgo-lora32-v21_GPS (board: ttgo-lora32-v21; platform: espressif32 @ 6.12.0; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing adafruit/Adafruit Unified Sensor @ 1.1.15
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing adafruit/Adafruit AHTX0 @ 2.0.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit AHTX0@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit BusIO
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing Adafruit SH110X
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SH110X@2.1.15 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit GFX Library
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BME280 Library @ 2.3.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME280 Library@2.3.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BMP280 Library @ 3.0.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BMP280 Library@3.0.0 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit BME680 Library @ 2.0.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BME680 Library@2.0.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit SSD1306
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing adafruit/Adafruit INA219 @ 1.2.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit INA219@1.2.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit NeoPixel
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit NeoPixel@1.15.5 has been installed!
+Library Manager: Installing adafruit/Adafruit Si7021 Library @ 1.5.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90%
+Library Manager: Adafruit Si7021 Library@1.5.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing ayushsharma82/ElegantOTA @ 3.1.7
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ElegantOTA@3.1.7 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing esp32async/ESPAsyncWebServer @ ^3.7.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ESPAsyncWebServer@3.12.1 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing ESP32Async/AsyncTCP @ ^3.5.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: AsyncTCP@3.5.0 has been installed!
+Library Manager: Installing bblanchon/ArduinoJson @ 7.4.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: ArduinoJson@7.4.3 has been installed!
+Library Manager: Installing jgromes/RadioLib @ 7.6.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: RadioLib@7.6.0 has been installed!
+Library Manager: Installing knolleary/PubSubClient @ 2.8
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: PubSubClient@2.8.0 has been installed!
+Library Manager: Installing mikalhart/TinyGPSPlus @ 1.1.0
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: TinyGPSPlus@1.1.0 has been installed!
+Library Manager: Installing richonguzman/APRSPacketLib @ 1.0.10
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: APRSPacketLib@1.0.10 has been installed!
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-lora32-v21.html
+PLATFORM: Espressif 32 (6.12.0) > TTGO LoRa32-OLED v2.1.6
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (esp-prog) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 53 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- Adafruit AHTX0 @ 2.0.6
+|-- Adafruit BME280 Library @ 2.3.0
+|-- Adafruit BMP280 Library @ 3.0.0
+|-- Adafruit BME680 Library @ 2.0.6
+|-- Adafruit INA219 @ 1.2.3
+|-- Adafruit Si7021 Library @ 1.5.3
+|-- ElegantOTA @ 3.1.7
+|-- ArduinoJson @ 7.4.3
+|-- RadioLib @ 7.6.0
+|-- PubSubClient @ 2.8.0
+|-- AsyncTCP @ 3.5.0
+|-- ESPAsyncWebServer @ 3.12.1
+|-- TinyGPSPlus @ 1.1.0
+|-- APRSPacketLib @ 1.0.10
+|-- Adafruit GFX Library @ 1.12.6
+|-- Adafruit SSD1306 @ 2.5.17
+|-- WiFi @ 2.0.0
+|-- SPIFFS @ 2.0.0
+|-- Adafruit SH110X @ 2.1.15
+|-- Wire @ 2.0.0
+|-- ESPmDNS @ 2.0.0
+|-- FS @ 2.0.0
+|-- Ethernet @ 2.0.0
+|-- SPI @ 2.0.0
+Building in release mode
+Converting .pio\build\ttgo-lora32-v21_GPS\index.html.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\style.css.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\script.js.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\bootstrap.css.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\bootstrap.js.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\leaflet.css.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\leaflet.js.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\favicon.png.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\aprs-symbols-24-0.png.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\aprs-symbols-24-1.png.gz.txt.o
+Converting .pio\build\ttgo-lora32-v21_GPS\aprs-symbols-24-2.png.gz.txt.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\A7670_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\LoRa_APRS_iGate.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\aprs_is_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\battery_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\configuration.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\digi_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\display.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\gps_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\kiss_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\lora_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\map_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\mqtt_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\network_manager.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\ntp_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\ota_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\power_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\query_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\sleep_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\station_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\syslog_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\telemetry_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\tnc_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\web_utils.cpp.o
+src/network_manager.cpp: In member function 'bool NetworkManager::ethernetConnect(eth_phy_type_t, uint8_t, uint8_t, uint8_t, int, eth_clock_mode_t, bool)':
+src/network_manager.cpp:309:73: note: #pragma message: Compiling ETH init: SDK 4.x (Arduino core 2.x)
+         #pragma message("Compiling ETH init: SDK 4.x (Arduino core 2.x)")
+                                                                         ^
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\wifi_utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\src\wx_utils.cpp.o
+Building .pio\build\ttgo-lora32-v21_GPS\bootloader.bin
+Generating partitions .pio\build\ttgo-lora32-v21_GPS\partitions.bin
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib16b\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib8ab\Wire\Wire.cpp.o
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib535\SPI\SPI.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib310\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib310\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib310\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib310\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\libc94\Adafruit AHTX0\Adafruit_AHTX0.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib35f\Adafruit BME280 Library\Adafruit_BME280.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib8ab\libWire.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\libbe6\Adafruit BMP280 Library\Adafruit_BMP280.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib16b\libAdafruit Unified Sensor.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\libbe8\Adafruit BME680 Library\Adafruit_BME680.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib535\libSPI.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\libbe8\Adafruit BME680 Library\bme68x.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\libb18\Adafruit INA219\Adafruit_INA219.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib7cb\Adafruit Si7021 Library\Adafruit_Si7021.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\libb74\AsyncTCP\AsyncTCP.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\libcbd\FS\FS.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\libcbd\FS\vfs_api.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib056\WiFi\WiFi.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib056\WiFi\WiFiAP.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib310\libAdafruit BusIO.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib056\WiFi\WiFiClient.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\libc94\libAdafruit AHTX0.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib056\WiFi\WiFiGeneric.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib35f\libAdafruit BME280 Library.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib056\WiFi\WiFiMulti.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\libbe6\libAdafruit BMP280 Library.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib056\WiFi\WiFiSTA.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib7cb\libAdafruit Si7021 Library.a
+Archiving .pio\build\ttgo-lora32-v21_GPS\libbe8\libAdafruit BME680 Library.a
+Archiving .pio\build\ttgo-lora32-v21_GPS\libb18\libAdafruit INA219.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib056\WiFi\WiFiScan.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib056\WiFi\WiFiServer.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib056\WiFi\WiFiUdp.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\AsyncEventSource.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\libcbd\libFS.a
+Archiving .pio\build\ttgo-lora32-v21_GPS\libb74\libAsyncTCP.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\AsyncJson.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\AsyncWebHeader.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\AsyncWebServerRequest.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\AsyncWebSocket.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\BackPort_SHA1Builder.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\ChunkPrint.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\Middleware.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\WebAuthentication.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\WebHandlers.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\WebRequest.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\WebResponses.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib056\libWiFi.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib882\ESPAsyncWebServer\WebServer.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib10f\LittleFS\LittleFS.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib2b0\Update\HttpsOTAUpdate.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib2b0\Update\Updater.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib637\WebServer\Parsing.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib637\WebServer\WebServer.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib637\WebServer\detail\mimetable.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\liba1c\ElegantOTA\ElegantOTA.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\liba1c\ElegantOTA\elop.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\Hal.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\Module.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\hal\Arduino\ArduinoHal.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\hal\RPiPico\PicoHal.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib2b0\libUpdate.a
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib10f\libLittleFS.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\CC1101\CC1101.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR11x0\LR1110.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR11x0\LR1120.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR11x0\LR1121.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR11x0\LR11x0.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib637\libWebServer.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR11x0\LR11x0_commands.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib882\libESPAsyncWebServer.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR11x0\LR11x0_crypto.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR11x0\LR11x0_gnss.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR11x0\LR11x0_wifi.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR11x0\LR_common.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\liba1c\libElegantOTA.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_cmds_chip_control.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_cmds_flrc.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_cmds_gfsk.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_cmds_lora.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_cmds_misc.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_cmds_ook.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_cmds_oqpsk.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_cmds_radio.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_cmds_ranging.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\LR2021\LR2021_config.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX123x\SX1231.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX123x\SX1233.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX126x\SX1261.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX126x\SX126x_LR_FHSS.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX126x\SX126x_commands.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX126x\SX126x_config.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\ADSB\ADSB.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\BellModem\BellModem.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\LoRaWAN\LoRaWAN.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\LoRaWAN\LoRaWANBands.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\Print\ITA2String.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\Print\Print.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\utils\CRC.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\utils\Cryptography.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\utils\FEC.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib55e\RadioLib\utils\Utils.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib6e6\PubSubClient\PubSubClient.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib699\TinyGPSPlus\TinyGPS++.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib326\APRSPacketLib\APRSPacketLib_base.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib326\APRSPacketLib\APRSPacketLib_base91.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib326\APRSPacketLib\APRSPacketLib_coordinates.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib326\APRSPacketLib\APRSPacketLib_decoder.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib326\APRSPacketLib\APRSPacketLib_digipeater.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib326\APRSPacketLib\APRSPacketLib_messages.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib326\APRSPacketLib\APRSPacketLib_mice.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\libbc6\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\libbc6\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib55e\libRadioLib.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\libbc6\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib6e6\libPubSubClient.a
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib699\libTinyGPSPlus.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\libbc6\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\libbe6\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\libda9\SPIFFS\SPIFFS.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib1d5\Adafruit SH110X\Adafruit_SH1106G.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib1d5\Adafruit SH110X\Adafruit_SH1107.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib1d5\Adafruit SH110X\Adafruit_SH110X.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib510\ESPmDNS\ESPmDNS.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\lib973\Ethernet\ETH.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\FunctionalInterrupt.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib326\libAPRSPacketLib.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\IPAddress.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\libbc6\libAdafruit GFX Library.a
+Archiving .pio\build\ttgo-lora32-v21_GPS\libbe6\libAdafruit SSD1306.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\Print.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\libda9\libSPIFFS.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\StreamString.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib1d5\libAdafruit SH110X.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\Tone.cpp.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib510\libESPmDNS.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-adc.c.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\lib973\libEthernet.a
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\main.cpp.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\ttgo-lora32-v21_GPS\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\ttgo-lora32-v21_GPS\libFrameworkArduino.a
+Linking .pio\build\ttgo-lora32-v21_GPS\firmware.elf
+Retrieving maximum program size .pio\build\ttgo-lora32-v21_GPS\firmware.elf
+Checking size .pio\build\ttgo-lora32-v21_GPS\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  17.3% (used 56668 bytes from 327680 bytes)
+Flash: [========  ]  81.8% (used 1607641 bytes from 1966080 bytes)
+Building .pio\build\ttgo-lora32-v21_GPS\firmware.bin with action:
+  "$PYTHONEXE" "$OBJCOPY" --chip esp32 elf2image --flash_mode ${__get_board_flash_mode(__env__)} --flash_freq ${__get_board_f_image(__env__)} --flash_size 4MB --elf-sha256-offset 0xb0 -o $TARGET $SOURCES
+Building .pio\build\ttgo-lora32-v21_GPS\firmware.bin
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 27 ELF sections
+Successfully created esp32 image.
+======================== [SUCCESS] Took 927.89 seconds ========================
+
+Environment          Status    Duration
+-------------------  --------  ------------
+ttgo-lora32-v21_GPS  SUCCESS   00:15:27.890
+========================= 1 succeeded in 00:15:27.890 =========================
