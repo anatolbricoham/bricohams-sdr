@@ -862,7 +862,7 @@ In file included from .pio/libdeps/tbeam0_7/SparkFun MAX3010x Pulse and Proximit
  
 In file included from .pio/libdeps/tbeam0_7/SparkFun MAX3010x Pulse and Proximity Sensor Library/src/MAX30105.h:20,
                  from .pio/libdeps/tbeam0_7/SparkFun MAX3010x Pulse and Proximity Sensor Library/src/MAX30105.cpp:12:
-C:/Users/anatol.lopez/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h:43: note: this is the location of the previous definition
+C:/Users/usuario.lopez/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h:43: note: this is the location of the previous definition
      #define I2C_BUFFER_LENGTH 128  // Default size, if none is set using Wire::setBuffersize(size_t)
  
 Compiling .pio\build\tbeam0_7\lib64e\SparkFun MMC5983MA Magnetometer Arduino Library\SparkFun_MMC5983MA_Arduino_Library.cpp.o
@@ -892,10 +892,10 @@ Archiving .pio\build\tbeam0_7\libbf4\libSparkFun 9DoF IMU Breakout - ICM 20948 -
                                                               ^
 In file included from .pio/libdeps/tbeam0_7/ICM42670P/src/ICM42670P.h:23,
                  from .pio/libdeps/tbeam0_7/ICM42670P/src/ICM42670P.cpp:19:
-C:/Users/anatol.lopez/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h:127:13: note: candidate 1: 'uint8_t TwoWire::requestFrom(int, int)'
+C:/Users/usuario.lopez/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h:127:13: note: candidate 1: 'uint8_t TwoWire::requestFrom(int, int)'
      uint8_t requestFrom(int address, int size);
              ^~~~~~~~~~~
-C:/Users/anatol.lopez/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h:125:13: note: candidate 2: 'uint8_t TwoWire::requestFrom(uint8_t, uint8_t)'
+C:/Users/usuario.lopez/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h:125:13: note: candidate 2: 'uint8_t TwoWire::requestFrom(uint8_t, uint8_t)'
      uint8_t requestFrom(uint8_t address, uint8_t size);
              ^~~~~~~~~~~
 Compiling .pio\build\tbeam0_7\lib787\Adafruit MAX1704X\Adafruit_MAX1704X.cpp.o
@@ -1270,10 +1270,10 @@ Linking .pio\build\tbeam0_7\firmware-tbeam0_7-2.7.26.54e0d8d.elf
 .pio/libdeps/tbeam0_7/Crypto/AESEsp32.cpp:33:5: warning: type of 'esp_aes_setkey' does not match original declaration [-Wlto-type-mismatch]
  int esp_aes_setkey(unsigned char *ctx, const unsigned char *key,
      ^
-C:/Users/anatol.lopez/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/aes.h:184:5: note: 'esp_aes_setkey' was previously declared here
+C:/Users/usuario.lopez/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/aes.h:184:5: note: 'esp_aes_setkey' was previously declared here
  int mbedtls_aes_setkey_dec(mbedtls_aes_context *ctx, const unsigned char *key,
      ^
-C:/Users/anatol.lopez/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/aes.h:184:5: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:/Users/usuario.lopez/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/aes.h:184:5: note: code may be misoptimized unless -fno-strict-aliasing is used
 Retrieving maximum program size .pio\build\tbeam0_7\firmware-tbeam0_7-2.7.26.54e0d8d.elf
 Checking size .pio\build\tbeam0_7\firmware-tbeam0_7-2.7.26.54e0d8d.elf
 Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
@@ -1291,9 +1291,9 @@ Generating combined binary for serial flashing
     Offset | File
  -  0x1000 | C:\fwbuild\meshtastic\.pio\build\tbeam0_7\bootloader.bin
  -  0x8000 | C:\fwbuild\meshtastic\.pio\build\tbeam0_7\partitions.bin
- -  0xe000 | C:\Users\anatol.lopez\.platformio\packages\framework-arduinoespressif32\tools\partitions\boot_app0.bin
+ -  0xe000 | C:\Users\usuario.lopez\.platformio\packages\framework-arduinoespressif32\tools\partitions\boot_app0.bin
  - 0x10000 | C:\fwbuild\meshtastic\.pio\build\tbeam0_7/firmware-tbeam0_7-2.7.26.54e0d8d.bin
-Using esptool.py arguments: --chip esp32 merge_bin -o C:\fwbuild\meshtastic\.pio\build\tbeam0_7/firmware-tbeam0_7-2.7.26.54e0d8d.factory.bin --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 C:\fwbuild\meshtastic\.pio\build\tbeam0_7\bootloader.bin 0x8000 C:\fwbuild\meshtastic\.pio\build\tbeam0_7\partitions.bin 0xe000 C:\Users\anatol.lopez\.platformio\packages\framework-arduinoespressif32\tools\partitions\boot_app0.bin 0x10000 C:\fwbuild\meshtastic\.pio\build\tbeam0_7/firmware-tbeam0_7-2.7.26.54e0d8d.bin
+Using esptool.py arguments: --chip esp32 merge_bin -o C:\fwbuild\meshtastic\.pio\build\tbeam0_7/firmware-tbeam0_7-2.7.26.54e0d8d.factory.bin --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 C:\fwbuild\meshtastic\.pio\build\tbeam0_7\bootloader.bin 0x8000 C:\fwbuild\meshtastic\.pio\build\tbeam0_7\partitions.bin 0xe000 C:\Users\usuario.lopez\.platformio\packages\framework-arduinoespressif32\tools\partitions\boot_app0.bin 0x10000 C:\fwbuild\meshtastic\.pio\build\tbeam0_7/firmware-tbeam0_7-2.7.26.54e0d8d.bin
 esptool.py v4.11.0
 SHA digest in image updated
 Wrote 0x2184b0 bytes to file C:\fwbuild\meshtastic\.pio\build\tbeam0_7/firmware-tbeam0_7-2.7.26.54e0d8d.factory.bin, ready to flash to offset 0x0

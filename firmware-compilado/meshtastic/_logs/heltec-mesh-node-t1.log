@@ -1289,11 +1289,11 @@ In file included from .pio\libdeps\heltec-mesh-node-t1\TFT_eSPI\TFT_eSPI.cpp:16:
       |        ^~~~~~~
 Compiling .pio\build\heltec-mesh-node-t1\lib2c8\Bluefruit52Lib\BLECentral.cpp.o
 Compiling .pio\build\heltec-mesh-node-t1\lib2c8\Bluefruit52Lib\BLECharacteristic.cpp.o
-In file included from C:\Users\anatol.lopez\.platformio\packages\framework-arduinoadafruitnrf52\cores\nRF5/Arduino.h:17,
+In file included from C:\Users\usuario.lopez\.platformio\packages\framework-arduinoadafruitnrf52\cores\nRF5/Arduino.h:17,
                  from .pio\libdeps\heltec-mesh-node-t1\TFT_eSPI\TFT_eSPI.h:30,
                  from .pio\libdeps\heltec-mesh-node-t1\TFT_eSPI\TFT_eSPI.cpp:16:
 .pio\libdeps\heltec-mesh-node-t1\TFT_eSPI\TFT_eSPI.cpp: In member function 'int16_t TFT_eSPI::textWidth(const char*, uint8_t)':
-C:\Users\anatol.lopez\.platformio\packages\framework-arduinoadafruitnrf52\cores\nRF5/avr/pgmspace.h:103:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+C:\Users\usuario.lopez\.platformio\packages\framework-arduinoadafruitnrf52\cores\nRF5/avr/pgmspace.h:103:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
   103 | #define pgm_read_dword(addr) (*(const unsigned long *)(addr))
       |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .pio\libdeps\heltec-mesh-node-t1\TFT_eSPI\TFT_eSPI.cpp:3102:32: note: in expansion of macro 'pgm_read_dword'
